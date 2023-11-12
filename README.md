@@ -39,7 +39,7 @@ I’m interested in **📖NLP(Natural Language Processing)** and **🤖Finance A
 
 </details>
 
-<details>
+<details open>
 <summary><b>Platforms & Frameworks</b></summary>
 
 ![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white)
