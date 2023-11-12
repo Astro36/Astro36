@@ -1,16 +1,54 @@
-### Hi there 👋
+# Seungjae Park 👋
 
-<!--
-**Astro36/Astro36** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Junior Financial System Engineer 🌱
 
-Here are some ideas to get you started:
+I’m interested in **📖NLP(Natural Language Processing)** and **🤖Finance Automation**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🎓 Education
+
+### [Inha University](http://www.inha.ac.kr/)
+
+2019.03 ~
+
+> Department of Information and Communication Engineering
+
+### Baekseok High School
+
+2016.03 ~ 2019.02
+
+## ⭐ Experience
+
+### [Software Maestro](https://www.swmaestro.org/sw/main/main.do) 11th
+
+2020.05 ~ 2020.12
+
+> Creative Challenge Project Planning and Development Training Course, **AI Engineer**
+
+### Full-stack Freelance
+
+2019.09 ~ 2019.12
+
+> [INSIGHT](https://insightsolution.github.io/) - AI-based Mental Healthcare Solution Startup, **App Developer**
+
+### [Prography](https://prography.org/) 4th, 5th
+
+2019.03 ~ 2020.01
+
+> A Collaborative IT Project Club, **Fullstack Developer**
+
+### 4th National Supercomputing Camp
+
+2018.07
+
+> Education and Practice for Supercomputer, Parallel Computing, Artificial Intelligence, Drone, etc.
+
+## ✏️ Writing
+
+### [int i { blog }](https://int-i.github.io/authors/#Astro36)
+
+2020.01 ~
+
+> Programming Study Blog
+
+
+
