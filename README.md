@@ -6,10 +6,13 @@ I’m interested in **📖NLP(Natural Language Processing)** and **🤖Finance A
 
 ## 🎓 Education
 
-| Date | Education | Desciption |
-| --- | --- | --- |
-| 2019.03 ~ | [Inha University](http://www.inha.ac.kr/) | Department of Information and Communication Engineering |
-| 2016.03 ~ 2019.02 | Baekseok High School | |
+### [Inha University](http://www.inha.ac.kr/)
+
+2019.03 ~ Present
+
+- Cumulative GPA 4.36/4.5
+- Majored in [Information and Communication Engineering](https://ice.inha.ac.kr/ice/index.do)
+- Minored in [Global Finance and Banking](https://gfiba.inha.ac.kr/gfiba/index.do)
 
 ## ⭐ Experience
 
