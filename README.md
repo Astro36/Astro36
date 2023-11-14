@@ -21,7 +21,7 @@ I’m interested in **📖NLP(Natural Language Processing)** and **🤖Finance A
 | 2023.07 ~ | [int i](https://int-i.github.io/) | Group Leader | Study Group Tutoring and Blog Management |
 | 2020.05 ~ 2020.12 | [Software Maestro](https://www.swmaestro.org/sw/main/main.do) 11th | AI Engineer | Illegal Spam Detection Solution Startup |
 | 2019.09 ~ 2019.12 | Full-stack Freelance | Full-stack Developer | [INSIGHT](https://insightsolution.github.io/) - AI-based Mental Healthcare Solution Startup |
-| 2019.03 ~ 2020.01 | [Prography](https://prography.org/) 4th, 5th | Full-stack Developer | Psychological Counselor Matching Platform Startup |
+| 2019.03 ~ 2020.02 | [Prography](https://prography.org/) 4th, 5th | Full-stack Developer | Psychological Counselor Matching Platform Startup |
 
 ## 🛠 Tech Stacks
 
@@ -67,12 +67,12 @@ I’m interested in **📖NLP(Natural Language Processing)** and **🤖Finance A
 
 | Date | Activity | Desciption |
 | --- | --- | --- |
-| 2023.03 ~ | [‌BlueChip Mutual Fund](https://inhabluechip.com/) | Stock Investment & Fund Operation Society in Inha Univ. |
-| 2019.03 ~ | [int i](https://int-i.github.io/) | Programming Study Group in [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2247/subview.do) |
+| 2023.03 ~ | [‌BlueChip Mutual Fund](https://inhabluechip.com/) | Financial Market Research & Stock Investment Institute in Inha Univ. |
+| 2019.03 ~ | int i | Programming Study Group in [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2247/subview.do) |
 | 2022.09 ~ 2023.06 | [IBAS](https://www.inhabas.com/) | Big Data Analysts Society in Inha Univ. |
 | 2019.03 ~ 2023.06 | ICESA | Student Association for [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2246/subview.do) |
-| 2020.05 ~ 2020.12 | [Software Maestro](https://www.swmaestro.org/sw/main/main.do) 11th | Creative Challenge Project Planning and Development Training Course |
-| 2019.03 ~ 2020.02 | [Prography](https://prography.org/) 4th, 5th | A Collaborative IT Project Club |
+| 2020.05 ~ 2020.12 | Software Maestro 11th | Creative Challenge Project Planning and Development Training Course |
+| 2019.03 ~ 2020.02 | Prography 4th, 5th | A Collaborative IT Project Club |
 | 2019.03 ~ 2019.12 | [WEBS](https://cafe.naver.com/websinha) | [Inha University Startup Support Foundation](http://startup.inha.ac.kr/index.htm) - Startup Club |
 
 ## ✏️ Writings
@@ -80,7 +80,7 @@ I’m interested in **📖NLP(Natural Language Processing)** and **🤖Finance A
 | Date | Writing | Desciption |
 | --- | --- | --- |
 | 2023.10 | Incheon Ilbo<sup id="a1">[1]</sup> | Company Analysis Article - [Korea Aerospace Industries, Ltd. (047810)](https://www.incheonilbo.com/news/articleView.html?idxno=1216780) |
-| 2023.07 | [‌BlueChip Mutual Fund](https://inhabluechip.com/) | UIC 12th Investment Concert, Company Analysis Report - [Corteva, Inc. (CTVA)](https://inhabluechip.com/forum/view/259643) |
+| 2023.07 | ‌BlueChip Mutual Fund | UIC 12th Investment Concert, Company Analysis Report - [Corteva, Inc. (CTVA)](https://inhabluechip.com/forum/view/259643) |
 | 2020.01 ~ | [int i { blog }](https://int-i.github.io/authors/#Astro36) | Programming Study Blog |
 
 [1]: as a [BlueChip Mutual Fund](https://inhabluechip.com/) Analyst
