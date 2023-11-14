@@ -14,16 +14,16 @@ I’m interested in **📖NLP(Natural Language Processing)** and **🤖Finance A
 - Majored in [Information and Communication Engineering](https://ice.inha.ac.kr/ice/index.do)
 - Minored in [Global Finance and Banking](https://gfiba.inha.ac.kr/gfiba/index.do)
 
-## ⭐ Experience
+## ⭐ Experiences
 
 | Date | Experience | Position | Desciption |
 | --- | --- | --- | --- |
-| 2023.07 ~ | [int i](https://int-i.github.io/) | Group President | Programming Study Group in ICE@Inha Univ. |
-| 2020.05 ~ 2020.12 | [Software Maestro](https://www.swmaestro.org/sw/main/main.do) 11th | AI Engineer | Creative Challenge Project Planning and Development Training Course |
+| 2023.07 ~ | [int i](https://int-i.github.io/) | Group Leader | Study Group Tutoring and Blog Management |
+| 2020.05 ~ 2020.12 | [Software Maestro](https://www.swmaestro.org/sw/main/main.do) 11th | AI Engineer | Illegal Spam Detection Solution Startup |
 | 2019.09 ~ 2019.12 | Full-stack Freelance | Full-stack Developer | [INSIGHT](https://insightsolution.github.io/) - AI-based Mental Healthcare Solution Startup |
-| 2019.03 ~ 2020.01 | [Prography](https://prography.org/) 4th, 5th | Full-stack Developer | A Collaborative IT Project Club |
+| 2019.03 ~ 2020.01 | [Prography](https://prography.org/) 4th, 5th | Full-stack Developer | Psychological Counselor Matching Platform Startup |
 
-## 🛠 Tech Stack
+## 🛠 Tech Stacks
 
 <details>
 <summary><b>Languages</b></summary>
@@ -63,7 +63,19 @@ I’m interested in **📖NLP(Natural Language Processing)** and **🤖Finance A
 
 </details>
 
-## ✏️ Writing
+## ⚡ Activities
+
+| Date | Activity | Desciption |
+| --- | --- | --- |
+| 2023.03 ~ | [‌BlueChip Mutual Fund](https://inhabluechip.com/) | Stock Investment & Fund Operation Society in Inha Univ. |
+| 2019.03 ~ | [int i](https://int-i.github.io/) | Programming Study Group in [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2247/subview.do) |
+| 2022.09 ~ 2023.06 | [IBAS](https://www.inhabas.com/) | Big Data Analysts Society in Inha Univ. |
+| 2019.03 ~ 2023.06 | ICESA | Student Association for [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2246/subview.do) |
+| 2020.05 ~ 2020.12 | [Software Maestro](https://www.swmaestro.org/sw/main/main.do) 11th | Creative Challenge Project Planning and Development Training Course |
+| 2019.03 ~ 2020.02 | [Prography](https://prography.org/) 4th, 5th | A Collaborative IT Project Club |
+| 2019.03 ~ 2019.12 | [WEBS](https://cafe.naver.com/websinha) | [Inha University Startup Support Foundation](http://startup.inha.ac.kr/index.htm) - Startup Club |
+
+## ✏️ Writings
 
 | Date | Writing | Desciption |
 | --- | --- | --- |
