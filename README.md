@@ -2,7 +2,7 @@
 
 Junior Financial System Engineer 🌱
 
-I’m interested in **📖NLP(Natural Language Processing)** and **🤖Finance Automation**.
+I’m interested in **📖NLP(Natural Language Processing)**, 🕒**Time Series**, and **🤖Finance Automation**.
 
 ## 🎓 Education
 
