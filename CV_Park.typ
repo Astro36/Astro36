@@ -70,9 +70,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #tile(
   [*Full-stack Freelance*],
   "2019.09 ~ 2019.12",
-  [
-    INSIGHT: AI-based Mental Healthcare Solution Startup#smaller[(KRW 10million Project)]
-  ],
+  [INSIGHT: AI-based Mental Healthcare Solution Startup#smaller[(KRW 10million Project)]],
 )
 
 == Extracurricular Activities
@@ -166,6 +164,25 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   "2018.03",
   [Easy Music Finder via Word2vec on Song Lyrics, _2018 KAIST Creative Team Coding Challenge_]
 )
+
+== Skills
+
+#block(spacing: 1em)[
+  *Programming Languages* \
+  C++, Java, Kotlin, JavaScript, TypeScript, Python, Rust, Dart
+]
+
+#block(spacing: 1em)[
+  *Platforms & Frameworks* \
+  - General: Arduino, Spring, Android, Node.js, Flutter
+  - AI: TensorFlow, PyTorch
+  - DevOps: Docker
+]
+
+#block(spacing: 1em)[
+  *Databases* \
+  MySQL, PostgreSQL
+]
 
 #align(right)[
   #set text(size: 9pt)
