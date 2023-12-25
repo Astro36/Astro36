@@ -135,14 +135,14 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [Robust Illegal Spam Detection Solution via CNN, _IITP-2020-SW Maestro training course_]
 )
 #tile(
-  [*Kotka*, Open Source #pill[Python]],
+  [*└ Kotka*, Open Source #pill[Python]],
   "2020.07 ~ 2020.08",
-  [Korean Obfuscation ToolKit Advanced, _IITP-2020-SW Maestro training course_]
+  [#h(1em) Korean Obfuscation ToolKit for Data Augmentation, _IITP-2020-SW Maestro training course_]
 )
 #tile(
   [*Hyeyum*, School Project #pill[Python] #pill[Javascript]],
   "2019.11 ~ 2019.12",
-  [Language Habit Correction Software with Google Speech Recognition AI, _Creative Design for Information and Communication Engineering: Final Project_]
+  [Language Habit Correction Robot with Google Speech Recognition API, _Creative Design for Information and Communication Engineering: Final Project_]
 )
 #tile(
   [*Shim*, Startup #pill[Kotlin] #pill[Javascript]],
