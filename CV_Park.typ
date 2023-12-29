@@ -33,99 +33,63 @@
 ]
 
 == Research Interests
-Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
+Machine Learning, Natural Language Processing, Time Series, Quantitative Finance, Asset Pricing, Portfolio Optimization
 
 == Education
 #tile(
-  [*Inha University*, Incheon, South Korea #pill[GPA 4.36/4.5]],
+  [#link("https://www.inha.ac.kr/")[*Inha University*], Incheon, South Korea #pill[GPA 4.38/4.5]],
   "2019.03 ~ Present",
   [
-    B.S. in Information and Communication Engineering \
-    Minor in Global Finance and Banking
+    B.S. in #link("https://ice.inha.ac.kr/")[Information and Communication Engineering] \
+    Minor in #link("https://gfiba.inha.ac.kr/")[Global Finance and Banking]
   ],
 )
 
 == Relevant Experiences
 #tile(
-  [*2023 Data Creator Camp* #pill[Excellence Award]],
+  [#link("https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page")[*2023 Data Creator Camp*] #pill[Excellence Award]],
   "2023.09 ~ 2023.12",
   [Food Image Classification Performance Improvement Competition],
 )
 #tile(
-  [*IBAS*],
+  link("https://www.inhabas.com/")[*IBAS*],
   "2022.09 ~ 2023.06",
   [
-    Big Data Analysts Society in Inha Univ. \
-    Machine Learning Paper Review#smaller[(ACTIVETHIEF, Black-Box Ripper, DeepLab)]
+    Inha Univ. Big Data Analysts Society: Machine Learning Paper Review #h(1pt)
+    #footnote[ActiveThief: Model Extraction Using Active Learning and Unannotated Public Data & Black-Box Ripper: Copying black-box models using generative evolutionary algorithms] #h(1pt)
+    #footnote[Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs] #h(1pt)
+    #footnote[A Few Useful Things to Know about Machine Learning]
   ],
 )
 #tile(
-  [*Software Maestro 11th*],
+  link("https://www.swmaestro.org/")[*Software Maestro 11th*],
   "2020.05 ~ 2020.12",
-  [
-    Creative Challenge Project Planning and Development Course, organized by the Ministry of Science and ICT \
-    Developed a Robust Illegal Spam Detection Solution via CNN
-  ],
+  [Creative Challenge Project Planning and Development Course, organized by the Ministry of Science and ICT: Developed a Robust Illegal Spam Detection Solution via CNN],
 )
 #tile(
   [*Full-stack Freelance*],
   "2019.09 ~ 2019.12",
-  [INSIGHT: AI-based Mental Healthcare Solution Startup#smaller[(KRW 10million Project)]],
+  [#link("https://insightsolution.github.io/")[INSIGHT]: AI-based Mental Healthcare Solution Startup#smaller[(KRW 10million Project)]],
 )
 
-== Extracurricular Activities
-#tile(
-  [*BlueChip Mutual Fund*],
-  "2023.03 ~ Present",
-  [
-    Financial Market Research & Stock Investment Institute in Inha Univ.\
-    - UIC 12th Investment Concert: Company Analysis Report#smaller[(Corteva, Inc.)] \
-    - Company Analysis Article at Incheon Ilbo#smaller[(Korea Aerospace Industries, Ltd.)] \
-    - Company Analysis Presentation#smaller[(Synopex, Inc., Korea Aerospace Industries, Ltd.)]
-  ],
-)
-#tile(
-  [*int i*],
-  "2019.03 ~ Present",
-  [
-    Programming Study Group in ICE\@Inha Univ.
-    - Group Leader#smaller[(2023.07 \~ Present)]
-    - Group Tutoring & Study Blog Writing
-  ],
-)
-#tile(
-  [*ICESA*],
-  "2019.03 ~ 2023.06",
-  [Student Association for ICE\@Inha Univ.],
-)
-#tile(
-  [*Prography 4th, 5th*],
-  "2019.03 ~ 2020.02",
-  [
-    Collaborative IT Project Club: Full-stack Developer Track\
-    Developed a Psychological Counselor Matching Platform & Music Player App
-  ],
-)
-#tile(
-  [*WEBS*],
-  "2019.03 ~ 2019.12",
-  [Inha University Startup Support Foundation - Startup Club],
-)
-#pagebreak()
+== Certifications
+#block(spacing: 1em)[
+  #link("https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=433")[*Linux Master, Grade 2*], _Korea Association for ICT Promotion_ #h(1fr) #text(size: 10pt)[2023.12] 
+]
 
 == Technical Projects
 #tile(
-  [*Self-Balancing Robot*, School Project #pill[C++]],
+  [#link("https://github.com/Astro36/ICE3015-project")[*Self-Balancing Robot*], School Project #pill[C++]],
   "2023.05 ~ 2023.06",
   [2-Wheel Self-Balancing Robot made with ATmega4809 & MPU6050, with no dependencies, _Embedded System Capstone Design: Final Project_]
 )
 #tile(
-  [*3D Product Catalog*, School Project #pill[C++]],
+  [#link("https://github.com/Astro36/ICE3016-miniproject")[*3D Product Catalog*], School Project #pill[C++]],
   "2022.12",
   [Interactive 3D Product Catalog with OpenGL & Blender, _Computer Graphics Capstone Design: Mini Project_]
 )
 #tile(
-  [*Quick Pool*, Open Source #pill[Rust]],
+  [#link("https://github.com/Astro36/qp")[*Quick Pool*], Open Source #pill[Rust]],
   "2021.11 ~ 2021.12",
   [High Performance Async Generic Pool for Rust, implemented by Lock-free Waiter Queue, #smaller[*[Downloads: 1.6K]*]]
 )
@@ -135,7 +99,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [Robust Illegal Spam Detection Solution via CNN, _IITP-2020-SW Maestro training course_]
 )
 #tile(
-  [*└ Kotka*, Open Source #pill[Python]],
+  [#link("https://github.com/Astro36/kotka")[*└ Kotka*], Open Source #pill[Python]],
   "2020.07 ~ 2020.08",
   [#h(1em) Korean Obfuscation ToolKit for Data Augmentation, _IITP-2020-SW Maestro training course_]
 )
@@ -150,39 +114,69 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [Psychological Counselor Matching Platform, _Prography 5th_]
 )
 #tile(
-  [*Kodict*, Open Source #pill[Rust]],
+  [#link("https://github.com/Astro36/kodict")[*Kodict*], Open Source #pill[Rust]],
   "2018.11 ~ 2019.02",
   [Provides Korean Dictionary Implements and Crawler for Rust, #smaller[*[Downloads: 2.1K]*]]
 )
 #tile(
-  [*KokoaNLP*, Contest #pill[Javascript]],
+  [#link("https://github.com/Astro36/kokoa")[*KokoaNLP*], Contest #pill[Javascript]],
   "2018.04 ~ 2018.07",
   [Unsupervised Learning Korean Kernel Object Analyzer, _2018 Korea Olympiad in Informatics: Contest Track_]
 )
 #tile(
-  [*Touch Music*, Contest #pill[Javascript] #pill[Python] #pill[Excellence Award]],
+  [#link("https://github.com/Astro36/touch-music")[*Touch Music*], Contest #pill[Javascript] #pill[Python] #pill[Excellence Award]],
   "2018.03",
   [Easy Music Finder via Word2vec on Song Lyrics, _2018 KAIST Creative Team Coding Challenge_]
 )
 
 == Skills
-
 #block(spacing: 1em)[
   *Programming Languages* \
   C++, Java, Kotlin, JavaScript, TypeScript, Python, Rust, Dart
 ]
-
 #block(spacing: 1em)[
   *Platforms & Frameworks* \
   - General: Arduino, Spring, Android, Node.js, Flutter
   - AI: TensorFlow, PyTorch
   - DevOps: Docker
 ]
-
 #block(spacing: 1em)[
   *Databases* \
   MySQL, PostgreSQL
 ]
+
+== Extracurricular Activities
+#tile(
+  link("https://inhabluechip.com/")[*BlueChip Mutual Fund*],
+  "2023.03 ~ Present",
+  [
+    Financial Market Research & Stock Investment Institute in Inha Univ.\
+    - UIC 12th Investment Concert: Company Analysis Report #h(1pt) #footnote[Corteva, Inc.] \
+    - Company Analysis Presentation#smaller[(YouTube)] #h(1pt) #footnote[Synopex, Inc.] #h(1pt) #footnote[Korea Aerospace Industries, Ltd.]<047810> & News Article#smaller[(Incheon Ilbo)] #h(1pt) @047810
+  ],
+)
+#tile(
+  link("https://int-i.github.io/")[*int i*],
+  "2019.03 ~ Present",
+  [
+    Programming Study Group in ICE\@Inha Univ.
+    - Group Leader#smaller[(2023.07 \~ Present)]
+    - Group Tutoring & Study Blog Writing#smaller[(Total 182k Views, Monthly 9k Views)]
+  ],
+)
+#tile(
+  link("https://ice.inha.ac.kr/ice/2246/subview.do")[*ICESA*],
+  "2019.03 ~ 2023.06",
+  [Student Association for ICE\@Inha Univ.],
+)
+#tile(
+  link("https://prography.org/")[*Prography 4th, 5th*],
+  "2019.03 ~ 2020.02",
+  [
+    Collaborative IT Project Club: Full-stack Developer Track\
+    Developed a Psychological Counselor Matching Platform & Music Player App
+  ],
+)
 
 #align(right)[
   #set text(size: 9pt)
