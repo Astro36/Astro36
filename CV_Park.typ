@@ -69,12 +69,18 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #tile(
   [*Full-stack Freelance*],
   "2019.09 ~ 2019.12",
-  [#link("https://insightsolution.github.io/")[INSIGHT]: AI-based Mental Healthcare Solution Startup#smaller[(KRW 10million Project)]],
+  [#link("https://insightsolution.github.io/")[INSIGHT]: AI-based Mental Healthcare Solution Startup, #smaller[*[#link("https://www.google.com/finance/quote/USD-KRW")[KRW] 10million Project]*]],
 )
 
 == Certifications
 #block(spacing: 1em)[
   #link("https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=433")[*Linux Master, Grade 2*], _Korea Association for ICT Promotion_ #h(1fr) #text(size: 10pt)[2023.12] 
+]
+#block(spacing: 1em)[
+  #link("https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=430")[*Digital Information Ability Test(DIAT)*], _Korea Association for ICT Promotion_
+  - Spread Sheet, Advanced Level #h(1fr) #text(size: 10pt)[2012.12]
+  - Word Processor, Intermediate Level #h(1fr) #text(size: 10pt)[2012.04]
+  - Presentation, Advanced Level #h(1fr) #text(size: 10pt)[2011.09]
 ]
 
 == Technical Projects
@@ -161,7 +167,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [
     Programming Study Group in ICE\@Inha Univ.
     - Group Leader#smaller[(2023.07 \~ Present)]
-    - Group Tutoring & Study Blog Writing#smaller[(Total 182k Views, Monthly 9k Views)]
+    - Group Tutoring & Study Blog Writing, #smaller[*[Total 182K Views, Monthly 9K Views]*]
   ],
 )
 #tile(
@@ -176,6 +182,11 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
     Collaborative IT Project Club: Full-stack Developer Track\
     Developed a Psychological Counselor Matching Platform & Music Player App
   ],
+)
+#tile(
+  link("https://cafe.naver.com/websinha")[*WEBS*],
+  "2019.03 ~ 2019.12",
+  [#link("http://startup.inha.ac.kr/index.htm")[Inha University Startup Support Foundation] - Startup Club],
 )
 
 #align(right)[
