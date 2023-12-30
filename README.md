@@ -2,7 +2,9 @@
 
 Junior Financial System Engineer 🌱
 
-I’m interested in **📖NLP(Natural Language Processing)**, 🕒**Time Series**, and **🤖Finance Automation**.
+I’m interested in **🤖Machine Learning**, **📖Natural Language Processing**, 🕒**Time Series**, and **📊Quantitative Finance**.
+
+For more information, please read my [[CV]](https://raw.githubusercontent.com/Astro36/Astro36/main/CV_Park.pdf).
 
 ## 🎓 Education
 
@@ -10,18 +12,24 @@ I’m interested in **📖NLP(Natural Language Processing)**, 🕒**Time Series*
 
 2019.03 ~ Present
 
-- Cumulative GPA 4.36/4.5
-- Majored in [Information and Communication Engineering](https://ice.inha.ac.kr/ice/index.do)
-- Minored in [Global Finance and Banking](https://gfiba.inha.ac.kr/gfiba/index.do)
+- Cumulative GPA 4.38/4.5
+- B.S. in [Information and Communication Engineering](https://ice.inha.ac.kr/ice/index.do)
+- Minor in [Global Finance and Banking](https://gfiba.inha.ac.kr/gfiba/index.do)
 
 ## ⭐ Experiences
 
 | Date | Experience | Position | Desciption |
 | --- | --- | --- | --- |
-| 2023.07 ~ | [int i](https://int-i.github.io/) | Group Leader | Study Group Tutoring and Blog Management |
+| 2023.07 ~ | [int i](https://int-i.github.io/) | Group Leader | Group Tutoring & Study Blog Writing, **[Total 182K Views]** |
 | 2020.05 ~ 2020.12 | [Software Maestro](https://www.swmaestro.org/sw/main/main.do) 11th | AI Engineer | Illegal Spam Detection Solution Startup |
 | 2019.09 ~ 2019.12 | Full-stack Freelance | Full-stack Developer | [INSIGHT](https://insightsolution.github.io/) - AI-based Mental Healthcare Solution Startup |
 | 2019.03 ~ 2020.02 | [Prography](https://prography.org/) 4th, 5th | Full-stack Developer | Psychological Counselor Matching Platform Startup |
+
+## 📑 Certifications
+
+| Date | Name | Issuer |
+| --- | --- | --- |
+| 2023.12 | [Linux Master, Grade 2](https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=433) | Korea Association for ICT Promotion |
 
 ## 🛠 Tech Stacks
 
@@ -63,25 +71,15 @@ I’m interested in **📖NLP(Natural Language Processing)**, 🕒**Time Series*
 
 </details>
 
-## ⚡ Activities
+## 🎯 Activities
 
 | Date | Activity | Desciption |
 | --- | --- | --- |
 | 2023.03 ~ | [‌BlueChip Mutual Fund](https://inhabluechip.com/) | Financial Market Research & Stock Investment Institute in Inha Univ. |
-| 2019.03 ~ | int i | Programming Study Group in [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2247/subview.do) |
-| 2022.09 ~ 2023.06 | [IBAS](https://www.inhabas.com/) | Big Data Analysts Society in Inha Univ. |
-| 2019.03 ~ 2023.06 | ICESA | Student Association for [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2246/subview.do) |
-| 2020.05 ~ 2020.12 | Software Maestro 11th | Creative Challenge Project Planning and Development Training Course |
-| 2019.03 ~ 2020.02 | Prography 4th, 5th | A Collaborative IT Project Club |
+| 2019.03 ~ | [int i]() | Programming Study Group in [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2247/subview.do) |
+| 2023.09 ~ 2023.12 | [2023 Data Creator Camp](https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page) | Food Image Classification Performance Improvement Competition, **[Excellence Award]** |
+| 2022.09 ~ 2023.06 | [IBAS](https://www.inhabas.com/) | Inha Univ. Big Data Analysts Society: Machine Learning Paper Review |
+| 2019.03 ~ 2023.06 | [ICESA](https://ice.inha.ac.kr/ice/2246/subview.do) | Student Association for [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2246/subview.do) |
+| 2020.05 ~ 2020.12 | [Software Maestro 11th](https://www.swmaestro.org/) | Creative Challenge Project Planning and Development Training Course |
+| 2019.03 ~ 2020.02 | [Prography 4th, 5th](https://prography.org/) | A Collaborative IT Project Club: Full­stack Developer Track |
 | 2019.03 ~ 2019.12 | [WEBS](https://cafe.naver.com/websinha) | [Inha University Startup Support Foundation](http://startup.inha.ac.kr/index.htm) - Startup Club |
-
-## ✏️ Writings
-
-| Date | Writing | Desciption |
-| --- | --- | --- |
-| 2023.10 | Incheon Ilbo<sup id="a1">[1]</sup> | Company Analysis Article - [Korea Aerospace Industries, Ltd. (047810)](https://www.incheonilbo.com/news/articleView.html?idxno=1216780) |
-| 2023.07 | ‌BlueChip Mutual Fund | UIC 12th Investment Concert, Company Analysis Report - [Corteva, Inc. (CTVA)](https://inhabluechip.com/forum/view/259643) |
-| 2020.01 ~ | [int i { blog }](https://int-i.github.io/authors/#Astro36) | Programming Study Blog |
-
-[1]: as a [BlueChip Mutual Fund](https://inhabluechip.com/) Analyst
-
