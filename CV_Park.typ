@@ -153,7 +153,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 
 == Extracurricular Activities
 #tile(
-  link("https://inhabluechip.com/")[*BlueChip Mutual Fund*],
+  link("https://inhabluechip.com/")[*Blue Chip Mutual Fund*],
   "2023.03 ~ Present",
   [
     Financial Market Research & Stock Investment Institute in Inha Univ.\

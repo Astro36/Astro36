@@ -75,8 +75,8 @@ For more information, please read my [[CV]](https://raw.githubusercontent.com/As
 
 | Date | Activity | Desciption |
 | --- | --- | --- |
-| 2023.03 ~ | [‌BlueChip Mutual Fund](https://inhabluechip.com/) | Financial Market Research & Stock Investment Institute in Inha Univ. |
-| 2019.03 ~ | [int i]() | Programming Study Group in [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2247/subview.do) |
+| 2023.03 ~ | [‌Blue Chip Mutual Fund](https://inhabluechip.com/) | Financial Market Research & Stock Investment Institute in Inha Univ. |
+| 2019.03 ~ | [int i](https://int-i.github.io/) | Programming Study Group in [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2247/subview.do) |
 | 2023.09 ~ 2023.12 | [2023 Data Creator Camp](https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page) | Food Image Classification Performance Improvement Competition, **[Excellence Award]** |
 | 2022.09 ~ 2023.06 | [IBAS](https://www.inhabas.com/) | Inha Univ. Big Data Analysts Society: Machine Learning Paper Review |
 | 2019.03 ~ 2023.06 | [ICESA](https://ice.inha.ac.kr/ice/2246/subview.do) | Student Association for [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2246/subview.do) |
