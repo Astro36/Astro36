@@ -81,5 +81,5 @@ For more information, please read my [[CV]](https://raw.githubusercontent.com/As
 | 2022.09 ~ 2023.06 | [IBAS](https://www.inhabas.com/) | Inha Univ. Big Data Analysts Society: Machine Learning Paper Review |
 | 2019.03 ~ 2023.06 | [ICESA](https://ice.inha.ac.kr/ice/2246/subview.do) | Student Association for [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2246/subview.do) |
 | 2020.05 ~ 2020.12 | [Software Maestro 11th](https://www.swmaestro.org/) | Creative Challenge Project Planning and Development Training Course |
-| 2019.03 ~ 2020.02 | [Prography 4th, 5th](https://prography.org/) | A Collaborative IT Project Club: Full­stack Developer Track |
+| 2019.03 ~ 2020.02 | [Prography 4th, 5th](https://prography.org/) | A Collaborative IT Project Club: Full-­stack Developer Track |
 | 2019.03 ~ 2019.12 | [WEBS](https://cafe.naver.com/websinha) | [Inha University Startup Support Foundation](http://startup.inha.ac.kr/index.htm) - Startup Club |
