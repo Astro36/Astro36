@@ -156,7 +156,8 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   link("https://inhabluechip.com/")[*Blue Chip Mutual Fund*],
   "2023.03 ~ Present",
   [
-    Financial Market Research & Stock Investment Institute in Inha Univ.\
+    Financial Market Research & Stock Investment Institute in Inha Univ.
+    - Research Team Leader#smaller[(2024.01 \~ Present)]
     - UIC 12th Investment Concert: Company Analysis Report #h(1pt) #footnote[Corteva, Inc.] \
     - Company Analysis Presentation#smaller[(YouTube)] #h(1pt) #footnote[Synopex, Inc.] #h(1pt) #footnote[Korea Aerospace Industries, Ltd.]<047810> & News Article#smaller[(Incheon Ilbo)] #h(1pt) @047810
   ],
@@ -167,7 +168,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [
     Programming Study Group in ICE\@Inha Univ.
     - Group Leader#smaller[(2023.07 \~ Present)]
-    - Group Tutoring & Study Blog Writing, #smaller[*[Total 182K Views, Monthly 9K Views]*]
+    - Group Tutoring & Study Blog Writing, #smaller[*[Total 180K+ Views, Monthly 9K Views]*]
   ],
 )
 #tile(

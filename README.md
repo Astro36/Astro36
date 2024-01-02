@@ -20,7 +20,8 @@ For more information, please read my [[CV]](https://raw.githubusercontent.com/As
 
 | Date | Experience | Position | Desciption |
 | --- | --- | --- | --- |
-| 2023.07 ~ | [int i](https://int-i.github.io/) | Group Leader | Group Tutoring & Study Blog Writing, **[Total 182K Views]** |
+| 2023.07 ~ | [‌Blue Chip Mutual Fund](https://inhabluechip.com/) | Research Team Leader | Financial Market Research & Fund Management |
+| 2023.07 ~ | [int i](https://int-i.github.io/) | Group Leader | Group Tutoring & Study Blog Writing, **[Total 180K+ Views]** |
 | 2020.05 ~ 2020.12 | [Software Maestro](https://www.swmaestro.org/sw/main/main.do) 11th | AI Engineer | Illegal Spam Detection Solution Startup |
 | 2019.09 ~ 2019.12 | Full-stack Freelance | Full-stack Developer | [INSIGHT](https://insightsolution.github.io/) - AI-based Mental Healthcare Solution Startup |
 | 2019.03 ~ 2020.02 | [Prography](https://prography.org/) 4th, 5th | Full-stack Developer | Psychological Counselor Matching Platform Startup |
