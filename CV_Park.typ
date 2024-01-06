@@ -87,7 +87,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #tile(
   [#link("https://github.com/Astro36/ICE3015-project")[*Self-Balancing Robot*], School Project #pill[C++]],
   "2023.05 ~ 2023.06",
-  [2-Wheel Self-Balancing Robot made with ATmega4809 & MPU6050, with no dependencies, _Embedded System Capstone Design: Final Project_]
+  [2-Wheel Self-Balancing Robot with PID Controller, using ATmega4809 & MPU6050, no library dependencies, _Embedded System Capstone Design: Final Project_]
 )
 #tile(
   [#link("https://github.com/Astro36/ICE3016-miniproject")[*3D Product Catalog*], School Project #pill[C++]],
@@ -168,7 +168,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [
     Programming Study Group in ICE\@Inha Univ.
     - Group Leader#smaller[(2023.07 \~ Present)]
-    - Group Tutoring & Study Blog Writing, #smaller[*[Total 180K+ Views, Monthly 9K Views]*]
+    - Group Tutoring & Study Blog Writing, #smaller[*[Total 180K Views, Monthly 9K Views]*]
   ],
 )
 #tile(
