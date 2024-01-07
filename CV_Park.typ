@@ -21,7 +21,7 @@
   inset: (x: 2pt),
   outset: (y: 2pt),
 )[#text(size: 8pt, body)]
-#let smaller(body) = text(size: 9pt)[#body]
+#let smaller(body) = text(size: 0.8em)[#body]
 #let tile(title, date, body) = block(spacing: 1em)[
   #title #h(1fr) #text(size: 10pt)[#date] \
   #body
@@ -49,7 +49,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #tile(
   [#link("https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page")[*2023 Data Creator Camp*] #pill[Excellence Award]],
   "2023.09 ~ 2023.12",
-  [Food Image Classification Performance Improvement Competition],
+  [Food Image Classification Performance Improvement Competition, hosted by the #link("https://kbig.kr/")[K-ICT Big Data Center], and organized by the #link("https://www.msit.go.kr/")[MSIT#smaller[(Ministry of Science and ICT)]] and the #link("https://www.nia.or.kr/")[NIA#smaller[(National Information Society Agency)]]],
 )
 #tile(
   link("https://www.inhabas.com/")[*IBAS*],
@@ -62,9 +62,12 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   ],
 )
 #tile(
-  link("https://www.swmaestro.org/")[*Software Maestro 11th*],
+  link("https://www.swmaestro.org/")[*Software Maestro 11#super[th]*],
   "2020.05 ~ 2020.12",
-  [Creative Challenge Project Planning and Development Course, organized by the Ministry of Science and ICT: Developed a Robust Illegal Spam Detection Solution via CNN],
+  [
+    Creative Challenge Project Planning and Development Course, organized by the #link("https://www.msit.go.kr/")[MSIT#smaller[(Ministry of Science and ICT)]] and the #link("https://www.iitp.kr/")[IITP#smaller[(Institute for Information and Communications Technology Planning and Evaluation)]] \
+    Developed a Robust Illegal Spam Detection Solution via CNN
+  ],
 )
 #tile(
   [*Full-stack Freelance*],
@@ -74,16 +77,16 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 
 == Certifications
 #block(spacing: 1em)[
-  #link("https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=433")[*Linux Master, Grade 2*], _Korea Association for ICT Promotion_ #h(1fr) #text(size: 10pt)[2023.12] 
+  #link("https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=433")[*Linux Master, Grade 2*], #link("https://www.ihd.or.kr/")[KAIT#smaller[(Korea Association for ICT Promotion)]] #h(1fr) #text(size: 10pt)[2023.12] 
 ]
 #block(spacing: 1em)[
-  #link("https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=430")[*Digital Information Ability Test(DIAT)*], _Korea Association for ICT Promotion_
+  #link("https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=430")[*Digital Information Ability Test(DIAT)*], #link("https://www.ihd.or.kr/")[KAIT#smaller[(Korea Association for ICT Promotion)]]
   - Spread Sheet, Advanced Level #h(1fr) #text(size: 10pt)[2012.12]
   - Word Processor, Intermediate Level #h(1fr) #text(size: 10pt)[2012.04]
   - Presentation, Advanced Level #h(1fr) #text(size: 10pt)[2011.09]
 ]
 
-== Technical Projects
+== Projects
 #tile(
   [#link("https://github.com/Astro36/ICE3015-project")[*Self-Balancing Robot*], School Project #pill[C++]],
   "2023.05 ~ 2023.06",
@@ -158,15 +161,15 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [
     Financial Market Research & Stock Investment Institute in Inha Univ.
     - Research Team Leader#smaller[(2024.01 \~ Present)]
-    - UIC 12th Investment Concert: Company Analysis Report #h(1pt) #footnote[Corteva, Inc.] \
-    - Company Analysis Presentation#smaller[(YouTube)] #h(1pt) #footnote[Synopex, Inc.] #h(1pt) #footnote[Korea Aerospace Industries, Ltd.]<047810> & News Article#smaller[(Incheon Ilbo)] #h(1pt) @047810
+    - 12#super[th] #link("https://cafe.naver.com/koreauic")[UIC#smaller[(University Student Investment Club)]] Investment Concert: Company Analysis Report #h(1pt) #footnote[Corteva, Inc.] \
+    - #link("https://www.youtube.com/@bluechipmutualfund7790")[Company Analysis Presentation#smaller[(YouTube)] #footnote[Synopex, Inc.] #h(1pt) #footnote[Korea Aerospace Industries, Ltd.]<047810>] & #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[News Article#smaller[(Incheon Ilbo)] @047810]
   ],
 )
 #tile(
   link("https://int-i.github.io/")[*int i*],
   "2019.03 ~ Present",
   [
-    Programming Study Group in ICE\@Inha Univ.
+    Programming Study #link("https://ice.inha.ac.kr/ice/2247/subview.do")[Group in Department of Information and Communication Engineering, Inha Univ.]
     - Group Leader#smaller[(2023.07 \~ Present)]
     - Group Tutoring & Study Blog Writing, #smaller[*[Total 180K Views, Monthly 9K Views]*]
   ],
@@ -174,10 +177,10 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #tile(
   link("https://ice.inha.ac.kr/ice/2246/subview.do")[*ICESA*],
   "2019.03 ~ 2023.06",
-  [Student Association for ICE\@Inha Univ.],
+  [Student Association for Department of Information and Communication Engineering, Inha Univ.],
 )
 #tile(
-  link("https://prography.org/")[*Prography 4th, 5th*],
+  link("https://prography.org/")[*Prography 4#super[th], 5#super[th]*],
   "2019.03 ~ 2020.02",
   [
     Collaborative IT Project Club: Full-stack Developer Track\
