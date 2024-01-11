@@ -29,7 +29,10 @@
 
 #align(center)[
   = Seungjae Park
-  #text(size: 10pt)[astro.psj\@gmail.com \ https://github.com/Astro36]
+  #text(size: 10pt)[
+    astro.psj\@gmail.com \
+    https://github.com/Astro36
+  ]
 ]
 
 == Research Interests
@@ -47,18 +50,13 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 
 == Relevant Experiences
 #tile(
-  [#link("https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page")[*2023 Data Creator Camp*] #pill[Excellence Award]],
-  "2023.09 ~ 2023.12",
-  [Food Image Classification Performance Improvement Competition, hosted by the #link("https://kbig.kr/")[K-ICT Big Data Center], and organized by the #link("https://www.msit.go.kr/")[MSIT#smaller[(Ministry of Science and ICT)]] and the #link("https://www.nia.or.kr/")[NIA#smaller[(National Information Society Agency)]]],
-)
-#tile(
-  link("https://www.inhabas.com/")[*IBAS*],
-  "2022.09 ~ 2023.06",
+  link("https://inhabluechip.com/")[*Blue Chip Mutual Fund*],
+  "2023.03 ~ Present",
   [
-    Inha Univ. Big Data Analysts Society: Machine Learning Paper Review #h(1pt)
-    #footnote[ActiveThief: Model Extraction Using Active Learning and Unannotated Public Data & Black-Box Ripper: Copying black-box models using generative evolutionary algorithms] #h(1pt)
-    #footnote[Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs] #h(1pt)
-    #footnote[A Few Useful Things to Know about Machine Learning]
+    Financial Market Research & Stock Investment Institute in Inha Univ.
+    - Research Team Leader & Fund Manager#smaller[(2024.01 \~ Present)], #smaller[*[Assets Under Management: #link("https://www.google.com/finance/quote/USD-KRW")[₩]36M]*]
+    - Presented #link("https://www.youtube.com/@bluechipmutualfund7790")[Company Analysis Seminars#smaller[(YouTube)] #footnote[Synopex, Inc.] #h(1pt) @047810]
+    - Wrote a Company Analysis Report#footnote[Corteva, Inc.] and #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[News Articles#smaller[(Incheon Ilbo)]#footnote[Korea Aerospace Industries, Ltd.]<047810>]
   ],
 )
 #tile(
@@ -72,7 +70,24 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #tile(
   [*Full-stack Freelance*],
   "2019.09 ~ 2019.12",
-  [#link("https://insightsolution.github.io/")[INSIGHT]: AI-based Mental Healthcare Solution Startup, #smaller[*[#link("https://www.google.com/finance/quote/USD-KRW")[KRW] 10million Project]*]],
+  [#link("https://insightsolution.github.io/")[INSIGHT]: AI-based Mental Healthcare Solution Startup, #smaller[*[#link("https://www.google.com/finance/quote/USD-KRW")[₩]10M Project]*]],
+)
+
+== Awards & Honors
+#tile(
+  [*Honor Student of Inha University*, Every Semester],
+  "2019.09 ~ Present",
+  [Within the Top 5% of Grades by Department and Grade]
+)
+#tile(
+  [#link("https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page")[*2023 Data Creator Camp*], Excellence Award],
+  "2023.09 ~ 2023.12",
+  [Food Image Classification Performance Improvement Competition, hosted by the #link("https://kbig.kr/")[K-ICT Big Data Center], and organized by the #link("https://www.msit.go.kr/")[MSIT#smaller[(Ministry of Science and ICT)]] and the #link("https://www.nia.or.kr/")[NIA#smaller[(National Information Society Agency)]]],
+)
+#tile(
+  [*KAIST Creative Team Coding Challenge*, Excellence Award],
+  "2018.03",
+  [Middle and High School Student Software Project Contest, hosted by the #link("https://www.kaist.ac.kr/")[KAIST] and #link("https://kr.ncsoft.com/")[NCSOFT], and organized by the #link("https://www.msit.go.kr/")[KAIST GIFTED#smaller[(Global Institute for Talented Education)]]],
 )
 
 == Certifications
@@ -85,6 +100,61 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   - Word Processor, Intermediate Level #h(1fr) #text(size: 10pt)[2012.04]
   - Presentation, Advanced Level #h(1fr) #text(size: 10pt)[2011.09]
 ]
+
+== Skills
+#block(spacing: 1em)[
+  *Programming Languages* \
+  C++, Java, Kotlin, JavaScript, TypeScript, Python, Rust, Dart
+]
+#block(spacing: 1em)[
+  *Platforms & Frameworks* \
+  - General: Arduino, Spring, Android, Node.js, Flutter
+  - AI: TensorFlow, PyTorch
+  - DevOps: Docker
+]
+#block(spacing: 1em)[
+  *Databases* \
+  MySQL, PostgreSQL
+]
+
+== Extracurricular Activities
+#tile(
+  link("https://int-i.github.io/")[*int i*],
+  "2019.03 ~ Present",
+  [
+    Programming Study #link("https://ice.inha.ac.kr/ice/2247/subview.do")[Group in Department of Information and Communication Engineering, Inha Univ.]
+    - Group Leader#smaller[(2023.07 \~ Present)]
+    - Set up Study Groups and Published Blog Posts, #smaller[*[Total Views: 180K, Monthly Views: 9K]*]
+  ],
+)
+#tile(
+  link("https://ice.inha.ac.kr/ice/2246/subview.do")[*ICESA*],
+  "2019.03 ~ 2023.06",
+  [Student Association for Department of Information and Communication Engineering, Inha Univ.],
+)
+#tile(
+  link("https://www.inhabas.com/")[*IBAS*],
+  "2022.09 ~ 2023.06",
+  [
+    Inha Univ. Big Data Analysts Society: Machine Learning Paper Review #h(1pt)
+    #footnote[ActiveThief: Model Extraction Using Active Learning and Unannotated Public Data & Black-Box Ripper: Copying black-box models using generative evolutionary algorithms] #h(1pt)
+    #footnote[Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs] #h(1pt)
+    #footnote[A Few Useful Things to Know about Machine Learning]
+  ],
+)
+#tile(
+  link("https://prography.org/")[*Prography 4#super[th], 5#super[th]*],
+  "2019.03 ~ 2020.02",
+  [
+    Collaborative IT Project Club: Full-stack Developer Track\
+    Developed a Psychological Counselor Matching Platform & Music Player App
+  ],
+)
+#tile(
+  link("https://cafe.naver.com/websinha")[*WEBS*],
+  "2019.03 ~ 2019.12",
+  [#link("http://startup.inha.ac.kr/index.htm")[Inha University Startup Support Foundation] - Startup Club],
+)
 
 == Projects
 #tile(
@@ -120,7 +190,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #tile(
   [*Shim*, Startup #pill[Kotlin] #pill[Javascript]],
   "2019.09 ~ 2020.02",
-  [Psychological Counselor Matching Platform, _Prography 5th_]
+  [Psychological Counselor Matching Platform, _Prography 5#super[th]_]
 )
 #tile(
   [#link("https://github.com/Astro36/kodict")[*Kodict*], Open Source #pill[Rust]],
@@ -133,64 +203,9 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [Unsupervised Learning Korean Kernel Object Analyzer, _2018 Korea Olympiad in Informatics: Contest Track_]
 )
 #tile(
-  [#link("https://github.com/Astro36/touch-music")[*Touch Music*], Contest #pill[Javascript] #pill[Python] #pill[Excellence Award]],
+  [#link("https://github.com/Astro36/touch-music")[*Touch Music*], Contest #pill[Javascript] #pill[Python]],
   "2018.03",
   [Easy Music Finder via Word2vec on Song Lyrics, _2018 KAIST Creative Team Coding Challenge_]
-)
-
-== Skills
-#block(spacing: 1em)[
-  *Programming Languages* \
-  C++, Java, Kotlin, JavaScript, TypeScript, Python, Rust, Dart
-]
-#block(spacing: 1em)[
-  *Platforms & Frameworks* \
-  - General: Arduino, Spring, Android, Node.js, Flutter
-  - AI: TensorFlow, PyTorch
-  - DevOps: Docker
-]
-#block(spacing: 1em)[
-  *Databases* \
-  MySQL, PostgreSQL
-]
-
-== Extracurricular Activities
-#tile(
-  link("https://inhabluechip.com/")[*Blue Chip Mutual Fund*],
-  "2023.03 ~ Present",
-  [
-    Financial Market Research & Stock Investment Institute in Inha Univ.
-    - Research Team Leader#smaller[(2024.01 \~ Present)]
-    - 12#super[th] #link("https://cafe.naver.com/koreauic")[UIC#smaller[(University Student Investment Club)]] Investment Concert: Company Analysis Report #h(1pt) #footnote[Corteva, Inc.] \
-    - #link("https://www.youtube.com/@bluechipmutualfund7790")[Company Analysis Presentation#smaller[(YouTube)] #footnote[Synopex, Inc.] #h(1pt) #footnote[Korea Aerospace Industries, Ltd.]<047810>] & #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[News Article#smaller[(Incheon Ilbo)] @047810]
-  ],
-)
-#tile(
-  link("https://int-i.github.io/")[*int i*],
-  "2019.03 ~ Present",
-  [
-    Programming Study #link("https://ice.inha.ac.kr/ice/2247/subview.do")[Group in Department of Information and Communication Engineering, Inha Univ.]
-    - Group Leader#smaller[(2023.07 \~ Present)]
-    - Group Tutoring & Study Blog Writing, #smaller[*[Total 180K Views, Monthly 9K Views]*]
-  ],
-)
-#tile(
-  link("https://ice.inha.ac.kr/ice/2246/subview.do")[*ICESA*],
-  "2019.03 ~ 2023.06",
-  [Student Association for Department of Information and Communication Engineering, Inha Univ.],
-)
-#tile(
-  link("https://prography.org/")[*Prography 4#super[th], 5#super[th]*],
-  "2019.03 ~ 2020.02",
-  [
-    Collaborative IT Project Club: Full-stack Developer Track\
-    Developed a Psychological Counselor Matching Platform & Music Player App
-  ],
-)
-#tile(
-  link("https://cafe.naver.com/websinha")[*WEBS*],
-  "2019.03 ~ 2019.12",
-  [#link("http://startup.inha.ac.kr/index.htm")[Inha University Startup Support Foundation] - Startup Club],
 )
 
 #align(right)[
