@@ -87,7 +87,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #tile(
   [*KAIST Creative Team Coding Challenge*, Excellence Award],
   "2018.03",
-  [Middle and High School Student Software Project Contest, hosted by the #link("https://www.kaist.ac.kr/")[KAIST] and #link("https://kr.ncsoft.com/")[NCSOFT], and organized by the #link("https://www.msit.go.kr/")[KAIST GIFTED#smaller[(Global Institute for Talented Education)]]],
+  [Middle and High School Student Software Project Contest, hosted by the #link("https://www.kaist.ac.kr/")[KAIST] and #link("https://kr.ncsoft.com/")[NCSOFT], and organized by the #link("https://gifted.kaist.ac.kr/")[KAIST GIFTED#smaller[(Global Institute for Talented Education)]]],
 )
 
 == Certifications
