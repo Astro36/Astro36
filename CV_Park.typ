@@ -82,7 +82,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #tile(
   [#link("https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page")[*2023 Data Creator Camp*], Excellence Award],
   "2023.09 ~ 2023.12",
-  [Food Image Classification Performance Improvement Competition, hosted by the #link("https://kbig.kr/")[K-ICT Big Data Center], and organized by the #link("https://www.msit.go.kr/")[MSIT#smaller[(Ministry of Science and ICT)]] and the #link("https://www.nia.or.kr/")[NIA#smaller[(National Information Society Agency)]]],
+  [Food Image Classification Challenge Competition, hosted by the #link("https://kbig.kr/")[K-ICT Big Data Center], and organized by the #link("https://www.msit.go.kr/")[MSIT#smaller[(Ministry of Science and ICT)]] and the #link("https://www.nia.or.kr/")[NIA#smaller[(National Information Society Agency)]]],
 )
 #tile(
   [*KAIST Creative Team Coding Challenge*, Excellence Award],
@@ -124,7 +124,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [
     Programming Study #link("https://ice.inha.ac.kr/ice/2247/subview.do")[Group in Department of Information and Communication Engineering, Inha Univ.]
     - Group Leader#smaller[(2023.07 \~ Present)]
-    - Set up Study Groups and Published Blog Posts, #smaller[*[Total Views: 180K, Monthly Views: 9K]*]
+    - Set up Study Groups and Authored Blog Posts, #smaller[*[Total Views: 180K, Monthly Views: 9K]*]
   ],
 )
 #tile(
