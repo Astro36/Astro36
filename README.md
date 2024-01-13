@@ -4,7 +4,7 @@ Junior Financial System Engineer 🌱
 
 I’m interested in **🤖Machine Learning**, **📖Natural Language Processing**, 🕒**Time Series**, and **📊Quantitative Finance**.
 
-For more information, please read my [[CV]](https://astro36.github.io/Astro36/CV_Park.pdf).
+For more information, please read my [[CV]](https://Astro36.github.io/Astro36/CV_Park.pdf).
 
 ## 🎓 Education
 
