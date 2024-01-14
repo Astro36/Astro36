@@ -53,8 +53,8 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [
     Financial Market Research & Stock Investment Institute in Inha Univ.
     - Research Team Leader & Fund Manager#smaller[(2024.01 - Present)], #smaller[*[Assets Under Management: 36M #link("https://www.google.com/finance/quote/USD-KRW")[KRW]]*]
-    - Presented #link("https://www.youtube.com/@bluechipmutualfund7790")[company analysis seminars#smaller[(YouTube)] #footnote[Synopex, Inc.] #h(1pt) @047810]
-    - Published a company analysis report#footnote[Corteva, Inc.] and #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[news articles#smaller[(Incheon Ilbo)]#footnote[Korea Aerospace Industries, Ltd.]<047810>]
+    - Presented #link("https://www.youtube.com/@bluechipmutualfund7790")[company analysis seminars#smaller[(YouTube)]]
+    - Published a #link("https://inhabluechip.com/forum/view/259643")[company analysis report] and #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[news articles#smaller[(Incheon Ilbo)]]
   ],
 )
 #tile(
@@ -127,12 +127,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #tile(
   link("https://www.inhabas.com/")[*IBAS*],
   "2022.09 - 2023.06",
-  [
-    Inha Univ. Big Data Analysts Society: Machine Learning Paper Review #h(1pt)
-    #footnote[ActiveThief: Model Extraction Using Active Learning and Unannotated Public Data & Black-Box Ripper: Copying black-box models using generative evolutionary algorithms] #h(1pt)
-    #footnote[Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs] #h(1pt)
-    #footnote[A Few Useful Things to Know about Machine Learning]
-  ],
+  [Inha Univ. Big Data Analysts Society: Machine Learning Paper Review],
 )
 #tile(
   link("https://ice.inha.ac.kr/ice/2246/subview.do")[*ICESA*],

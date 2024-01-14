@@ -129,7 +129,7 @@
   "2023.03 ~ 활동 중",
   [
     리서치 팀장 및 펀드 매니저#smaller[(2024.01 \~ 현재)], #smaller[*[펀드 운용규모: 3.6천만 원]*] \
-    #link("https://www.youtube.com/@bluechipmutualfund7790")[기업분석 세미나#smaller[(YouTube)] #footnote[주식회사 시노펙스] #h(1pt) @047810] 발표, 기업분석 보고서#footnote[Corteva, Inc.] 작성 및 #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[인천일보#footnote[한국항공우주산업 주식회사]<047810>] 기고
+    #link("https://www.youtube.com/@bluechipmutualfund7790")[기업분석 세미나#smaller[(YouTube)]] 발표, #link("https://inhabluechip.com/forum/view/259643")[기업분석 보고서] 작성 및 #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[인천일보] 기고
   ],
 )
 #tile(
