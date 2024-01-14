@@ -30,6 +30,7 @@ jobs:
           sudo apt-get update
           echo "ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true" | sudo debconf-set-selections
           sudo apt-get install ttf-mscorefonts-installer
+          sudo apt-get install fonts-nanum
           sudo fc-cache -rv
       - name: Setup Typst
         uses: typst-community/setup-typst@v3
@@ -37,6 +38,7 @@ jobs:
         run: |
           mkdir -p dist
           typst compile CV_Park.typ dist/CV_Park.pdf
+          typst compile Resume_Park_KR.typ dist/Resume_Park_KR.pdf
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
