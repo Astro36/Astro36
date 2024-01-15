@@ -52,7 +52,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   "2023.03 - Present",
   [
     Financial Market Research & Stock Investment Institute in Inha Univ.
-    - Research Team Leader & Fund Manager#smaller[(2024.01 - Present)], #smaller[*[Assets Under Management: 36M #link("https://www.google.com/finance/quote/USD-KRW")[KRW]]*]
+    - Research Team Leader & Fund Manager#smaller[(2024.01 - Present)], #smaller[*[Assets under Management: 36M #link("https://www.google.com/finance/quote/USD-KRW")[KRW]]*]
     - Presented #link("https://www.youtube.com/@bluechipmutualfund7790")[company analysis seminars#smaller[(YouTube)]]
     - Published a #link("https://inhabluechip.com/forum/view/259643")[company analysis report] and #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[news articles#smaller[(Incheon Ilbo)]]
   ],
@@ -70,7 +70,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [*Full-stack Freelance*],
   "2019.09 - 2019.12",
   [
-    #link("https://insightsolution.github.io/")[INSIGHT]: AI-based Mental Healthcare Solution Startup, #smaller[*[10M #link("https://www.google.com/finance/quote/USD-KRW")[KRW] Project]*]
+    #link("https://insightsolution.github.io/")[INSIGHT]: AI-based Mental Healthcare Solution Startup, #smaller[*[10M #link("https://www.google.com/finance/quote/USD-KRW")[KRW] project]*]
     - Developed an Android app in Kotlin and an API server in Python to power an AI model
   ],
 )
@@ -121,7 +121,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [
     Programming Study #link("https://ice.inha.ac.kr/ice/2247/subview.do")[Group in Department of Information and Communication Engineering, Inha Univ.]
     - Group Leader#smaller[(2023.07 - Present)]
-    - Set up study groups and authored blog posts, #smaller[*[Total Views: 180K, Monthly Views: 9K]*]
+    - Set up study groups and authored blog posts, #smaller[*[Total blog views: 180K, Monthly: 9K]*]
   ],
 )
 #tile(
@@ -162,7 +162,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #tile(
   [#link("https://github.com/Astro36/qp")[*Quick Pool*], Open Source #pill[Rust]],
   "2021.11 - 2021.12",
-  [High Performance Async Generic Pool for Rust, implemented by Lock-free Waiter Queue, #smaller[*[Downloads: 1.6K]*]]
+  [High Performance Async Generic Pool for Rust, implemented by Lock-free Waiter Queue, \ #smaller[*[Downloads: 1.6K]*]]
 )
 #tile(
   [*Spree*, Startup #pill[Python] #pill[C++]],
@@ -175,14 +175,29 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [#h(1em) Korean Obfuscation ToolKit for Data Augmentation, _IITP-2020-SW Maestro training course_]
 )
 #tile(
+  [*Shim*, Startup #pill[Kotlin] #pill[Javascript]],
+  "2019.09 - 2020.02",
+  [Psychological Counselor Matching Platform, _Prography 5#super[th]_]
+)
+#tile(
+  [*Care U*, Hackathon #pill[Dart] #pill[Javascript]],
+  "2020.01",
+  [Shared Scooter Accident Prevention Solution App using Computer Vision, _2020 Super Challenge Hackathon_]
+)
+#tile(
   [*Hyeyum*, School Project #pill[Python] #pill[Javascript]],
   "2019.11 - 2019.12",
   [Language Habit Correction Robot with Google Speech Recognition API, _Creative Design for Information and Communication Engineering: Final Project_]
 )
 #tile(
-  [*Shim*, Startup #pill[Kotlin] #pill[Javascript]],
-  "2019.09 - 2020.02",
-  [Psychological Counselor Matching Platform, _Prography 5#super[th]_]
+  [#link("https://github.com/int-i/brainha-demo-server")[*BraInha*], Hackathon #pill[Java] #pill[Javascript]],
+  "2019.11",
+  [On-campus Academic Q&A Platform App, _2019 Inha SW Hackathon_]
+)
+#tile(
+  [#link("https://github.com/watchdocs")[*WATCH_DOCS*], Hackathon #pill[Javascript]],
+  "2019.08",
+  [Business Document Management Service by WaykiChain Smart Contract, _Huobi Korea X WaykiChain Hackathon_]
 )
 #tile(
   [#link("https://github.com/Astro36/kodict")[*Kodict*], Open Source #pill[Rust]],

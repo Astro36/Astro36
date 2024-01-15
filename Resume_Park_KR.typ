@@ -1,4 +1,4 @@
-#set document(title: "이력서: 박승재", author: "박승재")
+#set document(title: "박승재", author: "박승재")
 #set page(numbering: "1", number-align: center)
 #set text(font: "NanumSquare", size: 11pt)
 #set par(leading: 0.8em, justify: true)
@@ -156,12 +156,12 @@
   ],
 )
 #tile(
-  link("https://prography.org/")[*Prography 4기 \~ 5기*, 연합 IT프로젝트 동아리],
+  [#link("https://prography.org/")[*Prography 4기 \~ 5기*], 연합 IT프로젝트 동아리],
   "2019.03 ~ 2020.02",
   [프론트엔드・백엔드 개발자 트랙, 심리상담사 매칭 플랫폼 및 힐링 음악 앱 개발],
 )
 #tile(
-  [#link("https://cafe.naver.com/websinha")[*WEBS*], #link("http://창업.inha.ac.kr/index.htm")[인하대학교 창업지원단] 소속 창업동아리],
+  [#link("https://cafe.naver.com/websinha")[*WEBS*], #link("http://startup.inha.ac.kr/")[인하대학교 창업지원단] 소속 창업동아리],
   "2019.03 ~ 2019.12",
   [],
 )
@@ -193,14 +193,29 @@
   [#h(1em) Korean Obfuscation ToolKit for Data Augmentation, _IITP-2020-SW마에스트로과정_]
 )
 #tile(
+  [*Shim*, 창업 #pill[Kotlin] #pill[Javascript]],
+  "2019.09 ~ 2020.02",
+  [Psychological Counselor Matching Platform, _Prography 5기_]
+)
+#tile(
+  [*Care U*, 해커톤 #pill[Dart] #pill[Javascript]],
+  "2020.01",
+  [Shared Scooter Accident Prevention Solution App using Computer Vision, _2020 Super Challenge Hackathon_]
+)
+#tile(
   [*Hyeyum*, 교내 프로젝트 #pill[Python] #pill[Javascript]],
   "2019.11 ~ 2019.12",
   [Language Habit Correction Robot with Google Speech Recognition API, _창의적 정보통신공학설계: 최종 프로젝트_]
 )
 #tile(
-  [*Shim*, 창업 #pill[Kotlin] #pill[Javascript]],
-  "2019.09 ~ 2020.02",
-  [Psychological Counselor Matching Platform, _Prography 5기_]
+  [#link("https://github.com/int-i/brainha-demo-server")[*BraInha*], 해커톤 #pill[Java] #pill[Javascript]],
+  "2019.11",
+  [On-campus Academic Q&A Platform App, _2019 Inha SW Hackathon_]
+)
+#tile(
+  [#link("https://github.com/watchdocs")[*WATCH_DOCS*], 해커톤 #pill[Javascript]],
+  "2019.08",
+  [Business Document Management Service by WaykiChain Smart Contract, _Huobi Korea X WaykiChain Hackathon_]
 )
 #tile(
   [#link("https://github.com/Astro36/kodict")[*Kodict*], 오픈소스 #pill[Rust]],
