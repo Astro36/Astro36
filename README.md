@@ -4,7 +4,7 @@ Junior Financial System Engineer 🌱
 
 I’m interested in **🤖Machine Learning**, **📖Natural Language Processing**, 🕒**Time Series**, and **📊Quantitative Finance**.
 
-For more information, please read my [[CV<sub><sup> (English)</sup></sub>]](https://Astro36.github.io/Astro36/CV_Park.pdf) and [[Résumé<sub><sup> (Korean)</sup></sub>]](https://Astro36.github.io/Astro36/Resume_Park_KR.pdf).
+For more information, please read my [[CV/English]](https://Astro36.github.io/Astro36/CV_Park.pdf) and [[Résumé/Korean]](https://Astro36.github.io/Astro36/Resume_Park_KR.pdf).
 
 ## 🎓 Education
 
@@ -18,13 +18,13 @@ For more information, please read my [[CV<sub><sup> (English)</sup></sub>]](http
 
 ## ⭐ Experiences
 
-| Date | Experience | Position | Desciption |
-| --- | --- | --- | --- |
-| 2024.01 ~ | [‌Blue Chip Mutual Fund](https://inhabluechip.com/) | Research Team Leader | Financial Market Research & Fund Management |
-| 2023.07 ~ | [int i](https://int-i.github.io/) | Group Leader | Group Tutoring & Study Blog Writing, **[Total 180K Views]** |
-| 2020.05 ~ 2020.12 | [Software Maestro 11th](https://www.swmaestro.org/sw/main/main.do) | AI Engineer | Illegal Spam Detection Solution Startup |
-| 2019.09 ~ 2019.12 | Full-stack Freelance | Full-stack Developer | [INSIGHT](https://insightsolution.github.io/) - AI-based Mental Healthcare Solution Startup |
-| 2019.03 ~ 2020.02 | [Prography 4th, 5th](https://prography.org/) | Full-stack Developer | Psychological Counselor Matching Platform Startup |
+| Date | Experience | Desciption |
+| --- | --- | --- |
+| 2024.01 ~ | [‌Blue Chip Mutual Fund](https://inhabluechip.com/) | _Financial Market Research & Stock Investment Institute in Inha Univ._<br>• **Research Team Leader & Fund Manager**(2024.01 -­ Present), **[Assets under Management: 36M KRW]**<br>• Presented company analysis seminars(YouTube)<br>• Published a company analysis report and news articles(Incheon Ilbo) |
+| 2019.03 ~ | [int i](https://int-i.github.io/) | _Programming Study Group in Department of Information and Communication Engineering, Inha Univ._<br>• **Group Leader**(2023.07 ~­ Present)<br>• Set up study groups and authored blog posts, **[Total blog views: 180K, Monthly: 9K]** |
+| 2023.09 ~ 2023.12 | [2023 Data Creator Camp](https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page) | _Big Data Training Hackathon: Food Image Classification Challenge, hosted by the [K­-ICT Big Data Center](https://kbig.kr/), and organized by the [MSIT](https://www.msit.go.kr/) and the [NIA](https://www.nia.or.kr/)_, **[Excellence Award]** |
+| 2020.05 ~ 2020.12 | [Software Maestro 11th](https://www.swmaestro.org/sw/main/main.do) | _Government-­supported Program to Cultivate Creative and Innovative SW Talents, organized by the [MSIT](https://www.msit.go.kr/) and the [IITP](https://www.iitp.kr/), operated by the [FKII](https://www.fkii.org/)_<br>• Developed a solution for detecting illegal spam that corrects Korean spelling errors and improves its performance over time<br>• Received mentoring on entrepreneurship, programming, and AI |
+| 2019.09 ~ 2019.12 | Full-­stack Freelance | _[INSIGHT](https://insightsolution.github.io/): AI-­based Mental Healthcare Solution Startup_, **[10M KRW project]**<br>• Developed an Android app in Kotlin and an API server in Python to power an AI model |
 
 ## 📑 Certifications
 
@@ -71,16 +71,3 @@ For more information, please read my [[CV<sub><sup> (English)</sup></sub>]](http
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 </details>
-
-## 🎯 Activities
-
-| Date | Activity | Desciption |
-| --- | --- | --- |
-| 2023.03 ~ | [‌Blue Chip Mutual Fund](https://inhabluechip.com/) | Financial Market Research & Stock Investment Institute in Inha Univ. |
-| 2019.03 ~ | [int i](https://int-i.github.io/) | Programming Study Group in [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2247/subview.do) |
-| 2023.09 ~ 2023.12 | [2023 Data Creator Camp](https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page) | Food Image Classification Performance Improvement Competition, hosted by the [K­-ICT Big Data Center](https://kbig.kr/), and organized by the [MSIT](https://www.msit.go.kr/) and the [NIA](https://www.nia.or.kr/), **[Excellence Award]** |
-| 2022.09 ~ 2023.06 | [IBAS](https://www.inhabas.com/) | Inha Univ. Big Data Analysts Society: Machine Learning Paper Review |
-| 2019.03 ~ 2023.06 | [ICESA](https://ice.inha.ac.kr/ice/2246/subview.do) | Student Association for [ICE@Inha Univ.](https://ice.inha.ac.kr/ice/2246/subview.do) |
-| 2020.05 ~ 2020.12 | [Software Maestro 11th](https://www.swmaestro.org/) | Creative Challenge Project Planning and Development Training Course, organized by the [MSIT](https://www.msit.go.kr/) and the [IITP](https://www.iitp.kr/) |
-| 2019.03 ~ 2020.02 | [Prography 4th, 5th](https://prography.org/) | A Collaborative IT Project Club: Full-­stack Developer Track |
-| 2019.03 ~ 2019.12 | [WEBS](https://cafe.naver.com/websinha) | [Inha University Startup Support Foundation](http://startup.inha.ac.kr/index.htm) - Startup Club |
