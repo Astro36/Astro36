@@ -10,7 +10,7 @@ For more information, please read my [[CV/English]](https://Astro36.github.io/As
 
 ### [Inha University](http://www.inha.ac.kr/)
 
-2019.03 ~ Present
+2019.03 - Present
 
 - Cumulative GPA 4.38/4.5
 - B.S. in [Information and Communication Engineering](https://ice.inha.ac.kr/ice/index.do)
@@ -20,11 +20,11 @@ For more information, please read my [[CV/English]](https://Astro36.github.io/As
 
 | Date | Experience | Desciption |
 | --- | --- | --- |
-| 2024.01 ~ | [‌Blue Chip Mutual Fund](https://inhabluechip.com/) | _Financial Market Research & Stock Investment Institute in Inha Univ._<br>• **Research Team Leader & Fund Manager**(2024.01 -­ Present), **[Assets under Management: 36M KRW]**<br>• Presented company analysis seminars(YouTube)<br>• Published a company analysis report and news articles(Incheon Ilbo) |
-| 2019.03 ~ | [int i](https://int-i.github.io/) | _Programming Study Group in Department of Information and Communication Engineering, Inha Univ._<br>• **Group Leader**(2023.07 ~­ Present)<br>• Set up study groups and authored blog posts, **[Total blog views: 180K, Monthly: 9K]** |
-| 2023.09 ~ 2023.12 | [2023 Data Creator Camp](https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page) | _Big Data Training Hackathon: Food Image Classification Challenge, hosted by the [K­-ICT Big Data Center](https://kbig.kr/), and organized by the [MSIT](https://www.msit.go.kr/) and the [NIA](https://www.nia.or.kr/)_, **[Excellence Award]** |
-| 2020.05 ~ 2020.12 | [Software Maestro 11th](https://www.swmaestro.org/sw/main/main.do) | _Government-­supported Program to Cultivate Creative and Innovative SW Talents, organized by the [MSIT](https://www.msit.go.kr/) and the [IITP](https://www.iitp.kr/), operated by the [FKII](https://www.fkii.org/)_<br>• Developed a solution for detecting illegal spam that corrects Korean spelling errors and improves its performance over time<br>• Received mentoring on entrepreneurship, programming, and AI |
-| 2019.09 ~ 2019.12 | Full-­stack Freelance | _[INSIGHT](https://insightsolution.github.io/): AI-­based Mental Healthcare Solution Startup_, **[10M KRW project]**<br>• Developed an Android app in Kotlin and an API server in Python to power an AI model |
+| 2024.01 - Present | [‌Blue Chip Mutual Fund](https://inhabluechip.com/) | _Financial Market Research & Stock Investment Institute in Inha Univ._<br>• **Research Team Leader & Fund Manager**(2024.01 -­ Present), **[Assets under Management: 36M KRW]**<br>• Presented company analysis seminars(YouTube)<br>• Published a company analysis report and news articles(Incheon Ilbo) |
+| 2019.03 - Present | [int i](https://int-i.github.io/) | _Programming Study Group in Department of Information and Communication Engineering, Inha Univ._<br>• **Group Leader**(2023.07 -­ Present)<br>• Set up study groups and authored blog posts, **[Total blog views: 180K, Monthly: 9K]** |
+| 2023.09 - 2023.12 | [2023 Data Creator Camp](https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page) | _Big Data Training Hackathon: Food Image Classification Challenge, hosted by the [K­-ICT Big Data Center](https://kbig.kr/), and organized by the [MSIT](https://www.msit.go.kr/) and the [NIA](https://www.nia.or.kr/)_, **[Excellence Award]** |
+| 2020.05 - 2020.12 | [Software Maestro 11th](https://www.swmaestro.org/sw/main/main.do) | _Government-­supported Program to Cultivate Creative and Innovative SW Talents, organized by the [MSIT](https://www.msit.go.kr/) and the [IITP](https://www.iitp.kr/), operated by the [FKII](https://www.fkii.org/)_<br>• Developed a solution for detecting illegal spam that corrects Korean spelling errors and improves its performance over time<br>• Received mentoring on entrepreneurship, programming, and AI |
+| 2019.09 - 2019.12 | Full-­stack Freelance | _[INSIGHT](https://insightsolution.github.io/): AI-­based Mental Healthcare Solution Startup_, **[10M KRW project]**<br>• Developed an Android app in Kotlin and an API server in Python to power an AI model |
 
 ## 📑 Certifications
 
