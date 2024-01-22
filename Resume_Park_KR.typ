@@ -85,7 +85,7 @@
 #block(spacing: 1em)[
   #grid(
     columns: (105pt, 1fr),
-    [#link("https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=433")[디지털정보활용능력]],
+    [#link("https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=430")[디지털정보활용능력]],
     [
       스프레드시트 고급, #link("https://www.ihd.or.kr/")[한국정보통신진흥협회], 2012.12 \
       워드프로세서 중급, #link("https://www.ihd.or.kr/")[한국정보통신진흥협회], 2012.04 \
@@ -235,5 +235,5 @@
 
 #align(right)[
   #set text(size: 9pt)
-  _(최종수정일: #datetime.today().display("[month repr:short] [year]"))_
+  _(최종수정일: #datetime.today().display("[year].[month]"))_
 ]

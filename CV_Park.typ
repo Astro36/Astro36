@@ -52,7 +52,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   "2023.03 - Present",
   [
     Financial Market Research & Stock Investment Institute in Inha Univ.
-    - Research Team Leader & Fund Manager#smaller[(2024.01 - Present)], #smaller[*[Assets under Management: 36M #link("https://www.google.com/finance/quote/USD-KRW")[KRW]]*]
+    - Research Team Leader & Fund Manager#smaller[(2024.01 - Present)], #smaller[*[Assets under Management: #link("https://www.google.com/search?q=36000000+krw")[36M KRW]]*]
     - Presented #link("https://www.youtube.com/@bluechipmutualfund7790")[company analysis seminars#smaller[(YouTube)]]
     - Published a #link("https://inhabluechip.com/forum/view/259643")[company analysis report] and #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[news articles#smaller[(Incheon Ilbo)]]
   ],
@@ -70,7 +70,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [*Full-stack Freelance*],
   "2019.09 - 2019.12",
   [
-    #link("https://insightsolution.github.io/")[INSIGHT]: AI-based Mental Healthcare Solution Startup, #smaller[*[10M #link("https://www.google.com/finance/quote/USD-KRW")[KRW] project]*]
+    #link("https://insightsolution.github.io/")[INSIGHT]: AI-based Mental Healthcare Solution Startup, #smaller[*[#link("https://www.google.com/search?q=10000000+krw")[10M KRW] project]*]
     - Developed an Android app in Kotlin and an API server in Python to power an AI model
   ],
 )
