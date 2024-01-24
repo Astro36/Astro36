@@ -53,15 +53,15 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [
     Financial Market Research & Stock Investment Institute in Inha Univ.
     - Research Team Leader & Fund Manager#smaller[(2024.01 - Present)], #smaller[*[Assets under Management: #link("https://www.google.com/search?q=36000000+krw")[36M KRW]]*]
-    - Presented #link("https://www.youtube.com/@bluechipmutualfund7790")[company analysis seminars#smaller[(YouTube)]]
-    - Published a #link("https://inhabluechip.com/forum/view/259643")[company analysis report] and #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[news articles#smaller[(Incheon Ilbo)]]
+    - Delivered 2 presentations at in-house company analysis seminars#smaller[(#link("https://www.youtube.com/@bluechipmutualfund7790")[YouTube])]
+    - Published a #link("https://inhabluechip.com/forum/view/259643")[company analysis report] and 2 news articles#smaller[(#link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[Incheon Ilbo])]
   ],
 )
 #tile(
   link("https://www.swmaestro.org/")[*Software Maestro 11#super[th]*],
   "2020.05 - 2020.12",
   [
-    Government-supported Program to Cultivate Creative and Innovative SW Talents, organized by the #link("https://www.msit.go.kr/")[MSIT#smaller[(Ministry of Science and ICT)]] and the #link("https://www.iitp.kr/")[IITP#smaller[(Institute for Information and Communications Technology Planning and Evaluation)]], operated by the #link("https://www.fkii.org/")[FKII#smaller[(The Federation of Korean Information Industries)]]
+    Government-supported Program to Cultivate Creative and Innovative SW Talents, organized by the #link("https://www.msit.go.kr/")[MSIT#smaller[(Ministry of Science and ICT)]] and the #link("https://www.iitp.kr/")[IITP#smaller[(Institute for Information and Communications Technology Planning and Evaluation)]]
     - Developed a solution for detecting illegal spam that corrects Korean spelling errors and improves its performance over time
     - Received mentoring on entrepreneurship, programming, and AI
   ],
@@ -119,9 +119,10 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   link("https://int-i.github.io/")[*int i*],
   "2019.03 - Present",
   [
-    Programming Study #link("https://ice.inha.ac.kr/ice/2247/subview.do")[Group in Department of Information and Communication Engineering, Inha Univ.]
+    Programming Study Group in Department of Information and Communication Engineering, Inha Univ.
     - Group Leader#smaller[(2023.07 - Present)]
-    - Set up study groups and authored blog posts, #smaller[*[Total blog views: 180K, Monthly: 9K]*]
+    - Set up study groups#smaller[(C++, Java, Algorithms)]
+    - Authored blog posts about programming for over 4 years, #smaller[*[Total blog views: 180K, Monthly: 9K]*]
   ],
 )
 #tile(
@@ -141,11 +142,6 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
     Collaborative IT Project Club: Front-end & Back-end Developer Track
     - Developed a psychological counselor matching platform & meditation music player app
   ],
-)
-#tile(
-  link("https://cafe.naver.com/websinha")[*WEBS*],
-  "2019.03 - 2019.12",
-  [#link("http://startup.inha.ac.kr/index.htm")[Inha University Startup Support Foundation] - Startup Club],
 )
 
 == Projects
