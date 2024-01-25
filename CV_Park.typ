@@ -43,11 +43,12 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 
 == Education
 #tile(
-  [#link("https://www.inha.ac.kr/")[*Inha University*], Incheon, South Korea #pill[GPA 4.38/4.5] #pill[Rank 1/150]],
+  [#link("https://www.inha.ac.kr/")[*Inha University*], Incheon, South Korea #pill[GPA 4.38/4.5]],
   "Mar 2019 - Present",
   [
-    B.S. in #link("https://ice.inha.ac.kr/")[Information and Communication Engineering] \
-    Minor in #link("https://gfiba.inha.ac.kr/")[Global Finance and Banking]
+    B.S. in #link("https://ice.inha.ac.kr/")[Information and Communication Engineering] | Minor in #link("https://gfiba.inha.ac.kr/")[Global Finance and Banking]
+    - Undergraduate Coursework: Electronic Circuits, Data Structure, Computer Architecture, Operating System, Numerical Analysis, Investments, Financial Derivatives
+    - Honor student for 7 semesters, #label[Average Rank: 1/150]
   ],
 )
 
@@ -69,6 +70,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
     Government-supported Program to Cultivate Creative and Innovative SW Talents, organized by the #link("https://www.msit.go.kr/")[MSIT#note[Ministry of Science and ICT]] and the #link("https://www.iitp.kr/")[IITP#note[Institute for Information and Communications Technology Planning and Evaluation]]
     - Developed a solution for detecting illegal spam that corrects Korean spelling errors and improves its performance over time
     - Received mentoring on entrepreneurship, programming, and AI
+    - Ranked 4#super[th] in a stock price prediction contest held as part of an AI application training program
   ],
 )
 #tile(
@@ -98,6 +100,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   "Dec 2023",
   "",
 )
+#linebreak()
 #block(spacing: 1em)[
   #link("https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=430")[*Digital Information Ability Test(DIAT)*], #link("https://www.ihd.or.kr/")[KAIT#note[Korea Association for ICT Promotion]] \
   #text(fill: black90)[
@@ -117,7 +120,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #block(spacing: 1em)[
   *Platforms & Frameworks* \
   #text(fill: black90)[
-    - General: Arduino, Spring, Android, Node.js, Flutter
+    - General: Arduino, Android, Spring, Node.js, Flutter
     - AI: TensorFlow, PyTorch
     - DevOps: Docker
   ]
