@@ -1,6 +1,9 @@
 #let black100 = black
 #let black90 = white.darken(90%)
 #let black80 = white.darken(80%)
+#let black70 = white.darken(70%)
+#let accent_darken = rgb("#562939")
+#let accent_lighten = rgb("#6c1332")
 
 #set document(title: "Seungjae Park", author: "Seungjae Park")
 #set page(numbering: "1", number-align: center)
@@ -13,10 +16,10 @@
 #show heading.where(level: 2): it => block(
   above: 1.5em,
   below: 1em,
-  text(weight: "regular", size: 16pt)[#smallcaps(it.body)],
+  text(weight: "regular", size: 16pt, fill: accent_darken)[#smallcaps(it.body)],
 )
 
-#let label(body) = text(weight: "bold", size: 0.8em, fill: black100)[[#body]]
+#let label(body) = text(weight: "bold", size: 0.8em, fill: accent_lighten)[[#body]]
 #let note(body) = text(size: 0.8em)[(#body)]
 #let pill(body) = box(
   baseline: -1pt,
@@ -27,12 +30,12 @@
 )[#text(size: 8pt, body)]
 #let tile(title, date, body) = block(spacing: 1em)[
   #title #h(1fr) #text(size: 0.8em, fill: black80)[#date] \
-  #text(fill: black90)[#body]
+  #text(fill: black80)[#body]
 ]
 
 #align(center)[
   = Seungjae Park
-  #text(size: 10pt, fill: black90)[
+  #text(size: 10pt, fill: black80)[
     astro.psj\@gmail.com \
     https://github.com/Astro36
   ]
@@ -229,7 +232,8 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [Easy Music Finder via Word2vec on Song Lyrics, _2018 KAIST Creative Team Coding Challenge_]
 )
 
+#linebreak()
 #align(right)[
-  #set text(size: 0.8em, fill: black80)
-  _(Last updated: #datetime.today().display("[month repr:short] [year]"))_
+  #set text(size: 0.8em, fill: black70)
+  (Last updated: #datetime.today().display("[month repr:short] [year]"))
 ]
