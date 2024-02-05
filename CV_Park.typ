@@ -2,8 +2,9 @@
 #let black90 = white.darken(90%)
 #let black80 = white.darken(80%)
 #let black70 = white.darken(70%)
-#let accent_darken = rgb("#562939")
-#let accent_lighten = rgb("#6c1332")
+#let accent_darken = rgb("#662549")
+#let accent_lighten = rgb("#AE445A")
+#let accent_underline = rgb("#FFF8E3")
 
 #set document(title: "Seungjae Park", author: "Seungjae Park")
 #set page(numbering: "1", number-align: center)
@@ -21,6 +22,7 @@
 
 #let label(body) = text(weight: "bold", size: 0.8em, fill: accent_lighten)[[#body]]
 #let note(body) = text(size: 0.8em)[(#body)]
+#let accent(body) = underline(stroke: 4pt + accent_underline, offset: -2pt, evade: false, background: true)[#body]
 #let pill(body) = box(
   baseline: -1pt,
   stroke: 0.5pt + black,
@@ -49,9 +51,9 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [#link("https://www.inha.ac.kr/")[*Inha University*], Incheon, South Korea #pill[GPA 4.38/4.5]],
   "Mar 2019 - Present",
   [
-    B.S. in #link("https://ice.inha.ac.kr/")[Information and Communication Engineering] | Minor in #link("https://gfiba.inha.ac.kr/")[Global Finance and Banking]
+    B.S. in #accent[#link("https://ice.inha.ac.kr/")[Information and Communication Engineering]] | Minor in #accent[#link("https://gfiba.inha.ac.kr/")[Global Finance and Banking]]
     - Undergraduate Coursework: Electronic Circuits, Data Structure, Computer Architecture, Operating System, Numerical Analysis, Investments, Financial Derivatives
-    - Honor student for 7 semesters, #label[Average Rank: 1/150]
+    - #accent[Honor student] for 7 semesters, #label[Average Rank: 1/150]
   ],
 )
 
@@ -61,8 +63,8 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   "Mar 2023 - Present",
   [
     Financial Market Research & Stock Investment Institute in Inha Univ.
-    - Research Team Leader & Fund Manager#note[2024.01 - Present], #label[Assets under Management: #link("https://www.google.com/search?q=36000000+krw")[36M KRW]]
-    - Delivered 2 presentations at in-house #link("https://www.youtube.com/@bluechipmutualfund7790")[company analysis seminars#note[YouTube]]
+    - #accent[Research Team Leader] & Fund Manager#note[2024.01 - Present], #label[Assets under Management: #link("https://www.google.com/search?q=36000000+krw")[36M KRW]]
+    - Delivered 2 presentations at in-house #link("https://www.youtube.com/@bluechipmutualfund7790")[#accent[company analysis seminars]#note[YouTube]]
     - Published a #link("https://inhabluechip.com/forum/view/259643")[company analysis report] and 2 #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[news articles#note[Incheon Ilbo]]
   ],
 )
@@ -71,9 +73,9 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   "May 2020 - Dec 2020",
   [
     Government-supported Program to Cultivate Creative and Innovative SW Talents, organized by the #link("https://www.msit.go.kr/")[MSIT#note[Ministry of Science and ICT]] and the #link("https://www.iitp.kr/")[IITP#note[Institute for Information and Communications Technology Planning and Evaluation]]
-    - Developed a solution for detecting illegal spam that corrects Korean spelling errors and improves its performance over time
+    - Developed a #accent[solution for detecting illegal spam] that corrects Korean spelling errors and improves its performance over time
     - Received mentoring on entrepreneurship, programming, and AI
-    - Ranked 4#super[th] in a stock price prediction contest held as part of an AI application training program
+    - #accent[Ranked 4#super[th] in a stock price prediction contest] held as part of an AI application training program
   ],
 )
 #tile(
@@ -89,7 +91,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #tile(
   [#link("https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page")[*2023 Data Creator Camp*], Excellence Award],
   "Sep 2023 - Dec 2023",
-  [Big Data Training Hackathon: Food Image Classification Challenge, hosted by the #link("https://kbig.kr/")[K-ICT Big Data Center], and organized by the #link("https://www.msit.go.kr/")[MSIT#note[Ministry of Science and ICT]] and the #link("https://www.nia.or.kr/")[NIA#note[National Information Society Agency]]],
+  [Big Data Training Hackathon: #accent[Food Image Classification] Challenge, hosted by the #link("https://kbig.kr/")[K-ICT Big Data Center], and organized by the #link("https://www.msit.go.kr/")[MSIT#note[Ministry of Science and ICT]] and the #link("https://www.nia.or.kr/")[NIA#note[National Information Society Agency]]],
 )
 #tile(
   [*KAIST Creative Team Coding Challenge*, Excellence Award],
@@ -141,9 +143,8 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   "Mar 2019 - Present",
   [
     Programming Study Group in Department of Information and Communication Engineering, Inha Univ.
-    - Group Leader#note[2023.07 - Present]
-    - Set up study groups#note[C++, Java, Algorithms]
-    - Authored blog posts about programming for over 4 years, #label[Total blog views: 180K, Monthly: 9K]
+    - #accent[Group Leader]#note[2023.07 - Present]
+    - Authored blog posts about programming for #accent[over 4 years], #label[Total blog views: 180K, Monthly: 9K]
   ],
 )
 #tile(
@@ -160,7 +161,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   link("https://prography.org/")[*Prography 4#super[th] - 5#super[th]*],
   "Mar 2019 - Feb 2020",
   [
-    Collaborative IT Project Club: Front-end & Back-end Developer Track
+    Collaborative IT Project Club: #accent[Front-end & Back-end Developer] Track
     - Developed a psychological counselor matching platform & meditation music player app
   ],
 )
