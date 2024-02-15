@@ -12,7 +12,7 @@
 #set par(justify: true)
 
 #show heading.where(level: 1): it => align(center)[
-  #text(weight: "regular", size: 24pt)[#it.body]
+  #text(weight: "regular", size: 30pt)[#it.body]
 ]
 #show heading.where(level: 2): it => block(
   above: 1.5em,
@@ -22,7 +22,7 @@
 
 #let label(body) = text(weight: "bold", size: 0.8em, fill: accent_lighten)[[#body]]
 #let note(body) = text(size: 0.8em)[(#body)]
-#let accent(body) = underline(stroke: 4pt + accent_underline, offset: -2pt, evade: false, background: true)[#body]
+#let accent(body) = underline(stroke: 5pt + accent_underline, offset: -2.5pt, evade: false, background: true)[#body]
 #let pill(body) = box(
   baseline: -1pt,
   stroke: 0.5pt + black,
