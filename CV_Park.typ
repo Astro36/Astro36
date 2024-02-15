@@ -32,7 +32,7 @@
 )[#text(size: 8pt, body)]
 #let tile(title, date, body) = block(spacing: 1em)[
   #title #h(1fr) #text(size: 0.8em, fill: black80)[#date] \
-  #text(fill: black80)[#body]
+  #text(fill: black90)[#body]
 ]
 
 #align(center)[

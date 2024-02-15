@@ -32,13 +32,13 @@
   #grid(
     columns: (105pt, 1fr),
     text(size: 0.9em, fill: black80)[#date],
-    [#title \ #text(fill: black80)[#body]],
+    [#title \ #text(fill: black90)[#body]],
   )
 ]
 
 = 박승재
 #block[
-  #text(size: 10pt)[
+  #text(size: 10pt, fill: black80)[
     astro.psj\@gmail.com \
     https://github.com/Astro36
   ]
@@ -89,14 +89,14 @@
   #grid(
     columns: (105pt, 1fr),
     [#link("https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=433")[리눅스마스터 2급]],
-    text(fill: black80)[#link("https://www.ihd.or.kr/")[한국정보통신진흥협회], 2023.12],
+    text(fill: black90)[#link("https://www.ihd.or.kr/")[한국정보통신진흥협회], 2023.12],
   )
 ]
 #block(spacing: 1em)[
   #grid(
     columns: (105pt, 1fr),
     [#link("https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=430")[디지털정보활용능력]],
-    text(fill: black80)[
+    text(fill: black90)[
       스프레드시트 고급, #link("https://www.ihd.or.kr/")[한국정보통신진흥협회], 2012.12 \
       워드프로세서 중급, #link("https://www.ihd.or.kr/")[한국정보통신진흥협회], 2012.04 \
       프리젠테이션 고급, #link("https://www.ihd.or.kr/")[한국정보통신진흥협회], 2011.09 \
@@ -109,14 +109,14 @@
   #grid(
     columns: (105pt, 1fr),
     [프로그래밍 언어],
-    text(fill: black80)[C++, Java, Kotlin, JavaScript, TypeScript, Python, Rust, Dart],
+    text(fill: black90)[C++, Java, Kotlin, JavaScript, TypeScript, Python, Rust, Dart],
   )
 ]
 #block(spacing: 1em)[
   #grid(
     columns: (105pt, 1fr),
     [플랫폼 & 프레임워크],
-    text(fill: black80)[
+    text(fill: black90)[
       Arduino, Spring, Android, Node.js, Flutter \
       AI: TensorFlow, PyTorch \
       DevOps: Docker
@@ -127,7 +127,7 @@
   #grid(
     columns: (105pt, 1fr),
     [데이터베이스],
-    text(fill: black80)[MySQL, PostgreSQL],
+    text(fill: black90)[MySQL, PostgreSQL],
   )
 ]
 
