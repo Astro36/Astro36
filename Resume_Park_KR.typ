@@ -44,6 +44,11 @@
   ]
 ]
 
+#place(
+  top + right,
+  image("profile.jpg", width: 3cm),
+)
+
 == 학력
 #tile(
   [#link("https://www.inha.ac.kr/")[*인하대학교 공과대학 학사*]],
