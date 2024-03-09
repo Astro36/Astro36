@@ -63,7 +63,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   "Mar 2023 - Present",
   [
     Financial Market Research & Stock Investment Institute in Inha Univ.
-    - #accent[Research Team Leader] & Fund Manager#note[2024.01 - Present], #label[Assets under Management: #link("https://www.google.com/search?q=36000000+krw")[36M KRW]]
+    - #accent[Research Team Leader] & Fund Manager#note[Jan 2024 - Present], #label[Assets under Management: #link("https://www.google.com/search?q=36000000+krw")[37M KRW]]
     - Delivered 2 presentations at in-house #link("https://www.youtube.com/@bluechipmutualfund7790")[#accent[company analysis seminars]#note[YouTube]]
     - Published a #link("https://inhabluechip.com/forum/view/259643")[company analysis report] and 2 #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[news articles#note[Incheon Ilbo]]
   ],
@@ -143,8 +143,8 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   "Mar 2019 - Present",
   [
     Programming Study Group in Department of Information and Communication Engineering, Inha Univ.
-    - #accent[Group Leader]#note[2023.07 - Present]
-    - Authored blog posts about programming for #accent[over 4 years], #label[Total blog views: 180K, Monthly: 9K]
+    - #accent[Group Leader]#note[Jul 2023 - Mar 2024]
+    - Authored blog posts about programming for #accent[over 4 years], #label[Total blog views: 200K, Monthly: 9K]
   ],
 )
 #tile(
@@ -180,7 +180,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #tile(
   [#link("https://github.com/Astro36/qp")[*Quick Pool*], Open Source #pill[Rust]],
   "Nov 2021 - Dec 2021",
-  [High Performance Async Generic Pool for Rust, implemented by Lock-free Waiter Queue, \ #label[Downloads: 1.6K]]
+  [High Performance Async Generic Pool for Rust, implemented by Lock-free Waiter Queue, \ #label[Downloads: 2.1K]]
 )
 #tile(
   [*Spree*, Startup #pill[Python] #pill[C++]],
@@ -220,7 +220,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 #tile(
   [#link("https://github.com/Astro36/kodict")[*Kodict*], Open Source #pill[Rust]],
   "Nov 2018 - Feb 2019",
-  [Provides Korean Dictionary Implements and Crawler for Rust, #label[Downloads: 2.1K]]
+  [Provides Korean Dictionary Implements and Crawler for Rust, #label[Downloads: 2.6K]]
 )
 #tile(
   [#link("https://github.com/Astro36/kokoa")[*KokoaNLP*], Contest #pill[Javascript]],

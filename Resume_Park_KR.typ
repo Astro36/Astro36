@@ -143,14 +143,14 @@
   [#link("https://inhabluechip.com/")[*블루칩 뮤추얼펀드*], 인하대학교 주식투자 동아리],
   "2023.03 ~ 활동 중",
   [
-    #accent[리서치 팀장] 및 펀드 매니저#note[2024.01 \~ 현재], #label[펀드 운용규모: 3.6천만 원] \
+    #accent[리서치 팀장] 및 펀드 매니저#note[2024.01 \~ 현재], #label[펀드 운용규모: 3.7천만 원] \
     #link("https://www.youtube.com/@bluechipmutualfund7790")[기업분석 세미나#note[YouTube]] 발표, #link("https://inhabluechip.com/forum/view/259643")[기업분석 보고서] 작성 및 #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[인천일보] 기고
   ],
 )
 #tile(
   [#link("https://int-i.github.io/")[*인트아이*], #link("https://ice.inha.ac.kr/ice/2247/subview.do")[인하대학교 정보통신공학과] 프로그래밍 소모임],
   "2019.03 ~ 활동 중",
-  [#accent[소모임 회장]#note[2023.07 \~ 현재], 프로그래밍 스터디 모임 및 블로그 운영, \ #label[블로그 조회수: 총 18만 회, 월 9천 회]],
+  [#accent[소모임 회장]#note[2023.07 \~ 2024.03], 프로그래밍 스터디 모임 및 블로그 운영, \ #label[블로그 조회수: 총 20만 회, 월 9천 회]],
 )
 #tile(
   [#link("https://www.inhabas.com/")[*IBAS*], 인하대학교 빅데이터 학술동아리],
@@ -195,7 +195,7 @@
 #tile(
   [#link("https://github.com/Astro36/qp")[*Quick Pool*], 오픈소스 #pill[Rust]],
   "2021.11 ~ 2021.12",
-  [High Performance Async Generic Pool for Rust, implemented by Lock-free Waiter Queue, #label[다운로드: 1.6천 회]]
+  [High Performance Async Generic Pool for Rust, implemented by Lock-free Waiter Queue, #label[다운로드: 2.1천 회]]
 )
 #tile(
   [*Spree*, 창업 #pill[Python] #pill[C++]],
@@ -235,7 +235,7 @@
 #tile(
   [#link("https://github.com/Astro36/kodict")[*Kodict*], 오픈소스 #pill[Rust]],
   "2018.11 ~ 2019.02",
-  [Provides Korean Dictionary Implements and Crawler for Rust, \ #label[다운로드: 2.1천 회]]
+  [Provides Korean Dictionary Implements and Crawler for Rust, \ #label[다운로드: 2.6천 회]]
 )
 #tile(
   [#link("https://github.com/Astro36/kokoa")[*KokoaNLP*], 공모전 #pill[Javascript]],
