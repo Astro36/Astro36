@@ -37,10 +37,16 @@
 ]
 
 = 박승재
+#block(above: 1.5em)[
+  #text(size: 12pt, fill: black90)[
+    "컴퓨터는 마법으로 돌아가지 않는다. 원리에 집중하자."
+  ]
+]
 #block[
   #text(size: 10pt, fill: black80)[
+    만 23세, 군필, 대한민국 거주 \
     astro.psj\@gmail.com \
-    https://github.com/Astro36
+    https://github.com/Astro36 \
   ]
 ]
 
@@ -51,7 +57,7 @@
 
 == 학력
 #tile(
-  [#link("https://www.inha.ac.kr/")[*인하대학교 공과대학 학사*]],
+  [#link("https://www.inha.ac.kr/")[*인하대학교 학사*] (졸업예정)],
   "2019.03 ~ 재학 중",
   [
     #link("https://ice.inha.ac.kr/")[#accent[정보통신공학]] 전공, #link("https://gfiba.inha.ac.kr/")[#accent[글로벌금융학]] 부전공 \
@@ -61,7 +67,7 @@
 
 == 수상 및 사회경험
 #tile(
-  [#link("https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page")[*2023 데이터 크리에이터 캠프*], 우수상],
+  [#link("https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page")[*2023 데이터 크리에이터 캠프*], #accent[우수상]],
   "2023.09 ~ 2023.12",
   [
     빅데이터 멘토링 해커톤: #accent[음식 이미지 분류] 챌린지 \
@@ -69,9 +75,13 @@
   ],
 )
 #tile(
-  [*대한민국 육군*, 병장 만기전역],
-  "2021.01 ~ 2022.07",
-  [],
+  [#link("https://www.swmaestro.org/")[*SW마에스트로 11기 연수생*], 창의도전형 SW인재 육성 정부지원 사업],
+  "2020.05 ~ 2020.12",
+  [
+    자연어 빅데이터를 이용한 한글 교정 및 점진적 성능 향상이 가능한 #accent[불법 스팸·매크로 탐지 솔루션] 개발(Python, C++) \
+    창업, 프로그래밍, AI 멘토링 교육 이수 \
+    #link("https://www.msit.go.kr/")[과학기술정보통신부], #link("https://www.iitp.kr/")[정보통신기획평가원] 주관 / #link("https://www.fkii.org/")[한국정보산업연합회] 운영
+  ],
 )
 #tile(
   [*풀스택 프리랜서 개발자*],
@@ -82,7 +92,7 @@
   ],
 )
 #tile(
-  [*KAIST Creative Team Coding Challenge*, 우수상],
+  [*KAIST Creative Team Coding Challenge*, #accent[우수상]],
   "2018.03",
   [
     중·고등학생 소프트웨어 프로젝트 공모전 \
@@ -136,9 +146,7 @@
   )
 ]
 
-#pagebreak()
-
-== 동아리 및 연수경험
+== 동아리
 #tile(
   [#link("https://inhabluechip.com/")[*블루칩 뮤추얼펀드*], 인하대학교 주식투자 동아리],
   "2023.03 ~ 활동 중",
@@ -163,17 +171,12 @@
   []
 )
 #tile(
-  [#link("https://www.swmaestro.org/")[*SW마에스트로 11기*], 창의도전형 SW인재 육성 정부지원 사업],
-  "2020.05 ~ 2020.12",
-  [
-    자연어 빅데이터를 이용한 한글 교정 및 점진적 성능 향상이 가능한 #accent[불법 스팸·매크로 탐지 솔루션] 개발 \
-    #link("https://www.msit.go.kr/")[과학기술정보통신부], #link("https://www.iitp.kr/")[정보통신기획평가원] 주관 / #link("https://www.fkii.org/")[한국정보산업연합회] 운영
-  ],
-)
-#tile(
   [#link("https://prography.org/")[*Prography 4기 \~ 5기*], 연합 IT프로젝트 동아리],
   "2019.03 ~ 2020.02",
-  [#accent[프론트엔드・백엔드 개발자] 트랙, 심리상담사 매칭 플랫폼 및 힐링 음악 앱 개발],
+  [
+    #accent[프론트엔드・백엔드 개발자] 트랙, 심리상담사 매칭 플랫폼 및 힐링 음악 앱 개발 \
+    안드로이드 앱 및 API서버 담당(풀스택) / 서버와 PG사 결제API 연동 업무 수행
+  ],
 )
 #tile(
   [#link("https://cafe.naver.com/websinha")[*WEBS*], #link("http://startup.inha.ac.kr/")[인하대학교 창업지원단] 소속 창업동아리],
@@ -250,5 +253,5 @@
 
 #align(right)[
   #set text(size: 9pt)
-  _(최종수정일: #datetime.today().display("[year].[month]"))_
+  _(최종수정일: #datetime.today().display("[year].[month]"), #link("https://typst.app/")[Typst]로 작성됨)_
 ]

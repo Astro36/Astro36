@@ -162,7 +162,9 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   "Mar 2019 - Feb 2020",
   [
     Collaborative IT Project Club: #accent[Front-end & Back-end Developer] Track
+    - Android app and API server developer(Full-stack)
     - Developed a psychological counselor matching platform & meditation music player app
+    - Experienced in app server and PG payment API integration
   ],
 )
 
