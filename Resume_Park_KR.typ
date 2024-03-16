@@ -85,7 +85,7 @@
 )
 #tile(
   [*풀스택 프리랜서 개발자*],
-  "2019.09 ~ 2019.12",
+  "2019.09 ~ 2020.01",
   [
     #link("https://insightsolution.github.io/")[INSIGHT]: 인공지능 멘탈 헬스케어 솔루션 스타트업, #label[1천만 원 프로젝트] \
     #accent[안드로이드 앱] 및 인공지능 모델 #accent[API 서버] 개발 

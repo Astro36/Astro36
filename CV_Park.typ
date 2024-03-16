@@ -80,7 +80,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 )
 #tile(
   [*Full-stack Freelance*],
-  "Sep 2019 - Dec 2019",
+  "Sep 2019 - Jan 2020",
   [
     #link("https://insightsolution.github.io/")[INSIGHT]: AI-based Mental Healthcare Solution Startup, #label[#link("https://www.google.com/search?q=10000000+krw")[10M KRW] project]
     - Developed an Android app in Kotlin and an API server in Python to power an AI model
