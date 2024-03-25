@@ -151,7 +151,7 @@
   [#link("https://inhabluechip.com/")[*블루칩 뮤추얼펀드*], 인하대학교 주식투자 동아리],
   "2023.03 ~ 활동 중",
   [
-    #accent[리서치 팀장] 및 펀드 매니저#note[2024.01 \~ 현재], #label[펀드 운용규모: 3.7천만 원] \
+    #accent[리서치 팀장] 및 펀드 매니저#note[2024.01 \~ 현재], #label[#link("https://fund.inhabluechip.com/")[펀드 운용규모]: 3.8천만 원] \
     #link("https://www.youtube.com/@bluechipmutualfund7790")[기업분석 세미나#note[YouTube]] 발표, #link("https://inhabluechip.com/forum/view/259643")[기업분석 보고서] 작성 및 #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[인천일보] 기고
   ],
 )

@@ -63,8 +63,8 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   "Mar 2023 - Present",
   [
     Financial Market Research & Stock Investment Institute in Inha Univ.
-    - #accent[Research Team Leader] & Fund Manager#note[Jan 2024 - Present], #label[Assets under Management: #link("https://www.google.com/search?q=36000000+krw")[37M KRW]]
-    - Delivered 2 presentations at in-house #link("https://www.youtube.com/@bluechipmutualfund7790")[#accent[company analysis seminars]#note[YouTube]]
+    - #accent[Research Team Leader] & Fund Manager#note[Jan 2024 - Present], #label[#link("https://fund.inhabluechip.com/")[Assets under Management]: #link("https://www.google.com/search?q=36000000+krw")[38M KRW]]
+    - Delivered 3 presentations at in-house #link("https://www.youtube.com/@bluechipmutualfund7790")[#accent[company analysis seminars]#note[YouTube]]
     - Published a #link("https://inhabluechip.com/forum/view/259643")[company analysis report] and 2 #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[news articles#note[Incheon Ilbo]]
   ],
 )
