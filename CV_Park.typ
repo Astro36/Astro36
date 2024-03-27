@@ -170,6 +170,11 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 
 == Projects
 #tile(
+  [#link("https://play.google.com/store/apps/details?id=me.astro36.mystock")[*Stock Earnings Calendar*], Toy Project #pill[Flutter]],
+  "Jun 2023 - Jul 2023",
+  [Stock Prices and Earnings Release Dates Viewer, uploaded to Google Play]
+)
+#tile(
   [#link("https://github.com/Astro36/ICE3015-project")[*Self-Balancing Robot*], School Project #pill[C++]],
   "May 2023 - Jun 2023",
   [2-Wheel Self-Balancing Robot with PID Controller, using ATmega4809 & MPU6050, no library dependencies, _Embedded System Capstone Design: Final Project_]
@@ -180,14 +185,25 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [Interactive 3D Product Catalog with OpenGL & Blender, _Computer Graphics Capstone Design: Mini Project_]
 )
 #tile(
+  [#link("https://github.com/ICE-LIFE/ICE-LIFE-Backend")[*ICE Market*], Toy Project #pill[React] #pill[Spring]],
+  "Jul 2022 - Aug 2022",
+  [
+    Online Flea Market Service for Department of Information and Communication Engineering, \
+    #accent[Team Project] - Role: Set up infrastructure and implemented 1:1 chat API using web sockets
+  ]
+)
+#tile(
   [#link("https://github.com/Astro36/qp")[*Quick Pool*], Open Source #pill[Rust]],
   "Nov 2021 - Dec 2021",
   [High Performance Async Generic Pool for Rust, implemented by Lock-free Waiter Queue, \ #label[Downloads: 2.1K]]
 )
 #tile(
-  [*Spree*, Startup #pill[Python] #pill[C++]],
+  [*Spree*, Startup #pill[Django] #pill[TensorFlow] #pill[C++]],
   "Jul 2020 - Dec 2020",
-  [Robust Illegal Spam Detection Solution via CNN, _IITP-2020-SW Maestro training course_]
+  [
+    Robust Illegal Spam Detection Solution via CNN, _IITP-2020-SW Maestro training course_, \
+    #accent[Team Project] - Role: Designed a CNN-based spam message classification model and ported the trained TensorFlow model to C++ code for deployment
+  ]
 )
 #tile(
   [#link("https://github.com/Astro36/kotka")[*└ Kotka*], Open Source #pill[Python]],
@@ -195,29 +211,41 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [#h(1em) Korean Obfuscation ToolKit for Data Augmentation, _IITP-2020-SW Maestro training course_]
 )
 #tile(
-  [*Shim*, Startup #pill[Kotlin] #pill[Javascript]],
+  [*Shim*, Startup #pill[Android] #pill[Express.js]],
   "Sep 2019 - Feb 2020",
-  [Psychological Counselor Matching Platform, _Prography 5#super[th]_]
+  [
+    Psychological Counselor Matching Platform, _Prography 5#super[th]_ \
+    #accent[Team Project] - Role: Developed an Android app and an API server, including PG payment API integration
+  ]
 )
 #tile(
-  [*Care U*, Hackathon #pill[Dart] #pill[Javascript]],
+  [*Care U*, Hackathon #pill[Flutter]],
   "Jan 2020",
-  [Shared Scooter Accident Prevention Solution App using Computer Vision, _2020 Super Challenge Hackathon_]
+  [
+    Shared Scooter Accident Prevention Solution App using Computer Vision, _2020 Super Challenge Hackathon_ \
+    #accent[Team Project] - Role: Developed a Flutter app that runs a TensorFlow Lite model
+  ]
 )
 #tile(
-  [*Hyeyum*, School Project #pill[Python] #pill[Javascript]],
+  [*Hyeyum*, School Project #pill[Express.js] #pill[Python]],
   "Nov 2019 - Dec 2019",
   [Language Habit Correction Robot with Google Speech Recognition API, _Creative Design for Information and Communication Engineering: Final Project_]
 )
 #tile(
-  [#link("https://github.com/int-i/brainha-demo-server")[*BraInha*], Hackathon #pill[Java] #pill[Javascript]],
+  [#link("https://github.com/int-i/brainha-demo-server")[*BraInha*], Hackathon #pill[Android] #pill[Express.js]],
   "Nov 2019",
-  [On-campus Academic Q&A Platform App, _2019 Inha SW Hackathon_]
+  [
+    On-campus Academic Q&A Platform App, _2019 Inha SW Hackathon_ \
+    #accent[Team Project] - Role: Set up infrastructure and developed an API server
+  ]
 )
 #tile(
-  [#link("https://github.com/watchdocs")[*WATCH_DOCS*], Hackathon #pill[Javascript]],
+  [#link("https://github.com/watchdocs")[*WATCH_DOCS*], Hackathon #pill[Vue.js] #pill[Express.js]],
   "Aug 2019",
-  [Business Document Management Service by WaykiChain Smart Contract, _Huobi Korea X WaykiChain Hackathon_]
+  [
+    Business Document Management Service by WaykiChain Smart Contract, _Huobi Korea X WaykiChain Hackathon_ \
+    #accent[Team Project] - Role: Developed service web pages with Vue.js
+  ]
 )
 #tile(
   [#link("https://github.com/Astro36/kodict")[*Kodict*], Open Source #pill[Rust]],
@@ -225,17 +253,19 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [Provides Korean Dictionary Implements and Crawler for Rust, #label[Downloads: 2.6K]]
 )
 #tile(
-  [#link("https://github.com/Astro36/kokoa")[*KokoaNLP*], Contest #pill[Javascript]],
+  [#link("https://github.com/Astro36/kokoa")[*KokoaNLP*], Contest #pill[Node.js]],
   "Apr 2018 - Jul 2018",
   [Unsupervised Learning Korean Kernel Object Analyzer, _2018 Korea Olympiad in Informatics: Contest Track_]
 )
 #tile(
-  [#link("https://github.com/Astro36/touch-music")[*Touch Music*], Contest #pill[Javascript] #pill[Python]],
+  [#link("https://github.com/Astro36/touch-music")[*Touch Music*], Contest #pill[Electron] #pill[Python]],
   "Mar 2018",
-  [Easy Music Finder via Word2vec on Song Lyrics, _2018 KAIST Creative Team Coding Challenge_]
+  [
+    Easy Music Finder via Word2vec on Song Lyrics, _2018 KAIST Creative Team Coding Challenge_ \
+    #accent[Team Project] - Role: Built a song lyrics database by scraping Melon, analyzed song styles using Word2Vec, and developed a desktop app with Electron
+  ]
 )
 
-#linebreak()
 #align(right)[
   #set text(size: 0.8em, fill: black70)
   (Last updated: #datetime.today().display("[month repr:short] [year]"))

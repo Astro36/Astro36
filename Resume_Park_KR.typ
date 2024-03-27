@@ -186,6 +186,11 @@
 
 == 프로젝트
 #tile(
+  [#link("https://play.google.com/store/apps/details?id=me.astro36.mystock")[*Stock Earnings Calendar*], 토이 프로젝트 #pill[Flutter]],
+  "2023.06 ~ 2023.07",
+  [Stock Prices and Earnings Release Dates Viewer, uploaded to Google Play]
+)
+#tile(
   [#link("https://github.com/Astro36/ICE3015-project")[*Self-Balancing Robot*], 교내 프로젝트 #pill[C++]],
   "2023.05 ~ 2023.06",
   [2-Wheel Self-Balancing Robot with PID Controller, using ATmega4809 & MPU6050, no library dependencies, _임베디드시스템설계: 최종 프로젝트_]
@@ -196,14 +201,26 @@
   [Interactive 3D Product Catalog with OpenGL & Blender, _컴퓨터그래픽스설계: 미니 프로젝트_]
 )
 #tile(
+  [#link("https://github.com/ICE-LIFE/ICE-LIFE-Backend")[*ICE Market*], 토이 프로젝트 #pill[React] #pill[Spring]],
+  "2022.07 - 2022.08",
+  [
+    Online Flea Market Service for Department of Information and Communication Engineering, \
+    #accent[팀 프로젝트] - 역할: Set up infrastructure and implemented 1:1 chat API using web sockets
+  ]
+)
+#tile(
   [#link("https://github.com/Astro36/qp")[*Quick Pool*], 오픈소스 #pill[Rust]],
   "2021.11 ~ 2021.12",
   [High Performance Async Generic Pool for Rust, implemented by Lock-free Waiter Queue, #label[다운로드: 2.1천 회]]
 )
+
 #tile(
-  [*Spree*, 창업 #pill[Python] #pill[C++]],
+  [*Spree*, 오픈소스 #pill[Django] #pill[TensorFlow] #pill[C++]],
   "2020.07 ~ 2020.12",
-  [Robust Illegal Spam Detection Solution via CNN, _IITP-2020-SW마에스트로과정_]
+  [
+    Robust Illegal Spam Detection Solution via CNN, _IITP-2020-SW마에스트로과정_, \
+    #accent[팀 프로젝트] - 역할: Designed a CNN-based spam message classification model and ported the trained TensorFlow model to C++ code for deployment
+  ]
 )
 #tile(
   [#link("https://github.com/Astro36/kotka")[*└ Kotka*], 오픈소스 #pill[Python]],
@@ -211,29 +228,41 @@
   [#h(1em) Korean Obfuscation ToolKit for Data Augmentation, _IITP-2020-SW마에스트로과정_]
 )
 #tile(
-  [*Shim*, 창업 #pill[Kotlin] #pill[Javascript]],
+  [*Shim*, 창업 #pill[Android] #pill[Express.js]],
   "2019.09 ~ 2020.02",
-  [Psychological Counselor Matching Platform, _Prography 5기_]
+  [
+    Psychological Counselor Matching Platform, _Prography 5기_ \
+    #accent[팀 프로젝트] - 역할: Developed an Android app and an API server, including PG payment API integration
+  ]
 )
 #tile(
-  [*Care U*, 해커톤 #pill[Dart] #pill[Javascript]],
+  [*Care U*, 해커톤 #pill[Flutter]],
   "2020.01",
-  [Shared Scooter Accident Prevention Solution App using Computer Vision, _2020 Super Challenge Hackathon_]
+  [
+    Shared Scooter Accident Prevention Solution App using Computer Vision, _2020 Super Challenge Hackathon_ \
+    #accent[팀 프로젝트] - 역할: Developed a Flutter app that runs a TensorFlow Lite model
+  ]
 )
 #tile(
-  [*Hyeyum*, 교내 프로젝트 #pill[Python] #pill[Javascript]],
+  [*Hyeyum*, 교내 프로젝트 #pill[Express.js] #pill[Python]],
   "2019.11 ~ 2019.12",
   [Language Habit Correction Robot with Google Speech Recognition API, _창의적 정보통신공학설계: 최종 프로젝트_]
 )
 #tile(
-  [#link("https://github.com/int-i/brainha-demo-server")[*BraInha*], 해커톤 #pill[Java] #pill[Javascript]],
+  [#link("https://github.com/int-i/brainha-demo-server")[*BraInha*], 해커톤 #pill[Android] #pill[Express.js]],
   "2019.11",
-  [On-campus Academic Q&A Platform App, _2019 Inha SW Hackathon_]
+  [
+    On-campus Academic Q&A Platform App, _2019 Inha SW Hackathon_ \
+    #accent[팀 프로젝트] - 역할: Set up infrastructure and developed an API server
+  ]
 )
 #tile(
-  [#link("https://github.com/watchdocs")[*WATCH_DOCS*], 해커톤 #pill[Javascript]],
+  [#link("https://github.com/watchdocs")[*WATCH_DOCS*], 해커톤 #pill[Vue.js] #pill[Express.js]],
   "2019.08",
-  [Business Document Management Service by WaykiChain Smart Contract, _Huobi Korea X WaykiChain Hackathon_]
+  [
+    Business Document Management Service by WaykiChain Smart Contract, _Huobi Korea X WaykiChain Hackathon_ \
+    #accent[팀 프로젝트] - 역할: Developed service web pages with Vue.js
+  ]
 )
 #tile(
   [#link("https://github.com/Astro36/kodict")[*Kodict*], 오픈소스 #pill[Rust]],
@@ -241,14 +270,17 @@
   [Provides Korean Dictionary Implements and Crawler for Rust, \ #label[다운로드: 2.6천 회]]
 )
 #tile(
-  [#link("https://github.com/Astro36/kokoa")[*KokoaNLP*], 공모전 #pill[Javascript]],
+  [#link("https://github.com/Astro36/kokoa")[*KokoaNLP*], 공모전 #pill[Node.js]],
   "2018.04 ~ 2018.07",
   [Unsupervised Learning Korean Kernel Object Analyzer, _2018 한국정보올림피아드 공모부문_]
 )
 #tile(
-  [#link("https://github.com/Astro36/touch-music")[*Touch Music*], 공모전 #pill[Javascript] #pill[Python]],
+  [#link("https://github.com/Astro36/touch-music")[*Touch Music*], 공모전 #pill[Electron] #pill[Python]],
   "2018.03",
-  [Easy Music Finder via Word2vec on Song Lyrics, _2018 KAIST Creative Team Coding Challenge_]
+  [
+    Easy Music Finder via Word2vec on Song Lyrics, _2018 KAIST Creative Team Coding Challenge_ \
+    #accent[팀 프로젝트] - 역할: Built a song lyrics database by scraping Melon, analyzed song styles using Word2Vec, and developed a desktop app with Electron
+  ]
 )
 
 #align(right)[
