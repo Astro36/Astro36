@@ -39,12 +39,12 @@
 = 박승재
 #block(above: 1.5em)[
   #text(size: 12pt, fill: black90)[
-    "컴퓨터는 마법으로 돌아가지 않는다. 원리에 집중하자."
+    컴퓨터는 마법으로 돌아가지 않는다. 원리에 집중하자.
   ]
 ]
 #block[
   #text(size: 10pt, fill: black80)[
-    만 23세, 군필, 대한민국 거주 \
+    만 23세, 군필 \
     astro.psj\@gmail.com \
     https://github.com/Astro36 \
   ]
@@ -61,7 +61,31 @@
   "2019.03 ~ 재학 중",
   [
     #link("https://ice.inha.ac.kr/")[#accent[정보통신공학]] 전공, #link("https://gfiba.inha.ac.kr/")[#accent[글로벌금융학]] 부전공 \
-    학점 4.38/4.5, 석차 1/150
+    학점 4.38/4.5, #accent[석차 1/150]
+  ],
+)
+#tile(
+  [#link("https://www.inha.ac.kr/")[*백석고등학교*] 졸업],
+  "2016.03 ~ 2019.02",
+  [],
+)
+
+== 교육이력
+#tile(
+  [#link("https://www.swmaestro.org/")[*SW마에스트로 제11기 연수과정 수료*], 창의도전형 SW인재육성 정부지원 사업],
+  "2020.05 ~ 2020.12",
+  [
+    자연어 빅데이터를 이용한 한글 교정 및 점진적 성능 향상이 가능한 #accent[불법 스팸·매크로 탐지 솔루션] 개발(Python, C++) \
+    창업, 프로그래밍, AI 멘토링 교육 이수 \
+    #link("https://www.msit.go.kr/")[과학기술정보통신부], #link("https://www.iitp.kr/")[정보통신기획평가원] 주관 / #link("https://www.fkii.org/")[한국정보산업연합회] 운영
+  ],
+)
+#tile(
+  [*제4회 국가슈퍼컴퓨팅 청소년캠프 수료*, 고등학생 슈퍼컴퓨팅 인재발굴 사업],
+  "2018.07",
+  [
+    베어울프 타입 슈퍼컴퓨터 강의, MPI 병렬 프로그래밍 실습, AI, 드론 활용 교육 \
+    #link("https://www.kisti.re.kr/")[한국과학기술정보연구원], #link("https://www.unist.ac.kr/")[UNIST] 주관
   ],
 )
 
@@ -70,17 +94,8 @@
   [#link("https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page")[*2023 데이터 크리에이터 캠프*], #accent[우수상]],
   "2023.09 ~ 2023.12",
   [
-    빅데이터 멘토링 해커톤: #accent[음식 이미지 분류] 챌린지 \
+    빅데이터 멘토링 해커톤: 딥러닝 #accent[음식 이미지 분류] 챌린지 \
     #link("https://kbig.kr/")[K-ICT 빅데이터센터] 주최 / #link("https://www.msit.go.kr/")[과학기술정보통신부], #link("https://www.nia.or.kr/")[한국지능정보사회진흥원] 주관
-  ],
-)
-#tile(
-  [#link("https://www.swmaestro.org/")[*SW마에스트로 11기 연수생*], 창의도전형 SW인재 육성 정부지원 사업],
-  "2020.05 ~ 2020.12",
-  [
-    자연어 빅데이터를 이용한 한글 교정 및 점진적 성능 향상이 가능한 #accent[불법 스팸·매크로 탐지 솔루션] 개발(Python, C++) \
-    창업, 프로그래밍, AI 멘토링 교육 이수 \
-    #link("https://www.msit.go.kr/")[과학기술정보통신부], #link("https://www.iitp.kr/")[정보통신기획평가원] 주관 / #link("https://www.fkii.org/")[한국정보산업연합회] 운영
   ],
 )
 #tile(
@@ -119,33 +134,6 @@
   )
 ]
 
-== 보유기술
-#block(spacing: 1em)[
-  #grid(
-    columns: (105pt, 1fr),
-    [프로그래밍 언어],
-    text(fill: black90)[C++, Java, Kotlin, JavaScript, TypeScript, Python, Rust, Dart],
-  )
-]
-#block(spacing: 1em)[
-  #grid(
-    columns: (105pt, 1fr),
-    [플랫폼 & 프레임워크],
-    text(fill: black90)[
-      Arduino, Spring, Android, Node.js, Flutter \
-      AI: TensorFlow, PyTorch \
-      DevOps: Docker
-    ],
-  )
-]
-#block(spacing: 1em)[
-  #grid(
-    columns: (105pt, 1fr),
-    [데이터베이스],
-    text(fill: black90)[MySQL, PostgreSQL],
-  )
-]
-
 == 동아리
 #tile(
   [#link("https://inhabluechip.com/")[*블루칩 뮤추얼펀드*], 인하대학교 주식투자 동아리],
@@ -175,7 +163,7 @@
   "2019.03 ~ 2020.02",
   [
     #accent[프론트엔드・백엔드 개발자] 트랙, 심리상담사 매칭 플랫폼 및 힐링 음악 앱 개발 \
-    안드로이드 앱 및 API서버 담당(풀스택) / 서버와 PG사 결제API 연동 업무 수행
+    안드로이드 앱 및 API 서버 담당(풀스택) / 서버와 PG사 결제 API 연동 업무 수행
   ],
 )
 #tile(
@@ -184,102 +172,133 @@
   [],
 )
 
+== 보유기술
+#block(spacing: 1em)[
+  #grid(
+    columns: (105pt, 1fr),
+    [프로그래밍 언어],
+    text(fill: black90)[C++, Java, Kotlin, JavaScript, TypeScript, Python, Rust, Dart],
+  )
+]
+#block(spacing: 1em)[
+  #grid(
+    columns: (105pt, 1fr),
+    [플랫폼 & 프레임워크],
+    text(fill: black90)[
+      Arduino, Spring, Android, Node.js, Flutter \
+      AI: TensorFlow, PyTorch \
+      DevOps: Docker
+    ],
+  )
+]
+#block(spacing: 1em)[
+  #grid(
+    columns: (105pt, 1fr),
+    [데이터베이스],
+    text(fill: black90)[MySQL, PostgreSQL, MongoDB],
+  )
+]
+
 == 프로젝트
 #tile(
   [#link("https://play.google.com/store/apps/details?id=me.astro36.mystock")[*Stock Earnings Calendar*], 토이 프로젝트 #pill[Flutter]],
   "2023.06 ~ 2023.07",
-  [Stock Prices and Earnings Release Dates Viewer, uploaded to Google Play]
+  [관심기업의 주가와 실적 발표일을 보여주는 달력, Google Play에 업로드]
 )
 #tile(
   [#link("https://github.com/Astro36/ICE3015-project")[*Self-Balancing Robot*], 교내 프로젝트 #pill[C++]],
   "2023.05 ~ 2023.06",
-  [2-Wheel Self-Balancing Robot with PID Controller, using ATmega4809 & MPU6050, no library dependencies, _임베디드시스템설계: 최종 프로젝트_]
+  [PID 제어기를 이용한 2륜 자가균형 로봇, ATmega4809와 MPU6050 센서 사용, 외부 라이브러리 없이 데이터시트를 참고해 구현, _임베디드시스템설계: 최종 프로젝트_]
 )
 #tile(
   [#link("https://github.com/Astro36/ICE3016-miniproject")[*3D Product Catalog*], 교내 프로젝트 #pill[C++]],
   "2022.12",
-  [Interactive 3D Product Catalog with OpenGL & Blender, _컴퓨터그래픽스설계: 미니 프로젝트_]
+  [3D 제품 반응형 카탈로그, OpenGL과 Blender(모델링) 이용, _컴퓨터그래픽스설계: 미니 프로젝트_]
 )
 #tile(
-  [#link("https://github.com/ICE-LIFE/ICE-LIFE-Backend")[*ICE Market*], 토이 프로젝트 #pill[React] #pill[Spring]],
-  "2022.07 - 2022.08",
+  [#link("https://github.com/ICE-LIFE/ICE-LIFE-Backend")[*ICE Market*], 토이 프로젝트 #pill[React] #pill[Spring] #pill[MySQL]],
+  "2022.07 ~ 2022.08",
   [
-    Online Flea Market Service for Department of Information and Communication Engineering, \
-    #accent[팀 프로젝트] - 역할: Set up infrastructure and implemented 1:1 chat API using web sockets
+    정보통신공학과 온라인 중고장터 서비스, 학생회 공약 실행 \
+    #accent[팀 프로젝트] - 역할: Docker와 NGINX 세팅, Spring 웹 소켓을 이용한 1대1 채팅 API 구현
   ]
 )
 #tile(
   [#link("https://github.com/Astro36/qp")[*Quick Pool*], 오픈소스 #pill[Rust]],
   "2021.11 ~ 2021.12",
-  [High Performance Async Generic Pool for Rust, implemented by Lock-free Waiter Queue, #label[다운로드: 2.1천 회]]
+  [
+    고성능 비동기 Generic Pool, 자원할당 Queue에 Lock-free 자료구조 적용, \
+    #label[다운로드: 2.1천 회]
+  ]
 )
-
 #tile(
   [*Spree*, 오픈소스 #pill[Django] #pill[TensorFlow] #pill[C++]],
   "2020.07 ~ 2020.12",
   [
-    Robust Illegal Spam Detection Solution via CNN, _IITP-2020-SW마에스트로과정_, \
-    #accent[팀 프로젝트] - 역할: Designed a CNN-based spam message classification model and ported the trained TensorFlow model to C++ code for deployment
+    자연어 빅데이터를 이용한 한글 교정 및 점진적 성능 향상이 가능한 불법 스팸・매크로 탐지 솔루션, _IITP-2020-SW마에스트로과정_, \
+    #accent[팀 프로젝트] - 역할: CNN 기반 스팸 메시지 분류 모델 설계, 학습된 모델을 C++ 라이브러리 형태로 포팅해 배포
   ]
 )
 #tile(
   [#link("https://github.com/Astro36/kotka")[*└ Kotka*], 오픈소스 #pill[Python]],
   "2020.07 ~ 2020.08",
-  [#h(1em) Korean Obfuscation ToolKit for Data Augmentation, _IITP-2020-SW마에스트로과정_]
-)
-#tile(
-  [*Shim*, 창업 #pill[Android] #pill[Express.js]],
-  "2019.09 ~ 2020.02",
-  [
-    Psychological Counselor Matching Platform, _Prography 5기_ \
-    #accent[팀 프로젝트] - 역할: Developed an Android app and an API server, including PG payment API integration
+  box(inset: (left: 1em))[
+    데이터 Augmentation을 위한 한글 난독화 도구, _IITP-2020-SW마에스트로과정_
   ]
 )
 #tile(
-  [*Care U*, 해커톤 #pill[Flutter]],
+  [*Shim*, 창업 #pill[Android] #pill[Express.js] #pill[MySQL]],
+  "2019.09 ~ 2020.02",
+  [
+    심리상담사 매칭 플랫폼 및 힐링 음악 앱, _Prography 5기_ \
+    #accent[팀 프로젝트] - 역할: 안드로이드 앱 및 API 서버 개발, 서버와 PG사 결제 API 연동 업무 수행
+  ]
+)
+#tile(
+  [*Care U*, 해커톤 #pill[Flutter] #pill[TensorFlow]],
   "2020.01",
   [
-    Shared Scooter Accident Prevention Solution App using Computer Vision, _2020 Super Challenge Hackathon_ \
-    #accent[팀 프로젝트] - 역할: Developed a Flutter app that runs a TensorFlow Lite model
+    컴퓨터 비전 기술을 활용한 공유킥보드 사고 예방 솔루션, _2020 슈퍼 챌린지 해커톤_ \
+    #accent[팀 프로젝트] - 역할: TensorFlow Lite 모델을 실행하는 Flutter 앱 개발
   ]
 )
 #tile(
   [*Hyeyum*, 교내 프로젝트 #pill[Express.js] #pill[Python]],
   "2019.11 ~ 2019.12",
-  [Language Habit Correction Robot with Google Speech Recognition API, _창의적 정보통신공학설계: 최종 프로젝트_]
+  [Google 음성 인식 API를 이용한 언어 습관 교정 로봇, _창의적 정보통신공학설계: 최종 프로젝트_]
 )
 #tile(
-  [#link("https://github.com/int-i/brainha-demo-server")[*BraInha*], 해커톤 #pill[Android] #pill[Express.js]],
+  [#link("https://github.com/int-i/brainha-demo-server")[*BraInha*], 해커톤 #pill[Android] #pill[Express.js] #pill[MySQL]],
   "2019.11",
   [
-    On-campus Academic Q&A Platform App, _2019 Inha SW Hackathon_ \
-    #accent[팀 프로젝트] - 역할: Set up infrastructure and developed an API server
+    교내 전공 공부 Q&A 플랫폼 앱, _2019 인하 SW 해커톤_ \
+    #accent[팀 프로젝트] - 역할: Docker와 NGINX 세팅, API 서버 개발
   ]
 )
 #tile(
-  [#link("https://github.com/watchdocs")[*WATCH_DOCS*], 해커톤 #pill[Vue.js] #pill[Express.js]],
+  [#link("https://github.com/watchdocs")[*WATCH_DOCS*], 해커톤 #pill[Vue.js] #pill[Express.js] #pill[MongoDB]],
   "2019.08",
   [
-    Business Document Management Service by WaykiChain Smart Contract, _Huobi Korea X WaykiChain Hackathon_ \
-    #accent[팀 프로젝트] - 역할: Developed service web pages with Vue.js
+    WaykiChain Smart Contract를 이용한 비즈니스 문서 관리 서비스, _Huobi Korea X WaykiChain Hackathon_ \
+    #accent[팀 프로젝트] - 역할: Vue.js를 이용한 서비스 웹 페이지 개발
   ]
 )
 #tile(
   [#link("https://github.com/Astro36/kodict")[*Kodict*], 오픈소스 #pill[Rust]],
   "2018.11 ~ 2019.02",
-  [Provides Korean Dictionary Implements and Crawler for Rust, \ #label[다운로드: 2.6천 회]]
+  [효율적 탐색을 위한 한국어 국어사전 자료구조 구현 및 국어사전 크롤러 제공, \ #label[다운로드: 2.6천 회]]
 )
 #tile(
   [#link("https://github.com/Astro36/kokoa")[*KokoaNLP*], 공모전 #pill[Node.js]],
   "2018.04 ~ 2018.07",
-  [Unsupervised Learning Korean Kernel Object Analyzer, _2018 한국정보올림피아드 공모부문_]
+  [비지도 학습 기반의 한국어 자연어 처리 도구, _2018 한국정보올림피아드 공모부문_]
 )
 #tile(
   [#link("https://github.com/Astro36/touch-music")[*Touch Music*], 공모전 #pill[Electron] #pill[Python]],
   "2018.03",
   [
-    Easy Music Finder via Word2vec on Song Lyrics, _2018 KAIST Creative Team Coding Challenge_ \
-    #accent[팀 프로젝트] - 역할: Built a song lyrics database by scraping Melon, analyzed song styles using Word2Vec, and developed a desktop app with Electron
+    마인드맵 형식의 음악 검색 서비스, _2018 KAIST Creative Team Coding Challenge_ \
+    #accent[팀 프로젝트] - 역할: Melon 노래 가사 크롤링, Word2Vec을 이용한 노래 스타일 분석 알고리즘 개발, Electron 앱 개발
   ]
 )
 
