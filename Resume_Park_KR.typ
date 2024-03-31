@@ -237,7 +237,7 @@
   ]
 )
 #tile(
-  [*Spree*, 오픈소스 #pill[Django] #pill[TensorFlow] #pill[C++]],
+  [*Spree*, 창업 #pill[Django] #pill[TensorFlow] #pill[C++]],
   "2020.07 ~ 2020.12",
   [
     자연어 빅데이터를 이용한 한글 교정 및 점진적 성능 향상이 가능한 불법 스팸・매크로 탐지 솔루션, _IITP-2020-SW마에스트로과정_, \
