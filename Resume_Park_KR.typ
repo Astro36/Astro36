@@ -201,22 +201,27 @@
 
 == 프로젝트
 #tile(
+  [#link("https://fund.inhabluechip.com/")[*BCMF NAV*], 동아리 프로젝트 #pill[Tailwind CSS] #pill[GitHub Actions]],
+  "2024.01",
+  [교내 주식투자 동아리에서 운영하는 블루칩 뮤추얼펀드의 주당순자산가치(NAV)와 총운용자산(AUM)를 매일 계산해서 보여주는 서비스]
+)
+#tile(
   [#link("https://play.google.com/store/apps/details?id=me.astro36.mystock")[*Stock Earnings Calendar*], 토이 프로젝트 #pill[Flutter]],
   "2023.06 ~ 2023.07",
   [관심기업의 주가와 실적 발표일을 보여주는 달력, Google Play에 업로드]
 )
 #tile(
-  [#link("https://github.com/Astro36/ICE3015-project")[*Self-Balancing Robot*], 교내 프로젝트 #pill[C++]],
+  [#link("https://github.com/Astro36/ICE3015-project")[*Self-Balancing Robot*], 교과목 프로젝트 #pill[C++]],
   "2023.05 ~ 2023.06",
   [PID 제어기를 이용한 2륜 자가균형 로봇, ATmega4809와 MPU6050 센서 사용, 외부 라이브러리 없이 데이터시트를 참고해 구현, _임베디드시스템설계: 최종 프로젝트_]
 )
 #tile(
-  [#link("https://github.com/Astro36/ICE3016-miniproject")[*3D Product Catalog*], 교내 프로젝트 #pill[C++]],
+  [#link("https://github.com/Astro36/ICE3016-miniproject")[*3D Product Catalog*], 교과목 프로젝트 #pill[C++]],
   "2022.12",
   [3D 제품 반응형 카탈로그, OpenGL과 Blender(모델링) 이용, _컴퓨터그래픽스설계: 미니 프로젝트_]
 )
 #tile(
-  [#link("https://github.com/ICE-LIFE/ICE-LIFE-Backend")[*ICE Market*], 토이 프로젝트 #pill[React] #pill[Spring] #pill[MySQL]],
+  [#link("https://github.com/ICE-LIFE/ICE-LIFE-Backend")[*ICE Market*], 학생회 프로젝트 #pill[React] #pill[Spring] #pill[MySQL]],
   "2022.07 ~ 2022.08",
   [
     정보통신공학과 온라인 중고장터 서비스, 학생회 공약 실행 \
@@ -263,7 +268,7 @@
   ]
 )
 #tile(
-  [*Hyeyum*, 교내 프로젝트 #pill[Express.js] #pill[Python]],
+  [*Hyeyum*, 교과목 프로젝트 #pill[Express.js] #pill[Python]],
   "2019.11 ~ 2019.12",
   [Google 음성 인식 API를 이용한 언어 습관 교정 로봇, _창의적 정보통신공학설계: 최종 프로젝트_]
 )
@@ -303,6 +308,7 @@
 )
 
 #align(right)[
-  #set text(size: 9pt)
-  _(최종수정일: #datetime.today().display("[year].[month]"), #link("https://typst.app/")[Typst]로 작성됨)_
+  #text(size: 9pt, fill: black70)[
+    _(최종 수정: #datetime.today().display("[year].[month]"), #link("https://typst.app/")[Typst]로 작성됨)_
+  ] 
 ]
