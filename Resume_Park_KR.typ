@@ -52,7 +52,7 @@
 
 #place(
   top + right,
-  image("profile.jpg", width: 3cm),
+  image("assets/profile.jpg", width: 3cm),
 )
 
 == 학력
@@ -203,22 +203,61 @@
 #tile(
   [#link("https://fund.inhabluechip.com/")[*BCMF NAV*], 동아리 프로젝트 #pill[Tailwind CSS] #pill[GitHub Actions]],
   "2024.01",
-  [교내 주식투자 동아리에서 운영하는 블루칩 뮤추얼펀드의 주당순자산가치(NAV)와 총운용자산(AUM)를 매일 계산해서 보여주는 서비스]
+  [
+    교내 주식투자 동아리에서 운영하는 블루칩 뮤추얼펀드의 주당순자산가치(NAV)와 총운용자산(AUM)를 매일 계산해서 보여주는 서비스(반응형 디자인)
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/bcmf_nav_0.png", height: 7.5cm),
+      image("assets/bcmf_nav_1.png", height: 7.5cm),
+    )
+  ]
 )
 #tile(
   [#link("https://play.google.com/store/apps/details?id=me.astro36.mystock")[*Stock Earnings Calendar*], 토이 프로젝트 #pill[Flutter]],
   "2023.06 ~ 2023.07",
-  [관심기업의 주가와 실적 발표일을 보여주는 달력, Google Play에 업로드]
+  [
+    관심기업의 주가와 실적 발표일을 보여주는 달력, Google Play에 업로드
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/mystock_0.png", width: 33%),
+      image("assets/mystock_1.png", width: 33%),
+      image("assets/mystock_2.png", width: 33%),
+    )
+  ]
 )
 #tile(
   [#link("https://github.com/Astro36/ICE3015-project")[*Self-Balancing Robot*], 교과목 프로젝트 #pill[C++]],
   "2023.05 ~ 2023.06",
-  [PID 제어기를 이용한 2륜 자가균형 로봇, ATmega4809와 MPU6050 센서 사용, 외부 라이브러리 없이 데이터시트를 참고해 구현, _임베디드시스템설계: 최종 프로젝트_]
+  [
+    PID 제어기를 이용한 2륜 자가균형 로봇, ATmega4809와 MPU6050 센서 사용, 외부 라이브러리 없이 데이터시트를 참고해 구현, _임베디드시스템설계: 최종 프로젝트_
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      pad(top: 1em)[#image("assets/ice3015.png", width: 33%)],
+      image("assets/ice3015_circuit.png", width: 66%),
+    )
+  ]
 )
 #tile(
   [#link("https://github.com/Astro36/ICE3016-miniproject")[*3D Product Catalog*], 교과목 프로젝트 #pill[C++]],
   "2022.12",
-  [3D 제품 반응형 카탈로그, OpenGL과 Blender(모델링) 이용, _컴퓨터그래픽스설계: 미니 프로젝트_]
+  [
+    3D 제품 반응형 카탈로그, OpenGL과 Blender(모델링) 이용, _컴퓨터그래픽스설계: 미니 프로젝트_
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/ice3016_0.png", width: 50%),
+      image("assets/ice3016_1.png", width: 50%),
+    )
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/ice3016_2.png", width: 50%),
+      image("assets/ice3016_3.png", width: 50%),
+    )
+  ]
 )
 #tile(
   [#link("https://github.com/ICE-LIFE/ICE-LIFE-Backend")[*ICE Market*], 학생회 프로젝트 #pill[React] #pill[Spring] #pill[MySQL]],
@@ -226,6 +265,7 @@
   [
     정보통신공학과 온라인 중고장터 서비스, 학생회 공약 실행 \
     #accent[팀 프로젝트] - 역할: Docker와 NGINX 세팅, Spring 웹 소켓을 이용한 1대1 채팅 API 구현
+    #image("assets/icemarket.png", width: 100%)
   ]
 )
 #tile(
@@ -234,6 +274,12 @@
   [
     고성능 비동기 Generic Pool, 자원할당 Queue에 Lock-free 자료구조 적용, \
     #label[다운로드: 2.1천 회]
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/qp_0.png", width: 50%),
+      image("assets/qp_1.png", width: 50%),
+    )
   ]
 )
 #tile(
@@ -247,16 +293,31 @@
 #tile(
   [#link("https://github.com/Astro36/kotka")[*└ Kotka*], 오픈소스 #pill[Python]],
   "2020.07 ~ 2020.08",
-  box(inset: (left: 1em))[
-    데이터 Augmentation을 위한 한글 난독화 도구, _IITP-2020-SW마에스트로과정_
+  [
+    #box(inset: (left: 1em))[
+      데이터 Augmentation을 위한 한글 난독화 도구, _IITP-2020-SW마에스트로과정_
+    ]
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/spree_2.png", width: 50%),
+      image("assets/spree_1.png", width: 50%),
+    )
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/spree_0.png", width: 50%),
+      image("assets/spree_3.png", width: 50%),
+    )
   ]
 )
 #tile(
   [*Shim*, 창업 #pill[Android] #pill[Express.js] #pill[MySQL]],
   "2019.09 ~ 2020.02",
   [
-    심리상담사 매칭 플랫폼 및 힐링 음악 앱, _Prography 5기_ \
+    심리상담사 매칭 플랫폼 및 힐링 음악 앱, Prography 4\~5기 \
     #accent[팀 프로젝트] - 역할: 안드로이드 앱 및 API 서버 개발, 서버와 PG사 결제 API 연동 업무 수행
+    #image("assets/shim.png", height: 11cm)
   ]
 )
 #tile(
@@ -265,12 +326,27 @@
   [
     컴퓨터 비전 기술을 활용한 공유킥보드 사고 예방 솔루션, _2020 슈퍼 챌린지 해커톤_ \
     #accent[팀 프로젝트] - 역할: TensorFlow Lite 모델을 실행하는 Flutter 앱 개발
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/careu_0.png", height: 5.5cm),
+      image("assets/careu_2.png", height: 5.5cm),
+    )
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/careu_1.png", height: 5.5cm),
+      image("assets/careu_3.png", height: 5.5cm),
+    )
   ]
 )
 #tile(
   [*Hyeyum*, 교과목 프로젝트 #pill[Express.js] #pill[Python]],
   "2019.11 ~ 2019.12",
-  [Google 음성 인식 API를 이용한 언어 습관 교정 로봇, _창의적 정보통신공학설계: 최종 프로젝트_]
+  [
+    Google 음성 인식 API를 이용한 언어 습관 교정 로봇, _창의적 정보통신공학설계: 최종 프로젝트_
+    #image("assets/hyeyum.png", height: 8cm)
+  ]
 )
 #tile(
   [#link("https://github.com/int-i/brainha-demo-server")[*BraInha*], 해커톤 #pill[Android] #pill[Express.js] #pill[MySQL]],
@@ -278,6 +354,13 @@
   [
     교내 전공 공부 Q&A 플랫폼 앱, _2019 인하 SW 해커톤_ \
     #accent[팀 프로젝트] - 역할: Docker와 NGINX 세팅, API 서버 개발
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/brainha_0.png", width: 33%),
+      image("assets/brainha_1.png", width: 33%),
+      image("assets/brainha_2.png", width: 33%),
+    )
   ]
 )
 #tile(
@@ -286,6 +369,7 @@
   [
     WaykiChain Smart Contract를 이용한 비즈니스 문서 관리 서비스, _Huobi Korea X WaykiChain Hackathon_ \
     #accent[팀 프로젝트] - 역할: Vue.js를 이용한 서비스 웹 페이지 개발
+    #image("assets/watchdocs.png", width: 100%)
   ]
 )
 #tile(
@@ -293,17 +377,22 @@
   "2018.11 ~ 2019.02",
   [효율적 탐색을 위한 한국어 국어사전 자료구조 구현 및 국어사전 크롤러 제공, \ #label[다운로드: 2.6천 회]]
 )
+#pagebreak()
 #tile(
   [#link("https://github.com/Astro36/kokoa")[*KokoaNLP*], 공모전 #pill[Node.js]],
   "2018.04 ~ 2018.07",
-  [비지도 학습 기반의 한국어 자연어 처리 도구, _2018 한국정보올림피아드 공모부문_]
+  [
+    비지도 학습 기반의 한국어 자연어 처리 도구, _2018 한국정보올림피아드 공모부문_
+    #image("assets/kokoanlp.png", width: 100%)
+  ]
 )
 #tile(
   [#link("https://github.com/Astro36/touch-music")[*Touch Music*], 공모전 #pill[Electron] #pill[Python]],
   "2018.03",
   [
-    마인드맵 형식의 음악 검색 서비스, _2018 KAIST Creative Team Coding Challenge_ \
+    마인드맵 형식의 음악 검색 서비스, _2018 KAIST Creative Team Coding Challenge_, #label[우수상] \
     #accent[팀 프로젝트] - 역할: Melon 노래 가사 크롤링, Word2Vec을 이용한 노래 스타일 분석 알고리즘 개발, Electron 앱 개발
+    #image("assets/touchmusic.png", width: 100%)
   ]
 )
 
