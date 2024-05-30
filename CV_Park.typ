@@ -49,7 +49,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 == Education
 #tile(
   [#link("https://www.inha.ac.kr/")[*Inha University*], Incheon, South Korea #pill[GPA 4.38/4.5]],
-  "Mar 2019 - Present",
+  "Mar 2019 - Aug 2024",
   [
     B.S. in #accent[#link("https://ice.inha.ac.kr/")[Information and Communication Engineering]] | Minor in #accent[#link("https://gfiba.inha.ac.kr/")[Global Finance and Banking]]
     - Undergraduate Coursework: Electronic Circuits, Data Structure, Computer Architecture, Operating System, Numerical Analysis, Investments, Financial Derivatives
@@ -60,12 +60,12 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 == Relevant Experiences
 #tile(
   link("https://inhabluechip.com/")[*Blue Chip Mutual Fund*],
-  "Mar 2023 - Present",
+  "Mar 2023 - Aug 2024",
   [
     Financial Market Research & Stock Investment Institute in Inha Univ.
-    - #accent[Research Team Leader] & Fund Manager#note[Jan 2024 - Present], #label[#link("https://fund.inhabluechip.com/")[Assets under Management]: #link("https://www.google.com/search?q=36000000+krw")[38M KRW]]
-    - Delivered 3 presentations at in-house #link("https://www.youtube.com/@bluechipmutualfund7790")[#accent[company analysis seminars]#note[YouTube]]
-    - Published a #link("https://inhabluechip.com/forum/view/259643")[company analysis report] and 2 #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[news articles#note[Incheon Ilbo]]
+    - #accent[Research Team Leader] & Fund Manager#note[Jan 2024 - Jun 2024], #label[#link("https://fund.inhabluechip.com/")[Maximum managed assets]: #link("https://www.google.com/search?q=40000000+krw")[40M KRW]]
+    - Delivered three presentations at in-house #link("https://www.youtube.com/@bluechipmutualfund7790")[#accent[company analysis seminars]#note[YouTube]]
+    - Published a #link("https://inhabluechip.com/forum/view/259643")[company analysis report] and two #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[news articles#note[Incheon Ilbo]]
   ],
 )
 #tile(
@@ -140,7 +140,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 == Extracurricular Activities
 #tile(
   link("https://int-i.github.io/")[*int i*],
-  "Mar 2019 - Present",
+  "Mar 2019 - Aug 2024",
   [
     Programming Study Group in Department of Information and Communication Engineering, Inha Univ.
     - #accent[Group Leader]#note[Jul 2023 - Mar 2024]
