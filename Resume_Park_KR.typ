@@ -57,8 +57,8 @@
 
 == 학력
 #tile(
-  [#link("https://www.inha.ac.kr/")[*인하대학교 학사*] (졸업예정)],
-  "2019.03 ~ 재학 중",
+  [#link("https://www.inha.ac.kr/")[*인하대학교 학사*] 졸업],
+  "2019.03 ~ 2024.08",
   [
     #link("https://ice.inha.ac.kr/")[#accent[정보통신공학]] 전공, #link("https://gfiba.inha.ac.kr/")[#accent[글로벌금융학]] 부전공 \
     학점 4.38/4.5, #accent[석차 1/150]
@@ -137,16 +137,16 @@
 == 동아리
 #tile(
   [#link("https://inhabluechip.com/")[*블루칩 뮤추얼펀드*], 인하대학교 주식투자 동아리],
-  "2023.03 ~ 활동 중",
+  "2023.03 ~ 2024.08",
   [
-    #accent[리서치 팀장] 및 펀드 매니저#note[2024.01 \~ 현재], #label[#link("https://fund.inhabluechip.com/")[펀드 운용규모]: 3.8천만 원] \
+    #accent[리서치 팀장] 및 펀드 매니저#note[2024.01 \~ 2024.06], #label[#link("https://fund.inhabluechip.com/")[펀드 운용규모 최고금액]: 4천만 원] \
     #link("https://www.youtube.com/@bluechipmutualfund7790")[기업분석 세미나#note[YouTube]] 발표, #link("https://inhabluechip.com/forum/view/259643")[기업분석 보고서] 작성 및 #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[인천일보] 기고
   ],
 )
 #tile(
   [#link("https://int-i.github.io/")[*인트아이*], #link("https://ice.inha.ac.kr/ice/2247/subview.do")[인하대학교 정보통신공학과] 프로그래밍 소모임],
-  "2019.03 ~ 활동 중",
-  [#accent[소모임 회장]#note[2023.07 \~ 2024.03], 프로그래밍 스터디 모임 및 블로그 운영, \ #label[블로그 조회수: 총 20만 회, 월 9천 회]],
+  "2019.03 ~ 2024.08",
+  [#accent[소모임 회장]#note[2023.07 \~ 2024.03], 프로그래밍 스터디 모임 및 블로그 운영, \ #label[블로그 조회수: 총 24만 회, 월 9천 회]],
 )
 #tile(
   [#link("https://www.inhabas.com/")[*IBAS*], 인하대학교 빅데이터 학술동아리],

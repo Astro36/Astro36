@@ -144,7 +144,7 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   [
     Programming Study Group in Department of Information and Communication Engineering, Inha Univ.
     - #accent[Group Leader]#note[Jul 2023 - Mar 2024]
-    - Authored blog posts about programming for #accent[over 4 years], #label[Total blog views: 200K, Monthly: 9K]
+    - Authored blog posts about programming for #accent[over 4 years], #label[Total blog views: 240K, Monthly: 9K]
   ],
 )
 #tile(
