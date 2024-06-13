@@ -24,7 +24,7 @@ For more information, please read my [[CV/English]](https://Astro36.github.io/As
 | 2019.03 - 2024.08 | [int i](https://int-i.github.io/) | _Programming Study Group in Department of Information and Communication Engineering, Inha Univ._<br>• **Group Leader**(2023.07 -­ 2024.03)<br>• Authored blog posts about programming for over 4 years, **[Total blog views: 240K, Monthly: 9K]** |
 | 2023.09 - 2023.12 | [2023 Data Creator Camp](https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page) | _Big Data Training Hackathon: Food Image Classification Challenge, hosted by the [K­-ICT Big Data Center](https://kbig.kr/)_, **[Excellence Award]** |
 | 2020.05 - 2020.12 | [Software Maestro 11th](https://www.swmaestro.org/sw/main/main.do) | _Government-­supported Program to Cultivate Creative and Innovative SW Talents, operated by the [FKII](https://www.fkii.org/)_<br>• Developed a solution for detecting illegal spam that corrects Korean spelling errors and improves its performance over time<br>• Received mentoring on entrepreneurship, programming, and AI<br>• Ranked 4th in a stock price prediction contest held as part of an AI application training program |
-| 2019.09 - 2020.01 | Full-­stack Freelance | _[INSIGHT](https://insightsolution.github.io/): AI-­based Mental Healthcare Solution Startup_, **[10M KRW project]**<br>• Developed an Android app in Kotlin and an API server in Python to power an AI model |
+| 2019.09 - 2020.01 | Full-­stack Freelance | _INSIGHT: AI-­based Mental Healthcare Solution Startup_, **[10M KRW project]**<br>• Developed an Android app in Kotlin and an API server in Python to power an AI model |
 
 ## 📑 Certifications
 
