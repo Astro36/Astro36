@@ -20,7 +20,7 @@ For more information, please read my [[CV/English]](https://Astro36.github.io/As
 
 | Date | Experience | Desciption |
 | --- | --- | --- |
-| 2024.01 - 2024.08 | [‌Blue Chip Mutual Fund](https://inhabluechip.com/) | _Financial Market Research & Stock Investment Institute in Inha Univ._<br>• **Research Team Leader & Fund Manager**(2024.01 -­ 2024.06), **[[Maximum managed assets](https://fund.inhabluechip.com/): 40M KRW]**<br>• Delivered presentations at in-­house company analysis seminars([YouTube](https://www.youtube.com/@bluechipmutualfund7790))<br>• Published a company analysis report and news articles([Incheon Ilbo](https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28)) |
+| 2023.03 - 2024.08 | [‌Blue Chip Mutual Fund](https://inhabluechip.com/) | _Financial Market Research & Stock Investment Institute in Inha Univ._<br>• **Research Team Leader & Fund Manager**(2024.01 -­ 2024.06), **[[Maximum managed assets](https://fund.inhabluechip.com/): 40M KRW]**<br>• Delivered presentations at in-­house company analysis seminars([YouTube](https://www.youtube.com/@bluechipmutualfund7790))<br>• Published a company analysis report and news articles([Incheon Ilbo](https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28)) |
 | 2019.03 - 2024.08 | [int i](https://int-i.github.io/) | _Programming Study Group in Department of Information and Communication Engineering, Inha Univ._<br>• **Group Leader**(2023.07 -­ 2024.03)<br>• Authored blog posts about programming for over 4 years, **[Total blog views: 240K, Monthly: 9K]** |
 | 2023.09 - 2023.12 | [2023 Data Creator Camp](https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page) | _Big Data Training Hackathon: Food Image Classification Challenge, hosted by the [K­-ICT Big Data Center](https://kbig.kr/)_, **[Excellence Award]** |
 | 2020.05 - 2020.12 | [Software Maestro 11th](https://www.swmaestro.org/sw/main/main.do) | _Government-­supported Program to Cultivate Creative and Innovative SW Talents, operated by the [FKII](https://www.fkii.org/)_<br>• Developed a solution for detecting illegal spam that corrects Korean spelling errors and improves its performance over time<br>• Received mentoring on entrepreneurship, programming, and AI<br>• Ranked 4th in a stock price prediction contest held as part of an AI application training program |
@@ -30,6 +30,8 @@ For more information, please read my [[CV/English]](https://Astro36.github.io/As
 
 | Date | Name | Issuer |
 | --- | --- | --- |
+| 2024.06 | [Certified Investment Manager](https://license.kofia.or.kr/examInfo/examInfo.do) | [KOFIA](https://www.kofia.or.kr/) |
+| 2024.06 | [Engineer Information Processing](https://www.q-net.or.kr/crf005.do?id=crf00505&jmCd=1320) | [HRDK](https://www.hrdkorea.or.kr/) |
 | 2023.12 | [Linux Master, Grade 2](https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=433) | [KAIT](https://www.ihd.or.kr/) |
 
 ## 🛠 Tech Stacks
