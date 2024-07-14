@@ -12,7 +12,7 @@ For more information, please read my [[CV/English]](https://Astro36.github.io/As
 
 2019.03 - 2024.08
 
-- Cumulative GPA 4.38/4.5
+- Cumulative GPA 4.41/4.5
 - B.S. in [Information and Communication Engineering](https://ice.inha.ac.kr/ice/index.do)
 - Minor in [Global Finance and Banking](https://gfiba.inha.ac.kr/gfiba/index.do)
 

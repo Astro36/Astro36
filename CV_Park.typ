@@ -56,13 +56,13 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 //   ],
 // )
 #tile(
-  [#link("https://www.inha.ac.kr/")[*Inha University*], Incheon, South Korea #pill[GPA 4.38/4.5]],
+  [#link("https://www.inha.ac.kr/")[*Inha University*], Incheon, South Korea #pill[GPA 4.41/4.5]],
   "Mar 2019 - Aug 2024",
   [
     B.S. in #accent[#link("https://ice.inha.ac.kr/")[Information and Communication Engineering]] | Minor in #accent[#link("https://gfiba.inha.ac.kr/")[Global Finance and Banking]]
     - Undergraduate Coursework: Electronic Circuits, Data Structure, Computer Architecture, Operating System, Numerical Analysis, Investments, Financial Derivatives
     - Participated in the #accent[departmental student council] as a member#note[Mar 2019 - Jun 2023]
-    - Honor student for 7 semesters, #label[Average Rank: 1/150]
+    - Honor student for 8 semesters, #label[Average Rank: 2/189]
   ],
 )
 

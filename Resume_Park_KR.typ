@@ -61,7 +61,7 @@
   "2019.03 ~ 2024.08",
   [
     #link("https://ice.inha.ac.kr/")[#accent[정보통신공학]] 전공, #link("https://gfiba.inha.ac.kr/")[#accent[글로벌금융학]] 부전공 \
-    학점 4.38/4.5, #accent[석차 1/150]
+    학점 4.41/4.5, #accent[석차 2/189]
   ],
 )
 #tile(
