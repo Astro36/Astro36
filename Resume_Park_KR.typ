@@ -44,7 +44,7 @@
 ]
 #block[
   #text(size: 10pt, fill: black80)[
-    만 23세, 군필 \
+    만 23세 \
     astro.psj\@gmail.com \
     https://github.com/Astro36 \
   ]
@@ -56,6 +56,13 @@
 )
 
 == 학력
+#tile(
+  [#link("https://www.yonsei.ac.kr/")[*연세대학교 석사*] 재학],
+  "2024.09 ~",
+  [
+    일반대학원 #link("https://ai.yonsei.ac.kr/")[#accent[인공지능학과]] 석사과정
+  ],
+)
 #tile(
   [#link("https://www.inha.ac.kr/")[*인하대학교 학사*] 졸업],
   "2019.03 ~ 2024.08",
@@ -137,7 +144,7 @@
 == 동아리
 #tile(
   [#link("https://inhabluechip.com/")[*블루칩 뮤추얼펀드*], 인하대학교 주식투자 동아리],
-  "2023.03 ~ 2024.08",
+  "2023.03 ~ 2024.06",
   [
     #accent[리서치 팀장] 및 펀드 매니저#note[2024.01 \~ 2024.06], #label[#link("https://fund.inhabluechip.com/")[펀드 운용규모 최고금액]: 4천만 원] \
     #link("https://www.youtube.com/@bluechipmutualfund7790")[기업분석 세미나#note[YouTube]] 발표, #link("https://inhabluechip.com/forum/view/259643")[기업분석 보고서] 작성 및 #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[인천일보] 기고

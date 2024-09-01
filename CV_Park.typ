@@ -48,28 +48,28 @@
 Machine Learning, Natural Language Processing, Time Series, Quantitative Finance, Asset Pricing, Portfolio Optimization
 
 == Education
-// #tile(
-//   [#link("https://www.yonsei.ac.kr/")[*Yonsei University*], Seoul, South Korea],
-//   "Sep 2024 - Present",
-//   [
-//     M.S. in #accent[#link("https://ai.yonsei.ac.kr/")[Artificial Intelligence]]
-//   ],
-// )
+#tile(
+  [#link("https://www.yonsei.ac.kr/")[*Yonsei University*], Seoul, South Korea],
+  "Sep 2024 - Present",
+  [
+    M.S. in #accent[#link("https://ai.yonsei.ac.kr/")[Artificial Intelligence]]
+  ],
+)
 #tile(
   [#link("https://www.inha.ac.kr/")[*Inha University*], Incheon, South Korea #pill[GPA 4.41/4.5]],
   "Mar 2019 - Aug 2024",
   [
     B.S. in #accent[#link("https://ice.inha.ac.kr/")[Information and Communication Engineering]] | Minor in #accent[#link("https://gfiba.inha.ac.kr/")[Global Finance and Banking]]
-    - Undergraduate Coursework: Electronic Circuits, Data Structure, Computer Architecture, Operating System, Numerical Analysis, Investments, Financial Derivatives
+    // - Undergraduate Coursework: Electronic Circuits, Data Structure, Computer Architecture, Operating System, Numerical Analysis, Investments, Financial Derivatives, etc.
+    - Graduated 2nd in class, #label[Rank: 2/189]
     - Participated in the #accent[departmental student council] as a member#note[Mar 2019 - Jun 2023]
-    - Honor student for 8 semesters, #label[Average Rank: 2/189]
   ],
 )
 
 == Relevant Experiences
 #tile(
   link("https://inhabluechip.com/")[*Blue Chip Mutual Fund*],
-  "Mar 2023 - Aug 2024",
+  "Mar 2023 - Jun 2024",
   [
     Financial Market Research & Stock Investment Institute in Inha Univ.
     - #accent[Research Team Leader] & Fund Manager#note[Jan 2024 - Jun 2024], #label[#link("https://fund.inhabluechip.com/")[Maximum managed assets]: #link("https://www.google.com/search?q=40000000+krw")[40M KRW]]
