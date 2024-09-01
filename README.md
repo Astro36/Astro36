@@ -12,7 +12,7 @@ For more information, please read my [[CV/English]](https://Astro36.github.io/As
 
 2024.09 - Present
 
-- M.S. in [Artificial Intelligence](https://ai.yonsei.ac.kr/ice/index.do)
+- M.S. in [Artificial Intelligence](https://ai.yonsei.ac.kr/)
 
 ### [Inha University](http://www.inha.ac.kr/)
 
