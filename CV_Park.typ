@@ -179,6 +179,11 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
 
 == Projects
 #tile(
+  [#link("https://github.com/Astro36/stock-ara")[*Stock ARA*] #pill[Python]],
+  "Mar 2024 - Jul 2024",
+  [An innovative stock screening and portfolio optimization system that leverages a Large Language Model and Retrieval-Augmented Generation, _Inha Univ. Capstone Design in ICT_]
+)
+#tile(
   [#link("https://github.com/inhabluechip/bcmf-nav")[*BCMF NAV*] #pill[JavaScript] #pill[Tailwind CSS]],
   "Jan 2024 - Jul 2024",
   [Responsive design web service that calculates and displays daily the net asset value(NAV) and total assets under management(AUM) of Blue Chip Mutual Fund - https://fund.inhabluechip.com/]
