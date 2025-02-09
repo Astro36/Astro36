@@ -2,7 +2,7 @@
 
 Junior Financial AI Engineer 🌱
 
-I’m interested in **🕒Time Series Analysis**, **📖Natural Language Processing**, **🦾Reinforcement Learning**, **📊Quantitative Finance**.
+I’m interested in **🕒Time Series Analysis**, **📖Natural Language Processing**, **🦾Reinforcement Learning**, and **📊Quantitative Finance**.
 
 For more information, please read my [[CV]](https://Astro36.github.io/Astro36/CV_Park.pdf) and [[LinkedIn]](https://www.linkedin.com/in/seungjae-park/).
 
