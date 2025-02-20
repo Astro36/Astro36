@@ -2,7 +2,7 @@
 
 Junior Financial AI Engineer 🌱
 
-I’m interested in **🕒Time Series Analysis**, **📖Natural Language Processing**, **🦾Reinforcement Learning**, and **📊Quantitative Finance**.
+I’m interested in **🕒Time Series Analysis**, **📖Natural Language Processing**, **🤖Reinforcement Learning**, and **📊Quantitative Finance**.
 
 For more information, please read my [[CV]](https://Astro36.github.io/Astro36/CV_Park.pdf) and [[LinkedIn]](https://www.linkedin.com/in/seungjae-park/).
 
@@ -33,7 +33,7 @@ For more information, please read my [[CV]](https://Astro36.github.io/Astro36/CV
 | 2020.05 - 2020.12 | [Software Maestro 11th](https://www.swmaestro.org/sw/main/main.do) | _Government-­supported Program to Cultivate Creative and Innovative SW Talents, operated by the [FKII](https://www.fkii.org/)_<br>• Developed a **spam detection solution** by integrating Korean spelling correction and a performance enhancement pipeline.<br>• Received mentoring in entrepreneurship, programming, and AI.<br>• Ranked 4th in a stock price prediction contest in an AI training program. |
 | 2019.09 - 2020.01 | Full-­stack Freelance | _INSIGHT: AI-­based Mental Healthcare Solution Startup_, **[10M KRW project]**<br>• Developed an Android app in Kotlin and an API server in Python to power an AI model. |
 
-## 📝 Publications
+## 📚 Publications
 
 1. **Seungjae Park**, Hyukjae Kwon, Kisu Lee, Won-Yong Shin, and Ha Young Kim. "Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information." _KICS Winter Conference 2025_ (2025).
 1. **Seungjae Park**, Daeyoung Park. "A Novel Stock Screening Approach using Large Language Models and Correlation-Aware Retrieval." _Inha Univ. Capstone Design in ICT_ (2024). Bachelor's Thesis.
