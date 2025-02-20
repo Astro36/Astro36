@@ -35,8 +35,10 @@ For more information, please read my [[CV]](https://Astro36.github.io/Astro36/CV
 
 ## 📚 Publications
 
-1. **Seungjae Park**, Hyukjae Kwon, Kisu Lee, Won-Yong Shin, and Ha Young Kim. "Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information." _KICS Winter Conference 2025_ (2025).
-1. **Seungjae Park**, Daeyoung Park. "A Novel Stock Screening Approach using Large Language Models and Correlation-Aware Retrieval." _Inha Univ. Capstone Design in ICT_ (2024). Bachelor's Thesis.
+<!--IEEE style-->
+
+1. **Seungjae Park**, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, "Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information," presented at the KICS Winter Conference 2025, 2025.
+1. **Seungjae Park** and Daeyoung Park, "A Novel Stock Screening Approach using Large Language Models and Correlation-Aware Retrieval," presented at the Inha Univ. Capstone Design in ICT, 2024. Capstone project.
 
 ## 📑 Certifications
 
