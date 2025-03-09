@@ -13,15 +13,36 @@ For more information, please read my [[CV]](https://Astro36.github.io/Astro36/CV
 2024.09 - Present
 
 - M.S. in [Artificial Intelligence](https://ai.yonsei.ac.kr/)
-- Graduate Research Assistant, [Multimodal Learning and Computational Finance Lab](https://sites.google.com/view/mlcf/) (Advisor: Prof. Ha Young Kim)
+- Graduate Research Assistant in [Multimodal Learning and Computational Finance Lab](https://sites.google.com/view/mlcf/) (Advisor: Prof. Ha Young Kim)
+
+<details open>
+<summary><b>📚 Publications</b></summary>
+<br>
+
+1. **Seungjae Park**, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, "Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information," in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025.<br><sub>Keyword: Time Series Forecasting</sub>
+  
+</details>
 
 ### [Inha University](http://www.inha.ac.kr/)
 
 2019.03 - 2024.08
 
 - Cumulative GPA 4.41/4.5, Graduated 2nd in class of 189
-- B.S. in [Information and Communication Engineering](https://ice.inha.ac.kr/ice/index.do)
-- Minor in [Global Finance and Banking](https://gfiba.inha.ac.kr/gfiba/index.do)
+- B.S. in [Information and Communication Engineering](https://ice.inha.ac.kr/ice/index.do) / Minor in [Global Finance and Banking](https://gfiba.inha.ac.kr/gfiba/index.do)
+
+<details>
+<summary><b>📚 Publications</b></summary>
+  
+##### AI
+
+1. **Seungjae Park** and Daeyoung Park, "[A Novel Stock Screening Approach using Large Language Models and Correlation-Aware Retrieval](https://eee.inha.ac.kr/bbs/eee/3919/122977/download.do)," presented at the _Capstone Design in ICT (Capstone Project)_, Inha Univ., Incheon, South Korea, Jun. 2024.<br><sub>Keyword: Large Language Model, Information Retrieval, Portfolio Optimization</sub>
+
+##### Finance
+
+1. **Seungjae Park**, "[[특징주] ESR켄달스퀘어리츠(365550), 국내 최대 물류 전문 리츠…18개 센터 기초자산](https://www.incheonilbo.com/news/articleView.html?idxno=1230557)," _Incheon Ilbo_, Jan. 2024.
+1. **Seungjae Park**, "[[특징주] 한국항공우주(047810), 위성 넘어 우주로…하늘길 기술 역량 확장](https://www.incheonilbo.com/news/articleView.html?idxno=1216780)," _Incheon Ilbo_, Oct. 2023.
+
+</details>
 
 ## ⭐ Experiences
 
@@ -32,14 +53,6 @@ For more information, please read my [[CV]](https://Astro36.github.io/Astro36/CV
 | 2023.09 - 2023.12 | [2023 Data Creator Camp](https://kbig.kr/portal/kbig/keybiz/creatorcamp/info.page) | _Big Data Training Hackathon: Food Image Classification Challenge, hosted by the [K­-ICT Big Data Center](https://kbig.kr/)_, **[Excellence Award]** |
 | 2020.05 - 2020.12 | [Software Maestro 11th](https://www.swmaestro.org/sw/main/main.do) | _Government-­supported Program to Cultivate Creative and Innovative SW Talents, operated by the [FKII](https://www.fkii.org/)_<br>• Developed a **spam detection solution** by integrating Korean spelling correction and a performance enhancement pipeline.<br>• Received mentoring in entrepreneurship, programming, and AI.<br>• Ranked 4th in a stock price prediction contest in an AI training program. |
 | 2019.09 - 2020.01 | Full-­stack Freelance | _INSIGHT: AI-­based Mental Healthcare Solution Startup_, **[10M KRW project]**<br>• Developed an Android app in Kotlin and an API server in Python to power an AI model. |
-
-## 📚 Publications
-
-<!--IEEE-flavored style-->
-
-1. Junwoo Ha, Hyukjae Kwon, Sungsoo Kim, Kisu Lee, **Seungjae Park** and Ha Young Kim, "TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting," arxiv:2410.01531v2.
-1. **Seungjae Park**, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, "Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information," in _Proc. of the Korean Institute of Communications and Information Sciences Winter Conf. 2025_, Pyeongchang, South Korea, Feb. 2025.
-1. **Seungjae Park** and Daeyoung Park, "A Novel Stock Screening Approach using Large Language Models and Correlation-Aware Retrieval," presented at the _Capstone Design in ICT (Capstone Project)_, Inha Univ., Incheon, South Korea, Jun. 2024.
 
 ## 📑 Certifications
 
