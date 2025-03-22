@@ -15,7 +15,7 @@ For more information, please read my [[CV]](https://Astro36.github.io/Astro36/CV
 - M.S. in [Artificial Intelligence](https://ai.yonsei.ac.kr/)
 - Graduate Research Assistant in [Multimodal Learning and Computational Finance Lab](https://sites.google.com/view/mlcf/) (Advisor: Prof. Ha Young Kim)
 
-<details open>
+<details>
 <summary><b>📚 Publications</b></summary>
 <br>
 
@@ -33,9 +33,10 @@ For more information, please read my [[CV]](https://Astro36.github.io/Astro36/CV
 <details>
 <summary><b>📚 Publications</b></summary>
   
-##### AI
+##### AI/CS
 
 1. **Seungjae Park** and Daeyoung Park, "[A Novel Stock Screening Approach using Large Language Models and Correlation-Aware Retrieval](https://eee.inha.ac.kr/bbs/eee/3919/122977/download.do)," presented at the _Capstone Design in ICT (Capstone Project)_, Inha Univ., Incheon, South Korea, Jun. 2024.<br><sub>Keyword: Large Language Model, Information Retrieval, Portfolio Optimization</sub>
+1. **Seungjae Park** et al., _[int i Study Blog](https://int-i.github.io/)_, Jan. 2020 - Mar. 2024.<br><sub>Keyword: Learning Blog, Computer Science, Quantitative Finance</sub>
 
 ##### Finance
 
