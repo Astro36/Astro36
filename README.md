@@ -19,7 +19,7 @@ For more information, please read my [[CV]](https://Astro36.github.io/Astro36/CV
 <summary><b>📚 Publications</b></summary>
 <br>
 
-1. **Seungjae Park**, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, "[Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098)," in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025.<br><sub>Keyword: Time Series Forecasting</sub>
+1. **Seungjae Park**, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, "[Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098)," in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025. pp. 516-157.<br><sub>Keyword: Time Series Forecasting</sub>
   
 </details>
 
