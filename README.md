@@ -24,7 +24,7 @@ Sep 2019 - Jan 2020
 
 ## 🎓 Education
 
-### Master of Science, [Artificial Intelligence](https://ai.yonsei.ac.kr/), [Yonsei University](http://www.yonsei.ac.kr/)
+### M.S. in [Artificial Intelligence](https://ai.yonsei.ac.kr/), [Yonsei University](http://www.yonsei.ac.kr/)
 
 Sep 2024 - Present
 
@@ -38,7 +38,7 @@ Sep 2024 - Present
   
 </details>
 
-### Bachelor of Science, [Information and Communication Engineering](https://ice.inha.ac.kr/ice/index.do), [Inha University](http://www.inha.ac.kr/)
+### B.S. in [Information and Communication Engineering](https://ice.inha.ac.kr/ice/index.do), [Inha University](http://www.inha.ac.kr/)
 
 Mar 2019 - Aug 2024
 
