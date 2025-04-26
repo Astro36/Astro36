@@ -13,8 +13,7 @@ For more information, please read my [[CV]](https://Astro36.github.io/Astro36/CV
 May 2020 - Dec 2020
 
 - Participated in the 11th Government-supported Software Maestro Program (operated by _[FKII](https://www.fkii.org/)_).
-- As part of this program, I developed a **spam detection** solution that integrated Korean spelling correction and a performance enhancement pipeline.
-- I also benefited from mentorship in areas such as entrepreneurship and AI.
+- I developed a **spam detection** solution that integrated Korean spelling correction and a performance enhancement pipeline.
 
 ### Full-stack Freelance, INSIGHT
 
@@ -25,11 +24,10 @@ Sep 2019 - Jan 2020
 
 ## 🎓 Education
 
-### [Yonsei University](http://www.yonsei.ac.kr/)
+### Master of Science, [Artificial Intelligence](https://ai.yonsei.ac.kr/), [Yonsei University](http://www.yonsei.ac.kr/)
 
 Sep 2024 - Present
 
-- M.S. in [Artificial Intelligence](https://ai.yonsei.ac.kr/)
 - Graduate Research Assistant in [Multimodal Learning and Computational Finance Lab](https://sites.google.com/view/mlcf/) (Advisor: Prof. Ha Young Kim)
 
 <details>
@@ -40,15 +38,15 @@ Sep 2024 - Present
   
 </details>
 
-### [Inha University](http://www.inha.ac.kr/)
+### Bachelor of Science, [Information and Communication Engineering](https://ice.inha.ac.kr/ice/index.do), [Inha University](http://www.inha.ac.kr/)
 
 Mar 2019 - Aug 2024
 
 - Cumulative GPA 4.41/4.5, Graduated 2nd in class of 189
-- B.S. in [Information and Communication Engineering](https://ice.inha.ac.kr/ice/index.do) / Minor in [Global Finance and Banking](https://gfiba.inha.ac.kr/gfiba/index.do)
+- Minor in [Global Finance and Banking](https://gfiba.inha.ac.kr/gfiba/index.do)
 
 <details>
-<summary><b>✨ Activities</b></summary>
+<summary><b>🎉 Activities</b></summary>
 <br>
 
 | Date | Activity | Desciption |
@@ -74,7 +72,9 @@ Mar 2019 - Aug 2024
 
 </details>
 
-## 📑 Certifications
+---
+
+### 📑 Certifications
 
 | Date | Name | Issuer |
 | --- | --- | --- |
@@ -82,7 +82,7 @@ Mar 2019 - Aug 2024
 | Jun 2024 | [Engineer Information Processing](https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320) | [HRDK](https://www.hrdkorea.or.kr/) |
 | Dec 2023 | [Linux Master, Grade 2](https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=433) | [KAIT](https://www.ihd.or.kr/) |
 
-## 🛠 Tech Stacks
+### 🛠 Tech Stacks
 
 <details>
 <summary><b>Languages</b></summary>
