@@ -79,8 +79,8 @@ Mar 2019 - Aug 2024
 | Date | Name | Issuer |
 | --- | --- | --- |
 | Jun 2024 | [Certified Investment Manager](https://license.kofia.or.kr/examInfo/examInfo.do) | [KOFIA](https://www.kofia.or.kr/) |
-| Jun 2024 | [Engineer Information Processing](https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320) | [HRDK](https://www.hrdkorea.or.kr/) |
-| Dec 2023 | [Linux Master, Grade 2](https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=433) | [KAIT](https://www.ihd.or.kr/) |
+| Jun 2024 | [Engineer Information Processing](https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320) <sup><sub>National Technical Qualification</sub></sup> | [HRDK](https://www.hrdkorea.or.kr/) |
+| Dec 2023 | [Linux Master, Grade 2](https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=433) <sup><sub>Nationally Accredited Private Qualification</sub></sup> | [KAIT](https://www.ihd.or.kr/) |
 
 ### 🛠 Tech Stacks
 
