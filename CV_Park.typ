@@ -4,7 +4,7 @@
 #let black70 = white.darken(70%)
 #let accent_darken = rgb("#662549")
 #let accent_lighten = rgb("#AE445A")
-#let accent_underline = rgb("#FFF8E3")
+#let accent_underline = rgb("#ffebaf")
 
 #set document(title: "Seungjae Park", author: "Seungjae Park")
 #set page(numbering: "1", number-align: center)
@@ -12,16 +12,16 @@
 #set par(justify: true)
 
 #show heading.where(level: 1): it => align(center)[
-  #text(weight: "regular", size: 30pt)[#it.body]
+  #text(weight: "bold", size: 30pt)[#it.body]
 ]
 #show heading.where(level: 2): it => block(
   above: 1.5em,
   below: 1em,
-  text(weight: "regular", size: 16pt, fill: accent_darken)[#smallcaps(it.body)],
+  text(weight: "regular", size: 16pt)[#smallcaps(it.body)],
 )
 
 #let label(body) = text(weight: "bold", size: 0.8em, fill: accent_lighten)[[#body]]
-#let note(body) = text(size: 0.8em)[(#body)]
+#let note(body) = text(size: 0.7em)[(#body)]
 #let accent(body) = underline(stroke: 5pt + accent_underline, offset: -2.5pt, evade: false, background: true)[#body]
 #let pill(body) = box(
   baseline: -1pt,
@@ -37,64 +37,64 @@
 
 #align(center)[
   = Seungjae Park
-  #text(size: 10pt, fill: black80)[
-    https://www.linkedin.com/in/seungjae-park/ \
+  #v(-1.2em)
+  #text(size: 11pt, fill: black90)[
     astro.psj\@gmail.com \
-    https://github.com/Astro36 \
+    #link("https://github.com/Astro36")[github.com/Astro36] \
+    #link("https://www.linkedin.com/in/seungjae-park/")[linkedin.com/in/seungjae-park] \
   ]
+  #v(1.2em)
 ]
 
 == Research Interests
-Machine Learning, Natural Language Processing, Time Series, Quantitative Finance, Asset Pricing, Portfolio Optimization
+Machine Learning, Time Series Analysis, Natural Language Processing, Reinforcement Learning, and Quantitative Finance
+
+== Experiences
+
+#tile(
+  link("https://www.swmaestro.org/")[*11#super[th] Trainee, Software Maestro*],
+  "May 2020 - Dec 2020",
+  [
+    Government-Supported Program for Cultivating Creative and Innovative Software Talent, organized by the MSIT#note[Ministry of Science and ICT] and the IITP#note[Institute for Information and Communications Technology Planning and Evaluation]
+    - Developed a #accent[spam detection] solution integrating Korean spelling correction with a performance enhancement pipeline
+  ],
+)
+#tile(
+  [*Full-stack Freelance, INSIGHT* #pill[#link("https://www.google.com/search?q=10000000+krw")[₩10 million] project]],
+  "Sep 2019 - Jan 2020",
+  [
+    INSIGHT: AI-based Mental Healthcare Solution Startup
+    - Developed an #accent[Android app in Kotlin] and an #accent[API server in Python] to power an AI model
+  ],
+)
 
 == Education
 #tile(
-  [#link("https://www.yonsei.ac.kr/")[*Yonsei University*], Seoul, South Korea],
+  [*M.S. in #accent[#link("https://ai.yonsei.ac.kr/")[Artificial Intelligence]], #link("https://www.yonsei.ac.kr/")[Yonsei University]*],
   "Sep 2024 - Present",
   [
-    M.S. in #accent[#link("https://ai.yonsei.ac.kr/")[Artificial Intelligence]]
+    - Graduate Research Assistant in MLCF#note[Multimodal Learning and Computational Finance] Lab \ (Advisor: Prof. Ha Young Kim)
+    - Cumulative GPA 4.22/4.3
   ],
 )
 #tile(
-  [#link("https://www.inha.ac.kr/")[*Inha University*], Incheon, South Korea #pill[GPA 4.41/4.5]],
+  [*B.S. in #accent[#link("https://ice.inha.ac.kr/")[Information and Communication Engineering]], #link("https://www.inha.ac.kr/")[Inha University]*],
   "Mar 2019 - Aug 2024",
   [
-    B.S. in #accent[#link("https://ice.inha.ac.kr/")[Information and Communication Engineering]] | Minor in #accent[#link("https://gfiba.inha.ac.kr/")[Global Finance and Banking]]
-    // - Undergraduate Coursework: Electronic Circuits, Data Structure, Computer Architecture, Operating System, Numerical Analysis, Investments, Financial Derivatives, etc.
-    - Graduated 2nd in class, #label[Rank: 2/189]
-    - Participated in the #accent[departmental student council] as a member#note[Mar 2019 - Jun 2023]
+    - Cumulative GPA 4.41/4.5, Graduated #accent[2nd in class of 189]
+    - Minor in #accent[#link("https://gfiba.inha.ac.kr/")[Global Finance and Banking]]
+    - Participated in the departmental student council as a member #note[Mar 2019 - Jun 2023]
   ],
 )
 
-== Relevant Experiences
-#tile(
-  link("https://inhabluechip.com/")[*Blue Chip Mutual Fund*],
-  "Mar 2023 - Jun 2024",
-  [
-    Financial Market Research & Stock Investment Institute in Inha Univ.
-    - #accent[Research Team Leader] & Fund Manager#note[Jan 2024 - Jun 2024], #label[#link("https://fund.inhabluechip.com/")[Maximum managed assets]: #link("https://www.google.com/search?q=40000000+krw")[40M KRW]]
-    - Delivered three presentations at in-house #link("https://www.youtube.com/@bluechipmutualfund7790")[company analysis seminars#note[YouTube]]
-    - Published a #link("https://inhabluechip.com/forum/view/259643")[company analysis report] and two #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[news articles#note[Incheon Ilbo]]
-  ],
-)
-#tile(
-  link("https://www.swmaestro.org/")[*Software Maestro 11#super[th]*],
-  "May 2020 - Dec 2020",
-  [
-    Government-supported Program to Cultivate Creative and Innovative SW Talents, operated by the #link("https://www.fkii.org/")[FKII#note[The Federation of Korean Information Industries]]
-    - Developed a #accent[solution for detecting illegal spam] that corrects Korean spelling errors and improves its performance over time
-    - Received mentoring on entrepreneurship, programming, and AI
-    - #accent[Ranked 4#super[th] in a stock price prediction contest] held as part of an AI application training program
-  ],
-)
-#tile(
-  [*Full-stack Freelance*],
-  "Sep 2019 - Jan 2020",
-  [
-    INSIGHT: AI-based Mental Healthcare Solution Startup, #label[#link("https://www.google.com/search?q=10000000+krw")[10M KRW] project]
-    - Developed an Android app in Kotlin and an API server in Python to power an AI model
-  ],
-)
+== Publications
+
+3. *Seungjae Park*, Sung-bae Cho and Ha Young Kim, "KRAFT³-QA: Korean financial text-table benchmark for evaluating tool-augmented agents on QA tasks," _Journal of The Korea Society of Computer and Information#h(1pt)#note[KCI]_, vol. 30, no. 8, Aug. 2025.
+  #pill[Large Language Model] #pill[Tool-augmented Agent] #pill[Financial QA Benchmark]
+2. *Seungjae Park*, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, #link("https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098")["Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information,"] in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.
+  #pill[Time Series Forecasting]
+1. *Seungjae Park* and Daeyoung Park, #link("https://eee.inha.ac.kr/bbs/eee/3919/122977/download.do")["A Novel Stock Screening Approach using Large Language Models and Correlation-Aware Retrieval,"] presented at the _Capstone Design in ICT#h(1pt)#note[Capstone Project]_, Inha Univ., Incheon, South Korea, Jun. 2024.
+  #pill[Large Language Model] #pill[Information Retrieval] #pill[Portfolio Optimization]
 
 == Awards & Honors
 #tile(
@@ -157,8 +157,18 @@ Machine Learning, Natural Language Processing, Time Series, Quantitative Finance
   "Mar 2019 - Aug 2024",
   [
     Programming Study Group in Department of Information and Communication Engineering, Inha Univ.
-    - #accent[Group Leader]#note[Jul 2023 - Mar 2024]
+    - #accent[Group Leader] #note[Jul 2023 - Mar 2024]
     - Authored blog posts about programming for #accent[over 4 years], #label[Total blog views: 240K, Monthly: 9K]
+  ],
+)
+#tile(
+  link("https://inhabluechip.com/")[*Blue Chip Mutual Fund*],
+  "Mar 2023 - Jun 2024",
+  [
+    Financial Market Research & Stock Investment Institute in Inha Univ.
+    - #accent[Research Team Leader] & Fund Manager #note[Jan 2024 - Jun 2024], #label[#link("https://fund.inhabluechip.com/")[Maximum managed assets]: #link("https://www.google.com/search?q=40000000+krw")[40M KRW]]
+    - Delivered three presentations at in-house #link("https://www.youtube.com/@bluechipmutualfund7790")[company analysis seminars #note[YouTube]]
+    - Published a #link("https://inhabluechip.com/forum/view/259643")[company analysis report] and two #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[news articles #note[Incheon Ilbo]]
   ],
 )
 #tile(
