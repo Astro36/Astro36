@@ -8,7 +8,7 @@
 
 #set document(title: "Seungjae Park", author: "Seungjae Park")
 #set page(numbering: "1", number-align: center)
-#set text(font: "Times New Roman", fallback: false, size: 11pt, fill: black100)
+#set text(font: "Times New Roman", size: 11pt, fill: black100)
 #set par(justify: true)
 
 #show heading.where(level: 1): it => align(center)[
