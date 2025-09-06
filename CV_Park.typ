@@ -52,25 +52,25 @@ Machine Learning, Time Series Analysis, Natural Language Processing, Reinforceme
 == Experiences
 
 #tile(
-  link("https://www.swmaestro.org/")[*11#super[th] Trainee, Software Maestro*],
+  link("https://www.swmaestro.org/")[*11#super[th] Trainee, #accent[Software Maestro]*],
   "May 2020 - Dec 2020",
   [
     Government-Supported Program for Cultivating Creative and Innovative Software Talent, organized by the MSIT#note[Ministry of Science and ICT] and the IITP#note[Institute for Information and Communications Technology Planning and Evaluation]
-    - Developed a #accent[spam detection] solution integrating Korean spelling correction with a performance enhancement pipeline
+    - Developed a spam detection solution integrating Korean spelling correction with a performance enhancement pipeline
   ],
 )
 #tile(
-  [*Full-stack Freelance, INSIGHT* #pill[#link("https://www.google.com/search?q=10000000+krw")[₩10 million] project]],
+  [*#accent[Full-stack Freelance], INSIGHT* #pill[#link("https://www.google.com/search?q=10000000+krw")[KRW 10 million] project]],
   "Sep 2019 - Jan 2020",
   [
     INSIGHT: AI-based Mental Healthcare Solution Startup
-    - Developed an #accent[Android app in Kotlin] and an #accent[API server in Python] to power an AI model
+    - Developed an Android app in Kotlin and an API server in Python to power an AI model
   ],
 )
 
 == Education
 #tile(
-  [*M.S. in #accent[#link("https://ai.yonsei.ac.kr/")[Artificial Intelligence]], #link("https://www.yonsei.ac.kr/")[Yonsei University]*],
+  [*#accent[M.S. in #link("https://ai.yonsei.ac.kr/")[Artificial Intelligence], #link("https://www.yonsei.ac.kr/")[Yonsei University]]*],
   "Sep 2024 - Present",
   [
     - Graduate Research Assistant in MLCF#note[Multimodal Learning and Computational Finance] Lab \ (Advisor: Prof. Ha Young Kim)
@@ -89,7 +89,7 @@ Machine Learning, Time Series Analysis, Natural Language Processing, Reinforceme
 
 == Publications
 
-3. *Seungjae Park*, Sung-bae Cho and Ha Young Kim, "KRAFT³-QA: Korean financial text-table benchmark for evaluating tool-augmented agents on QA tasks," _Journal of The Korea Society of Computer and Information#h(1pt)#note[KCI]_, vol. 30, no. 8, Aug. 2025.
+3. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, #link("https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12336960")["KRAFT³-QA: Korean financial text-table benchmark for evaluating tool-augmented agents on QA tasks,"] _Journal of The Korea Society of Computer and Information_, vol. 30, no. 8, pp. 29-39, Aug. 2025.
   #pill[Large Language Model] #pill[Tool-augmented Agent] #pill[Financial QA Benchmark]
 2. *Seungjae Park*, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, #link("https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098")["Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information,"] in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.
   #pill[Time Series Forecasting]
@@ -102,7 +102,7 @@ Machine Learning, Time Series Analysis, Natural Language Processing, Reinforceme
   "Sep 2023 - Dec 2023",
   [
     Big Data Training Hackathon, hosted by the #link("https://kbig.kr/")[K-ICT Big Data Center] \
-    - Solved Korean #accent[food image classification] problems with ResNet models
+    - Solved Korean food image classification problems with ResNet models
     - Received #link("https://www.nia.or.kr/")[NIA#note[National Information Society Agency]] president's award
   ],
 )
@@ -119,7 +119,7 @@ Machine Learning, Time Series Analysis, Natural Language Processing, Reinforceme
   "",
 )
 #tile(
-  [#link("https://www.q-net.or.kr/crf005.do?id=crf00505&jmCd=1320")[*Engineer Information Processing*], #link("https://www.hrdkorea.or.kr/")[HRDK#note[Human Resources Development Service of Korea]]],
+  [#link("https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320")[*Engineer Information Processing*], #link("https://www.hrdkorea.or.kr/")[HRDK#note[Human Resources Development Service of Korea]]],
   "Jun 2024",
   "",
 )
@@ -140,7 +140,7 @@ Machine Learning, Time Series Analysis, Natural Language Processing, Reinforceme
   *Platforms & Frameworks* \
   #text(fill: black90)[
     - General: Arduino, Android, Spring, Node.js, Flutter
-    - AI: TensorFlow, PyTorch
+    - AI: PyTorch, TensorFlow
     - DevOps: Docker
   ]
 ]
@@ -166,7 +166,7 @@ Machine Learning, Time Series Analysis, Natural Language Processing, Reinforceme
   "Mar 2023 - Jun 2024",
   [
     Financial Market Research & Stock Investment Institute in Inha Univ.
-    - #accent[Research Team Leader] & Fund Manager #note[Jan 2024 - Jun 2024], #label[#link("https://fund.inhabluechip.com/")[Maximum managed assets]: #link("https://www.google.com/search?q=40000000+krw")[40M KRW]]
+    - #accent[Research Team Leader] & Fund Manager #note[Jan 2024 - Jun 2024], #label[#link("https://fund.inhabluechip.com/")[Maximum managed assets]: #link("https://www.google.com/search?q=40000000+krw")[KRW 40 million]]
     - Delivered three presentations at in-house #link("https://www.youtube.com/@bluechipmutualfund7790")[company analysis seminars #note[YouTube]]
     - Published a #link("https://inhabluechip.com/forum/view/259643")[company analysis report] and two #link("https://www.incheonilbo.com/news/articleList.html?sc_sub_section_code=S2N28")[news articles #note[Incheon Ilbo]]
   ],
@@ -180,7 +180,7 @@ Machine Learning, Time Series Analysis, Natural Language Processing, Reinforceme
   link("https://prography.org/")[*Prography 4#super[th] - 5#super[th]*],
   "Mar 2019 - Feb 2020",
   [
-    Collaborative IT Project Club: #accent[Front-end & Back-end Developer] Track
+    Collaborative IT Project Club: Front-end & Back-end Developer Track
     - Android app and API server developer(Full-stack)
     - Developed a psychological counselor matching platform & meditation music player app
     - Experienced in app server and PG payment API integration
