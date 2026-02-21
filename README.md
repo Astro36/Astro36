@@ -43,7 +43,7 @@ Sep 2024 - Present
 
 Mar 2019 - Aug 2024
 
-- Cumulative GPA 4.41/4.5, Graduated 2nd in class of 189
+- Cumulative GPA 4.41/4.5, Graduated First in the Department
 - Minor in [Global Finance and Banking](https://gfiba.inha.ac.kr/gfiba/index.do)
 
 <details>
