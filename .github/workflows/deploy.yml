@@ -23,24 +23,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-      - name: Install Font
+        uses: actions/checkout@v6
+      - name: Install Times New Roman
         run: |
           sudo add-apt-repository multiverse
           sudo apt-get update
           echo "ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true" | sudo debconf-set-selections
           sudo apt-get install ttf-mscorefonts-installer
-          sudo apt-get install fonts-nanum
           sudo fc-cache -rv
+      - name: Download Pretendard
+        run: |
+          wget -O https://github.com/orioncactus/pretendard/raw/refs/heads/main/packages/pretendard/dist/public/static/Pretendard-Bold.otf
+          wget -O https://github.com/orioncactus/pretendard/raw/refs/heads/main/packages/pretendard/dist/public/static/Pretendard-Regular.otf
       - name: Setup Typst
-        uses: typst-community/setup-typst@v3
+        uses: typst-community/setup-typst@v4
       - name: Render PDF
         run: |
           mkdir -p dist
           typst compile CV_Park.typ dist/CV_Park.pdf
-          typst compile Resume_Park_KR.typ dist/Resume_Park_KR.pdf
+          typst compile Portfolio_Park_KR.typ dist/Portfolio_Park_KR.typ --font-path .
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
