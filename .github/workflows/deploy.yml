@@ -41,7 +41,7 @@ jobs:
         run: |
           mkdir -p dist
           typst compile CV_Park.typ dist/CV_Park.pdf
-          typst compile Portfolio_Park_KR.typ dist/Portfolio_Park_KR.typ --font-path .
+          typst compile Portfolio_Park_KR.typ dist/Portfolio_Park_KR.pdf --font-path .
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
