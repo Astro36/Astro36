@@ -29,6 +29,7 @@ Sep 2019 - Jan 2020
 Sep 2024 - Present
 
 - Graduate Research Assistant in [Multimodal Learning and Computational Finance Lab](https://sites.google.com/view/mlcf/) (Advisor: Prof. Ha Young Kim)
+- Cumulative GPA 4.24/4.3
 
 <details>
 <summary><b>📚 Publications</b></summary>
