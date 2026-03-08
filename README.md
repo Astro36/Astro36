@@ -35,8 +35,9 @@ Sep 2024 - Present
 <summary><b>📚 Publications</b></summary>
 <br>
 
+1. Junwoo Ha, Sungsoo Kim, Kisu Lee, **Seungjae Park**, Hyukjae Kwon and Ha Young Kim, "[TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting](https://arxiv.org/abs/2410.01531)," _**Applied Soft Computing**_, accepted, doi: 10.48550/arXiv.2410.01531.<br>🏷️ <kbd>Multivariate Time Series Forecasting</kbd>
 1. **Seungjae Park**, Sung-Bae Cho, and Ha Young Kim, "[KRAFT³-QA: Korean financial text-table benchmark for evaluating tool-augmented agents on QA tasks](https://doi.org/10.9708/jksci.2025.30.08.029)," _Journal of the Korea Society of Computer and Information_, vol. 30, no. 8, pp. 29-39, Aug. 2025, doi: 10.9708/jksci.2025.30.08.029. [[Code]](https://github.com/Astro36/kraft3qa)<br>🏷️ <kbd>Large Language Model</kbd> <kbd>Tool-augmented Agent</kbd> <kbd>Financial QA Benchmark</kbd>
-1. **Seungjae Park**, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, "[Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098)," in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.<br>🏷️ <kbd>Time Series Forecasting</kbd>
+1. **Seungjae Park**, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, "[Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098)," in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.<br>🏷️ <kbd>Multivariate Time Series Forecasting</kbd>
   
 </details>
 

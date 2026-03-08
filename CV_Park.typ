@@ -27,6 +27,7 @@
 ]
 
 
+#v(-1em)
 #align(center)[
   #block(
     below: 20pt,
@@ -73,7 +74,13 @@
 == Publications
 
 #block(spacing: 1.5em, text(fill: black90)[
-  3. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, #link("https://doi.org/10.9708/jksci.2025.30.08.029")["KRAFT³-QA: Korean financial text-table benchmark for evaluating tool-augmented agents on QA tasks,"] _Journal of The Korea Society of Computer and Information_, vol. 30, no. 8, pp. 29-39, Aug. 2025.
+  4. Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://arxiv.org/abs/2410.01531")["TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting,"] _*Applied Soft Computing*_, accepted, doi: 10.48550/arXiv.2410.01531.
+  #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black90)[
+    *Keywords*: Multivariate Time Series Forecasting
+  ])
+])
+#block(spacing: 1.5em, text(fill: black90)[
+  3. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, #link("https://doi.org/10.9708/jksci.2025.30.08.029")["KRAFT³-QA: Korean financial text-table benchmark for evaluating tool-augmented agents on QA tasks,"] _Journal of The Korea Society of Computer and Information_, vol. 30, no. 8, pp. 29-39, Aug. 2025,  doi: 10.9708/jksci.2025.30.08.029.
   #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black80)[
     *Keywords*: Large Language Model · Tool-augmented Agent · Financial QA Benchmark
   ])
@@ -81,7 +88,7 @@
 #block(spacing: 1.5em, text(fill: black90)[
   2. *Seungjae Park*, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, #link("https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098")["Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information,"] in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.
   #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black80)[
-    *Keywords:* Time Series Forecasting
+    *Keywords:* Multivariate Time Series Forecasting
   ])
 ])
 #block(spacing: 1.5em, text(fill: black90)[
@@ -94,7 +101,7 @@
 === Working Papers
 
 #block(spacing: 1.5em, text(fill: black90)[
-  3. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, "An Empirical Analysis of Catastrophic Forgetting in a Time Series Foundation Model for Stock Price Forecasting." #h(1fr) #text(size: 0.8em, fill: black80)[Target: SCIE-indexed journal]
+  2. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, "An Empirical Analysis of Catastrophic Forgetting in a Time Series Foundation Model for Stock Price Forecasting." #h(1fr) #text(size: 0.8em, fill: black80)[Target: SCIE-indexed journal]
   #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black90)[
     *Keywords*: Time Series Foundation Model · Stock Price Forecasting · Continual Learning · Catastrophic Forgetting
   ])
@@ -106,7 +113,7 @@
   ])
 ])
 #block(spacing: 1.5em, text(fill: black90)[
-  2. Sungsoo Kim, *Seungjae Park*, Taeseong Bang and Ha Young Kim, "Evaluating the Reliability of LLM-Generated Technical Indicator Analysis." #h(1fr) #text(size: 0.8em, fill: black80)[Target: SSCI-indexed journal]
+  1. Sungsoo Kim, *Seungjae Park*, Taeseong Bang and Ha Young Kim, "Evaluating the Reliability of LLM-Generated Technical Indicator Analysis." #h(1fr) #text(size: 0.8em, fill: black80)[Target: SSCI-indexed journal]
   #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black90)[
     *Keywords*: Large Language Model · Financial Analysis · Stock Price Forecasting
   ])
@@ -114,17 +121,6 @@
     - Proposed an LLM-generated technical indicator analysis reliability framework.
     - Introduced Arithmetic-Aware Input Structuring and Iterative Output Refinement to reduce hallucinations in LLM outputs.
     - Demonstrated portfolio-level economic improvements through the proposed framework.
-  ])
-])
-#block(spacing: 1.5em, text(fill: black90)[
-  1. Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://arxiv.org/abs/2410.01531")["TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting,"] _arXiv preprint arXiv:2410.01531_. #h(1fr) #text(size: 0.8em, fill: black80)[Under Review, SCIE-indexed journal]
-  #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black90)[
-    *Keywords*: Time Series Forecasting
-  ])
-  #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em), text(fill: black90)[
-    - Proposed Joint-Axis Attention for unified modeling of asynchronous time-variate dependencies
-    - Introduced DTV Sampling based on 2D embeddings to reduce noise while retaining meaningful interaction patterns
-    - Demonstrated strong performance across 8 benchmark datasets, particularly on high-dimensional datasets.
   ])
 ])
 
@@ -142,7 +138,7 @@
       - Proposed a reliability evaluation framework for LLM-generated technical indicator analysis
       #block(above: 0.8em, below: 0.8em)[*Time Series Forecasting*:]
       - Published a domestic conference paper modeling dynamic cross-variate interactions in multivariate time series forecasting
-      - Conducted research on time series forecasting models, which is currently under review at an SCIE-indexed journal
+      - Conducted research on time series forecasting models; paper accepted in an SCIE-indexed journal.
       - Preparing submission of a paper on catastrophic forgetting in time series foundation models
       #block(above: 0.8em, below: 0.8em)[*Teaching Assistant*:]
       - Served as a practical teaching assistant for Finance and Deep Learning in the AI FinTech program at the Graduate School of Information, Yonsei University

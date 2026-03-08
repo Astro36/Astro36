@@ -66,7 +66,7 @@
 #block(spacing: 1em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     *(석사과정) 대학원생 연구원*, 연세대학교 MLCF 연구실 - #text(size: 0.9em, fill: black90)[https://sites.google.com/view/mlcf] #h(1fr) \
-    #align(right)[#block(above: 8pt)[#text(size: 0.9em, fill: black90)[2024.07 - 현재 (1년 8개월)]]]
+    #align(right)[#block(above: 8pt)[#text(size: 0.9em, fill: black90)[2024.07 - 현재 (1년 9개월)]]]
   ]
   #grid(
     columns: (auto, 1fr),
@@ -83,16 +83,16 @@
       연구는 다음의 두 축을 중심으로 수행함 \
       1. #accent[Large Language Model] \
         - *KRAFT³-QA* #pill[Publications\#3] : 금융 텍스트-표 혼합 질의응답을 체계적으로 평가할 벤치마크가 부재한 문제를 해결하기 위해, 공시 데이터 기반 QA 데이터셋과 Tool-augmented 에이전트 평가 프로토콜을 설계·구현하고 대규모 LLM 실험을 수행함
-        - *Evaluating LLM-Generated Technical Analysis* #pill[Projects\#11] : LLM 기반 기술적 지표 해석이 수치·규칙·가격–지표 관계 측면에서 오류를 내포하는 문제를 분석하고, 신뢰성 평가 프레임워크를 제안하며 실증 실험을 수행함
+        - *Evaluating LLM-Generated Technical Analysis* #pill[Projects\#10] : LLM 기반 기술적 지표 해석이 수치·규칙·가격–지표 관계 측면에서 오류를 내포하는 문제를 분석하고, 신뢰성 평가 프레임워크를 제안하며 실증 실험을 수행함
       2. #accent[Time Series Forecasting]
         - *ElxaTST* #pill[Publications\#2] : 기존 다변량 시계열 모델이 계산복잡도로 인해 변수 간 동적인 상호작용을 효율적으로 반영하지 못하는 문제를 해결하기 위해, Top K 기반 상호작용 선택 구조를 구현하고 5개의 벤치마크 데이터셋으로 성능 평가를 수행함
-        - *TiVaT* #pill[Projects\#10] : 시점과 변수 간 비동기적 상호작용을 단일 연산으로 직접 모델링하지 못하는 기존 Transformer 구조의 한계를 개선하기 위해, Joint-Axis Attention과 DTV Sampling을 제안, 본 연구에서 벤치마크 데이터셋에서의 성능 분석과 아이디어 검증을 수행함
-        - *TSFM Catastrophic Forgetting* #pill[Projects\#12] : 자산 유니버스가 점진적으로 확장되는 금융 환경에서 시계열 모델의 망각 현상이 체계적으로 분석되지 않은 문제를 해결하기 위해, 시계열 파운데이션 모델의 순차 학습 프로토콜과 평가 프레임워크를 설계하고 실증 분석을 수행함
+        - *TiVaT* #pill[Publications\#4] : 시점과 변수 간 비동기적 상호작용을 단일 연산으로 직접 모델링하지 못하는 기존 Transformer 구조의 한계를 개선하기 위해, Joint-Axis Attention과 DTV Sampling을 제안, 본 연구에서 벤치마크 데이터셋에서의 성능 분석과 아이디어 검증을 수행함
+        - *TSFM Catastrophic Forgetting* #pill[Projects\#11] : 자산 유니버스가 점진적으로 확장되는 금융 환경에서 시계열 모델의 망각 현상이 체계적으로 분석되지 않은 문제를 해결하기 위해, 시계열 파운데이션 모델의 순차 학습 프로토콜과 평가 프레임워크를 설계하고 실증 분석을 수행함
       연세대학교 정보대학원 계약학과 AI핀테크 과정의 "재무와 딥러닝" 과목의 강의조교로 활동, 전체 수업의 약 1/3에 해당하는 실습 강의을 담당
     ],
 
     [*성과)*],
-    [국내 저널(KCI) 1편 게재, 국내 학회 1편 발표, SCIE Q1 저널 1편 심사 중, SCIE/SSCI 저널 각각 1편 추가 제출 준비 중],
+    [SCIE Q1 저널 1편 게재(예정), 국내 저널(KCI) 1편 게재, 국내 학회 1편 발표, SCIE/SSCI 저널 각각 1편 추가 제출 준비 중],
 
     [*기술)*], [Python, PyTorch, Financial AI, Large Language Model, Time Series Forecasting],
   )
@@ -203,6 +203,39 @@
 
 #block(spacing: 1em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
+    4. Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://arxiv.org/abs/2410.01531")["TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting,"] _Applied Soft Computing_, _accepted_, doi: 10.48550/arXiv.2410.01531.
+  ]
+  #grid(
+    columns: (auto, 1fr),
+    column-gutter: 8pt,
+    row-gutter: 12pt,
+    align: (left, left),
+    [*배경)*],
+    [
+      #accent[다변량 시계열 예측]에서는 기존 Channel Dependence 모델들은 서로 다른 시점과 변수 간에 발생하는 비동기적 상호작용을 단일 연산 내에서 직접 모델링하지 못하는 구조적 한계가 있음 \
+      또한, 이를 동시에 처리할 경우 모든 토큰 간 상호작용이 계산되면서 불필요한 노이즈가 유입되어 예측 성능이 저하되는 문제가 발생 \
+      따라서 노이즈를 억제하면서 비동기적 상호작용을 통합적으로 모델링할 수 있는 새로운 구조가 요구됨
+    ],
+
+    [*기여)*],
+    [
+      시간 축과 변수 축을 하나의 Unified Operation으로 동시에 처리하는 Joint-Axis Attention 모듈을 제안하여 비동기적 상호작용을 직접 모델링 \
+      또한, 2D Embedding 기반 Distance-aware Time-Variate Sampling을 도입하여 #accent[노이즈를 제거하고 의미 있는 패턴을 선택]함으로써 표현력과 해석 가능성을 동시에 확보 \
+      해당 연구에서 #accent[모델 구현 및 실험을 담당]하여 다양한 데이터셋에서의 성능 분석과 아이디어 검증을 수행하고 논문 수정 및 보완 과정에 참여
+    ],
+
+    [*성과)*],
+    [
+      8개의 장기 시계열 예측 벤치마크에서 실험한 결과, 우수한 시계열 예측 성능을 보임 \
+      특히, 변수간 관계를 모델링하는 것이 중요한 고차원 데이터셋에서 경쟁 모델 대비 특출난 성능을 보임
+    ],
+
+    [*기술)*], [Python, PyTorch, Multivariate Time Series Forecasting],
+  )
+]
+#v(1em)
+#block(spacing: 1em)[
+  #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     3. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, #link("https://doi.org/10.9708/jksci.2025.30.08.029")["KRAFT³-QA: Korean financial text-table benchmark for evaluating tool-augmented agents on QA tasks,"] _Journal of The Korea Society of Computer and Information_, vol. 30, no. 8, pp. 29-39, Aug. 2025, doi: 10.9708/jksci.2025.30.08.029.
   ]
   #grid(
@@ -255,7 +288,7 @@
     [*성과)*],
     [5개의 장기 시계열 예측 벤치마크에서 MSE 및 MAE 기준으로 기존 모델(iTransformer, PatchTST)을 전반적으로 상회하는 성능을 보임],
 
-    [*기술)*], [Python, PyTorch, Time Series Forecasting],
+    [*기술)*], [Python, PyTorch, Multivariate Time Series Forecasting],
   )
 ]
 #v(1em)
@@ -295,7 +328,7 @@
 
 #block(spacing: 1em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
-    12. *(To be submitted to an SCIE-indexed journal)* *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, "An Empirical Analysis of Catastrophic Forgetting in a Time Series Foundation Model for Stock Price Forecasting". #h(1fr) #text(size: 0.9em, fill: black90)[2025.10 - 진행 중]
+    11. *(To be submitted to an SCIE-indexed journal)* *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, "An Empirical Analysis of Catastrophic Forgetting in a Time Series Foundation Model for Stock Price Forecasting". #h(1fr) #text(size: 0.9em, fill: black90)[2025.10 - 진행 중]
   ]
   #grid(
     columns: (auto, 1fr),
@@ -325,7 +358,7 @@
 #v(1em)
 #block(spacing: 1em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
-    11. *(To be submitted to an SSCI-indexed journal)* Sungsoo Kim, *Seungjae Park*, Taeseong Bang and Ha Young Kim, "Evaluating the Reliability of LLM-Generated Technical Indicator Analysis". #h(1fr) #text(size: 0.9em, fill: black90)[2025.10 - 진행 중]
+    10. *(To be submitted to an SSCI-indexed journal)* Sungsoo Kim, *Seungjae Park*, Taeseong Bang and Ha Young Kim, "Evaluating the Reliability of LLM-Generated Technical Indicator Analysis". #h(1fr) #text(size: 0.9em, fill: black90)[2025.10 - 진행 중]
   ]
   #grid(
     columns: (auto, 1fr),
@@ -355,39 +388,6 @@
     ],
 
     [*기술)*], [Python, Large Language Model, #accent[Financial Analysis], Stock Price Forecasting],
-  )
-]
-#v(1em)
-#block(spacing: 1em)[
-  #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
-    10. *(Submitted to an SCIE-indexed journal)* Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://arxiv.org/abs/2410.01531")["TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting,"] _arXiv preprint arXiv:2410.01531_. #h(1fr) #text(size: 0.9em, fill: black90)[2024.10 - 진행 중]
-  ]
-  #grid(
-    columns: (auto, 1fr),
-    column-gutter: 8pt,
-    row-gutter: 12pt,
-    align: (left, left),
-    [*배경)*],
-    [
-      #accent[다변량 시계열 예측]에서는 기존 Channel Dependence 모델들은 서로 다른 시점과 변수 간에 발생하는 비동기적 상호작용을 단일 연산 내에서 직접 모델링하지 못하는 구조적 한계가 있음 \
-      또한, 이를 동시에 처리할 경우 모든 토큰 간 상호작용이 계산되면서 불필요한 노이즈가 유입되어 예측 성능이 저하되는 문제가 발생 \
-      따라서 노이즈를 억제하면서 비동기적 상호작용을 통합적으로 모델링할 수 있는 새로운 구조가 요구됨
-    ],
-
-    [*기여)*],
-    [
-      시간 축과 변수 축을 하나의 Unified Operation으로 동시에 처리하는 Joint-Axis Attention 모듈을 제안하여 비동기적 상호작용을 직접 모델링 \
-      또한, 2D Embedding 기반 Distance-aware Time-Variate Sampling을 도입하여 #accent[노이즈를 제거하고 의미 있는 패턴을 선택]함으로써 표현력과 해석 가능성을 동시에 확보 \
-      해당 연구에서 #accent[모델 구현 및 실험을 담당]하여 다양한 데이터셋에서의 성능 분석과 아이디어 검증을 수행하고 논문 수정 및 보완 과정에 참여
-    ],
-
-    [*성과)*],
-    [
-      8개의 장기 시계열 예측 벤치마크에서 실험한 결과, 우수한 시계열 예측 성능을 보임 \
-      특히, 변수간 관계를 모델링하는 것이 중요한 고차원 데이터셋에서 경쟁 모델 대비 특출난 성능을 보임, *현재 논문 심사 중*
-    ],
-
-    [*기술)*], [Python, PyTorch, Time Series Forecasting],
   )
 ]
 #v(1em)
