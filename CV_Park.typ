@@ -43,8 +43,8 @@
 
 #text(fill: black90)[
   M.S. student in Artificial Intelligence at Yonsei University, affiliated with the Multimodal Learning and Computational Finance Lab.
-  My research focuses on #accent[Financial AI] at the intersection of large language models and time series forecasting models.
-  I aim to build models that are deployable for real-world financial decision-making.
+  My research focuses on #accent[Financial AI] at the intersection of large language models and time series forecasting.
+  I aim to develop practical and robust models for real-world financial decision-making.
 
   - #accent[Financial reasoning] and structured quantitative analysis using large language models
   - #accent[Tool-augmented agents] and benchmark design for financial document understanding
@@ -175,6 +175,9 @@
   "Sep 2023 - Dec 2023",
   [
     Big Data Training Hackathon hosted by K-ICT Big Data Center
+    #block(above: 0.8em, below: 0.8em, text(size: 0.85em, fill: black90)[
+      *Keywords*: Image Classification
+    ])
     - Addressed Korean food image classification using ResNet with domain-aware augmentation
     - Received the #link("https://www.nia.or.kr/")[NIA#note[National Information Society Agency]] President's Award
   ],
