@@ -63,7 +63,7 @@
 
 == Experiences
 
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     *(석사과정) 대학원생 연구원*, 연세대학교 MLCF 연구실 - #text(size: 0.9em, fill: black90)[https://sites.google.com/view/mlcf] #h(1fr) \
     #align(right)[#block(above: 8pt)[#text(size: 0.9em, fill: black90)[2024.07 - 현재 (1년 9개월)]]]
@@ -83,11 +83,11 @@
       연구는 다음의 두 축을 중심으로 수행함 \
       1. #accent[Large Language Model] \
         - *KRAFT³-QA* #pill[Publications\#3] : 금융 텍스트-표 혼합 질의응답을 체계적으로 평가할 벤치마크가 부재한 문제를 해결하기 위해, 공시 데이터 기반 QA 데이터셋과 Tool-augmented 에이전트 평가 프로토콜을 설계·구현하고 대규모 LLM 실험을 수행함
-        - *Evaluating LLM-Generated Technical Analysis* #pill[Projects\#10] : LLM 기반 기술적 지표 해석이 수치·규칙·가격–지표 관계 측면에서 오류를 내포하는 문제를 분석하고, 신뢰성 평가 프레임워크를 제안하며 실증 실험을 수행함
+        - *Evaluating LLM-Generated Technical Analysis* #pill[Projects\#11] : LLM 기반 기술적 지표 해석이 수치·규칙·가격–지표 관계 측면에서 오류를 내포하는 문제를 분석하고, 신뢰성 평가 프레임워크를 제안하며 실증 실험을 수행함
       2. #accent[Time Series Forecasting]
         - *ElxaTST* #pill[Publications\#2] : 기존 다변량 시계열 모델이 계산복잡도로 인해 변수 간 동적인 상호작용을 효율적으로 반영하지 못하는 문제를 해결하기 위해, Top K 기반 상호작용 선택 구조를 구현하고 5개의 벤치마크 데이터셋으로 성능 평가를 수행함
         - *TiVaT* #pill[Publications\#4] : 시점과 변수 간 비동기적 상호작용을 단일 연산으로 직접 모델링하지 못하는 기존 Transformer 구조의 한계를 개선하기 위해, Joint-Axis Attention과 DTV Sampling을 제안, 본 연구에서 벤치마크 데이터셋에서의 성능 분석과 아이디어 검증을 수행함
-        - *TSFM Catastrophic Forgetting* #pill[Projects\#11] : 자산 유니버스가 점진적으로 확장되는 금융 환경에서 시계열 모델의 망각 현상이 체계적으로 분석되지 않은 문제를 해결하기 위해, 시계열 파운데이션 모델의 순차 학습 프로토콜과 평가 프레임워크를 설계하고 실증 분석을 수행함
+        - *TSFM Catastrophic Forgetting* #pill[Projects\#12] : 자산 유니버스가 점진적으로 확장되는 금융 환경에서 시계열 모델의 망각 현상이 체계적으로 분석되지 않은 문제를 해결하기 위해, 시계열 파운데이션 모델의 순차 학습 프로토콜과 평가 프레임워크를 설계하고 실증 분석을 수행함
       연세대학교 정보대학원 계약학과 AI핀테크 과정의 "재무와 딥러닝" 과목의 강의조교로 활동, 전체 수업의 약 1/3에 해당하는 실습 강의을 담당
     ],
 
@@ -97,8 +97,7 @@
     [*기술)*], [Python, PyTorch, Financial AI, Large Language Model, Time Series Forecasting],
   )
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     *(창업 프로젝트) AI/풀스택 엔지니어*, SW마에스트로 11기 #text(size: 0.9em, fill: black90)[(창의·도전형 SW인재육성 정부지원 사업)] #h(1fr) \
     #align(right)[#block(above: 8pt)[#text(size: 0.9em, fill: black90)[2020.05 - 2020.12 (8개월)]]]
@@ -131,8 +130,7 @@
     [*기술)*], [C++, Python, Tensorflow, Django, Redis, Elasticsearch, MariaDB, Docker, AWS],
   )
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     *(프리랜서) 풀스택 엔지니어*, INSIGHT #text(size: 0.9em, fill: black90)[(스타트업)] #h(1fr) #text(size: 0.9em, fill: black90)[2019.09 - 2020.01 (4개월)]
   ]
@@ -164,9 +162,8 @@
     [*기술)*], [Kotlin, Android App, Python, Flask, Docker, MariaDB, Nginx],
   )
 ]
-#v(1em)
 #pagebreak()
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     *(창업 프로젝트) 풀스택 엔지니어*, 프로그라피 4-5기 #h(1fr) #text(size: 0.9em, fill: black90)[2019.03 - 2020.02 (1년)]
   ]
@@ -201,9 +198,9 @@
 
 == Publications
 
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
-    4. Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://arxiv.org/abs/2410.01531")["TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting,"] _Applied Soft Computing_, _accepted_, doi: 10.48550/arXiv.2410.01531.
+    4. Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://arxiv.org/abs/2410.01531")["TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting,"] _*Applied Soft Computing*_, _accepted_, doi: 10.48550/arXiv.2410.01531.
   ]
   #grid(
     columns: (auto, 1fr),
@@ -233,8 +230,7 @@
     [*기술)*], [Python, PyTorch, Multivariate Time Series Forecasting],
   )
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     3. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, #link("https://doi.org/10.9708/jksci.2025.30.08.029")["KRAFT³-QA: Korean financial text-table benchmark for evaluating tool-augmented agents on QA tasks,"] _Journal of The Korea Society of Computer and Information_, vol. 30, no. 8, pp. 29-39, Aug. 2025, doi: 10.9708/jksci.2025.30.08.029.
   ]
@@ -263,8 +259,7 @@
     [*기술)*], [Python, Large Language Model, #accent[Tool-augmented Agent], Financial QA Benchmark],
   )
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     2. *Seungjae Park*, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, #link("https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098")["Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information,"] in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.
   ]
@@ -291,8 +286,7 @@
     [*기술)*], [Python, PyTorch, Multivariate Time Series Forecasting],
   )
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     1. *Seungjae Park* and Daeyoung Park, #link("https://eee.inha.ac.kr/bbs/eee/3919/122977/download.do")["A Novel Stock Screening Approach using Large Language Models and Correlation-Aware Retrieval,"] presented at the _Capstone Design in ICT#h(1pt) (Capstone Project)_, Inha Univ., Incheon, South Korea, Jun. 2024.
   ]
@@ -326,9 +320,9 @@
 
 == Projects
 
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
-    11. *(To be submitted to an SCIE-indexed journal)* *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, "An Empirical Analysis of Catastrophic Forgetting in a Time Series Foundation Model for Stock Price Forecasting". #h(1fr) #text(size: 0.9em, fill: black90)[2025.10 - 진행 중]
+    12. *(To be submitted to an SCIE-indexed journal)* *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, "An Empirical Analysis of Catastrophic Forgetting in a Time Series Foundation Model for Stock Price Forecasting". #h(1fr) #text(size: 0.9em, fill: black90)[2025.10 - 진행 중]
   ]
   #grid(
     columns: (auto, 1fr),
@@ -344,21 +338,20 @@
     [*기여)*],
     [
       본 연구는 금융 시계열에 시계열 파운데이션 모델을 순차적으로 파인튜닝하는 환경에서 Catastrophic Forgetting을 체계적으로 분석한 최초의 실증 연구 \
-      종목 유니버스 확장과 국가 간 순차 적응이라는 두 가지 현실적 #accent[시나리오를 설계]하고, MAPE 기반 망각 및 전이 지표를 결합한 #accent[평가 프레임워크를 제안] \
+      종목 유니버스 확장과 국가 간 순차 적응이라는 두 가지 현실적 시나리오를 설계하고, MAPE 기반 망각 및 전이 지표를 결합한 #accent[평가 프레임워크를 제안] \
       태스크 특성과 예측 기간이 망각에 미치는 영향을 정량적으로 분석하여, 배포 환경에서의 안정성 중심 의사결정 기준을 제시
     ],
 
     [*성과)*],
-    [시계열 파운데이션 모델이 순차 학습 프로토콜 하에서 #accent[기존 예측 모델 대비 망각에 덜 취약]하며, 장기 예측 환경에서도 상대적으로 안정적인 성능을 유지함을 확인, *논문 제출 예정*],
+    [순차 학습 프로토콜 하에서 #accent[시계열 파운데이션 모델은 기존 예측 모델 대비 망각에 덜 취약]하며, 장기 예측 환경에서도 상대적으로 안정적인 성능을 유지함을 확인, *논문 제출 예정*],
 
     [*기술)*],
     [Python, PyTorch, Time Series Foundation Model, Stock Price Forecasting, #accent[Continual Learning], Catastrophic Forgetting],
   )
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
-    10. *(To be submitted to an SSCI-indexed journal)* Sungsoo Kim, *Seungjae Park*, Taeseong Bang and Ha Young Kim, "Evaluating the Reliability of LLM-Generated Technical Indicator Analysis". #h(1fr) #text(size: 0.9em, fill: black90)[2025.10 - 진행 중]
+    11. *(To be submitted to an SSCI-indexed journal)* Sungsoo Kim, *Seungjae Park*, Taeseong Bang and Ha Young Kim, "Evaluating the Reliability of LLM-Generated Technical Indicator Analysis". #h(1fr) #text(size: 0.9em, fill: black90)[2024.10 - 진행 중]
   ]
   #grid(
     columns: (auto, 1fr),
@@ -375,7 +368,7 @@
     [*기여)*],
     [
       본 연구는 LLM 기반 기술적 분석의 신뢰성을 규칙 준수성, 수치적 정합성, 가격–지표 관계 일관성의 세 차원으로 구조화한 신뢰성 평가 프레임워크를 제안함 \
-      또한, Arithmetic-Aware Input Structuring과 Iterative Self-Refinement를 통해 생성 해석의 규칙·수치·관계 정합성을 개선하는 방법론을 제시함 \
+      또한, Iterative Self-Refinement를 통해 출력의 규칙·수치·관계 정합성을 개선하는 방법론을 제시함 \
       실증 분석 결과, 제안된 구조는 해석 신뢰성을 유의하게 향상시키며, 이러한 개선이 포트폴리오 수준의 성과 개선으로 이어짐을 확인함 \
       해당 연구에서 #accent[데이터셋 수집·정제 및 실험을 수행]하고, 신뢰성 평가 프레임워크를 포함한 #accent[핵심 방법론을 제안]하였으며, 논문 작성 전 과정에 참여
     ],
@@ -390,8 +383,43 @@
     [*기술)*], [Python, Large Language Model, #accent[Financial Analysis], Stock Price Forecasting],
   )
 ]
-#v(1em)
-#block(spacing: 1em)[
+#pagebreak()
+#block(spacing: 1.5em)[
+  #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
+    10. *MLCF GPUstat* - #text(size: 0.9em, fill: black90)[https://github.com/Astro36/mlcf-gpustat] #h(1fr) #text(size: 0.9em, fill: black90)[2025.02]
+  ]
+  #grid(
+    columns: (auto, 1fr),
+    column-gutter: 8pt,
+    row-gutter: 12pt,
+    align: (left, left),
+
+    [*배경)*],
+    [
+      연구실에서는 여러 GPU 서버를 운영하며, 실험을 시작한 이후 모델이 GPU에 정상적으로 올라갔는지와 실험이 종료되었는지를 확인하기 위해 #accent[GPU 사용률을 지속적으로 확인]할 필요가 있었음 \
+      이를 위해, 각 서버에 SSH로 접속해 watch nvidia-smi 명령으로 GPU 상태를 모니터링하고 있었음 \
+      또한, 새로운 실험을 시작하기 위해 남는 GPU를 찾으려면 여러 서버에 순차적으로 접속해 동일한 확인 작업을 반복해야 하는 불편이 존재했음 \
+      이러한 이유로 #accent[여러 서버의 GPU 상태를 통합 모니터링할 수 있는 웹 대시보드]를 개발함
+    ],
+
+    [*기여)*],
+    [
+      Node.js 백엔드에서 SSH를 사용해 원격 서버에 접속하고, 각 서버에서 nvidia-smi 명령을 실행한 뒤 결과를 파싱하여 GPU 사용률, 메모리 사용량, 프로세스 정보를 수집하는 로직을 구현 \
+      각 서버에 NVML(NVIDIA Management Library)등의 런타임 의존성을 설치하지 않도록 수집 방식을 #accent[SSH와 기본 제공 명령 중심으로 설계]해 운영 환경의 유지보수 부담 최소화 \
+      수집한 GPU 상태를 WebSocket으로 브라우저에 주기적으로 전달하고, 웹 페이지 서빙 리소스 절감을 위해 #accent[정적 웹 페이지]에서 서버별 GPU 현황을 한눈에 볼 수 있도록 구성
+    ],
+
+    [*성과)*],
+    [
+      개별 서버에 직접 접속하지 않고도 GPU 상태를 통합 조회할 수 있는 환경을 구축하여 연구실 계산자원 모니터링을 단순화함 \
+      그 결과, 여러 사용자가 watch nvidia-smi 명령을 실행하던 방식에 비해, 서버 측에 발생하던 #accent[CPU 부하를 감소]시킬 수 있었으며 GPU 상태 확인 작업도 단일 웹 페이지에서 빠르게 수행할 수 있게 됨 \
+      실험 전 사용 가능한 GPU를 찾기 위해 여러 서버에 순차적으로 접속하던 과정을 통합 조회 방식으로 개선하여 실험 환경을 효율화함
+    ],
+
+    [*기술)*], [JavaScript, Node.js, WebSocket, Docker, Kubernetes, VictoriaMetrics],
+  )
+]
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     9. *BCMF NAV* - #text(size: 0.9em, fill: black90)[https://fund.inhabluechip.com/] #h(1fr) #text(size: 0.9em, fill: black90)[2024.01 - 2024.07]
   ]
@@ -421,8 +449,7 @@
     [*기술)*], [JavaScript, Node.js, Tailwind CSS, Vite, GitHub Actions],
   )
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     8. *Stock Earnings Calendar* - #text(size: 0.9em, fill: black90)[https://github.com/Astro36/mystock] #h(1fr) #text(size: 0.9em, fill: black90)[2023.06 - 2023.07]
   ]
@@ -452,8 +479,7 @@
     [*기술)*], [Dart, Flutter, Android App],
   )
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     7. *Self-Balancing Robot* - #text(size: 0.9em, fill: black90)[https://github.com/Astro36/ICE3015-project] #h(1fr) #text(size: 0.9em, fill: black90)[2023.03 - 2023.06]
   ]
@@ -483,8 +509,7 @@
     [*기술)*], [Embedded C++],
   )
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     6. *3D Product Catalog* - #text(size: 0.9em, fill: black90)[https://github.com/Astro36/ICE3016-miniproject] #h(1fr) #text(size: 0.9em, fill: black90)[2022.12]
   ]
@@ -514,8 +539,7 @@
     [*기술)*], [C++, OpenGL, Blender],
   )
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     5. *(팀 프로젝트) ICE Market* - #text(size: 0.9em, fill: black90)[https://github.com/ICE-LIFE/ICE-LIFE-Backend] #h(1fr) #text(size: 0.9em, fill: black90)[2022.07 - 2022.08]
   ]
@@ -544,8 +568,7 @@
     [*기술)*], [Java, #accent[Spring Boot], JavaScript, React, Docker, MySQL],
   )
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     4. *Quick Pool* - #text(size: 0.9em, fill: black90)[https://crates.io/crates/qp] #h(1fr) #text(size: 0.9em, fill: black90)[2021.11 - 2021.12]
   ]
@@ -576,8 +599,7 @@
     [*기술)*], [#accent[Rust], Async Programming, Lock-free Data Structures],
   )
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     3. *(팀 프로젝트) CareU* - #text(size: 0.9em, fill: black90)[https://github.com/Astro36/careu] #h(1fr) #text(size: 0.9em, fill: black90)[2020.01]
   ]
@@ -607,8 +629,7 @@
     [*기술)*], [Flutter, Android App, Javascript, Parcel, TensorFlow Lite, #accent[On-device Inference]],
   )
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     2. *(팀 프로젝트) BraInha* - #text(size: 0.9em, fill: black90)[https://github.com/int-i/brainha-demo-server] #h(1fr) #text(size: 0.9em, fill: black90)[2019.11]
   ]
@@ -638,9 +659,7 @@
     [*기술)*], [JavaScript, Node.js, Express.js, Java, Android App, Docker, MariaDB, Nginx],
   )
 ]
-#v(1em)
-#pagebreak()
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     1. *(팀 프로젝트) WATHC_DOCS* - #text(size: 0.9em, fill: black90)[https://github.com/watchdocs/watchdocs-frontend] #h(1fr) #text(size: 0.9em, fill: black90)[2019.08]
   ]
@@ -673,7 +692,7 @@
 
 == Awards
 
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     *2023 Data Creator Camp 우수상*, 한국지능정보사회진흥원 원장상 #h(1fr) #text(size: 0.9em, fill: black90)[2023.09 - 2023.12]
   ]
@@ -698,10 +717,11 @@
     [*기술)*], [Python, PyTorch, ResNet, Transfer Learning, Image Classification],
   )
 ]
+#pagebreak()
 
 == Organizations & Leadership
 
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     *블루칩뮤추얼펀드*, 교내 주식투자 동아리 - #text(size: 0.9em, fill: black90)[https://inhabluechip.com/] #h(1fr) #text(size: 0.9em, fill: black90)[2023.03 - 2024.08 (1년 6개월)]
   ]
@@ -724,8 +744,7 @@
     - 아울러 2024 DB GAPS 대회에 참여하여 총 1006개 팀 중 56위를 기록하며 상위 5.6% 순위 달성
   ]
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     *인트아이*, 학과 프로그래밍 소모임 - #text(size: 0.9em, fill: black90)[https://int-i.github.io/] #h(1fr) #text(size: 0.9em, fill: black90)[2019.03 - 2024.08 (5년 6개월)]
   ]
@@ -739,8 +758,7 @@
     - 소모임 내 자격증 스터디를 신설하여 구성원들의 실무 역량 및 자격 취득 준비를 지원
   ]
 ]
-#v(1em)
-#block(spacing: 1em)[
+#block(spacing: 1.5em)[
   #block(below: 10pt, fill: black5, inset: 6pt, radius: 3pt)[
     *학과 학생회* #h(1fr) #text(size: 0.9em, fill: black90)[2019.03 - 2020.12, 2022.09 - 2023.06 (2년 6개월, 군 휴학 기간 제외)]
   ]
