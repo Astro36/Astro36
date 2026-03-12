@@ -27,7 +27,7 @@
 ]
 
 
-#v(-1em)
+#v(-1.5em)
 #align(center)[
   #block(
     below: 20pt,
@@ -74,7 +74,7 @@
 == Publications
 
 #block(spacing: 1.5em, text(fill: black90)[
-  4. Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://arxiv.org/abs/2410.01531")["TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting,"] _*Applied Soft Computing*_, accepted, doi: 10.48550/arXiv.2410.01531.
+  4. Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://doi.org/10.1016/j.asoc.2026.114979")["TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting,"] _*Applied Soft Computing*_, p. 114979, Mar. 2026, doi: 10.1016/j.asoc.2026.114979.
   #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black90)[
     *Keywords*: Multivariate Time Series Forecasting
   ])
