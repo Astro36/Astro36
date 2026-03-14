@@ -34,6 +34,7 @@ jobs:
       - name: Download Pretendard
         run: |
           wget https://github.com/orioncactus/pretendard/raw/refs/heads/main/packages/pretendard/dist/public/static/Pretendard-Bold.otf
+          wget https://github.com/orioncactus/pretendard/raw/refs/heads/main/packages/pretendard/dist/public/static/Pretendard-SemiBold.otf
           wget https://github.com/orioncactus/pretendard/raw/refs/heads/main/packages/pretendard/dist/public/static/Pretendard-Regular.otf
       - name: Setup Typst
         uses: typst-community/setup-typst@v4

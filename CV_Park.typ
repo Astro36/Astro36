@@ -1,56 +1,52 @@
-#let black100 = black
-#let black90 = white.darken(90%)
-#let black80 = white.darken(80%)
-#let black70 = white.darken(70%)
+#let black1 = black
+#let black2 = white.darken(90%)
+#let black3 = white.darken(80%)
+#let black4 = white.darken(70%)
 
 #set document(title: "Seungjae Park", author: "Seungjae Park")
 #set page(numbering: "1", number-align: center)
-#set text(font: "Times New Roman", size: 11pt, fill: black100)
+#set text(font: "Times New Roman", size: 11pt, fill: black2)
 #set par(justify: true)
 
 #show heading.where(level: 2): it => block(
   above: 24pt,
   below: 16pt,
-  text(weight: "bold", size: 20pt)[#it.body],
+  text(weight: "bold", size: 20pt, fill: black1, it.body),
 )
 #show heading.where(level: 3): it => block(
-  above: 18pt,
+  above: 20pt,
   below: 14pt,
-  text(weight: "bold", size: 16pt)[#it.body],
+  text(weight: "bold", size: 16pt, fill: black1, it.body),
 )
 
 #let note(body) = text(size: 0.7em)[(#body)]
-#let accent(body) = underline(stroke: 5pt + rgb("#ffebaf"), offset: -2.5pt, evade: false, background: true)[#body]
+#let accent(body) = underline(stroke: 5pt + rgb("#ffebaf"), offset: -2.5pt, evade: false, background: true, body)
 #let tile(title, date, body) = block(spacing: 1.5em)[
-  #title #h(1fr) #text(size: 0.8em, fill: black80)[#date] \
-  #text(fill: black90)[#body]
+  #text(fill: black1, title) #h(1fr) #text(size: 0.8em, fill: black3)[#date] \
+  #body
 ]
 
 
-#v(-1.5em)
 #align(center)[
   #block(
     below: 20pt,
-    text(weight: "bold", size: 24pt)[= Seungjae Park],
+    text(weight: "bold", size: 24pt, fill: black1)[= Seungjae Park],
   )
-  #text(fill: black90)[
-    astro.psj\@gmail.com \
-    #link("https://github.com/Astro36")[github.com/Astro36] · #link("https://www.linkedin.com/in/seungjae-park/")[linkedin.com/in/seungjae-park]
-  ]
+  astro.psj\@gmail.com \
+  #link("https://github.com/Astro36")[github.com/Astro36] · #link("https://www.linkedin.com/in/seungjae-park/")[linkedin.com/in/seungjae-park]
 ]
+#v(4pt)
 
 == Research Interests
 
-#text(fill: black90)[
-  M.S. student in Artificial Intelligence at Yonsei University, affiliated with the Multimodal Learning and Computational Finance Lab.
-  My research focuses on #accent[Financial AI] at the intersection of large language models and time series forecasting.
-  I aim to develop practical and robust models for real-world financial decision-making.
+M.S. student in Artificial Intelligence at Yonsei University, affiliated with the Multimodal Learning and Computational Finance Lab.
+My research focuses on #accent[Financial AI] at the intersection of large language models and time series forecasting.
+I aim to develop practical and robust models for real-world financial decision-making.
 
-  - #accent[Financial reasoning] and structured quantitative analysis using large language models
-  - #accent[Tool-augmented agents] and benchmark design for financial document understanding
-  - Multivariate #accent[time series forecasting], with an emphasis on cross-variate interaction modeling
-  - Continual learning and robustness of #accent[time series foundation models] under evolving financial markets
-]
+- #accent[Financial reasoning] and structured quantitative analysis using large language models
+- #accent[Tool-augmented agents] and benchmark design for financial document understanding
+- Multivariate #accent[time series forecasting], with an emphasis on cross-variate interaction modeling
+- Continual learning and robustness of #accent[time series foundation models] under evolving financial markets
 
 == Education
 
@@ -66,63 +62,75 @@
   [*#accent[B.S. in #link("https://ice.inha.ac.kr/")[Information and Communication Engineering]], #link("https://www.inha.ac.kr/")[Inha University]*],
   "Mar 2019 - Aug 2024",
   [
-    - Cumulative GPA 4.41/4.5, Graduated #accent[1st in the departement]
+    - Cumulative GPA 4.41/4.5, Graduated #accent[1st in the department]
     - Minor in #accent[#link("https://gfiba.inha.ac.kr/")[Global Finance and Banking]]
   ],
 )
 
 == Publications
 
-#block(spacing: 1.5em, text(fill: black90)[
-  4. Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://doi.org/10.1016/j.asoc.2026.114979")["TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting,"] _*Applied Soft Computing*_, p. 114979, Mar. 2026, doi: 10.1016/j.asoc.2026.114979.
-  #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black90)[
+#block(spacing: 1.5em)[
+  #text(fill: black1)[
+    4. Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://doi.org/10.1016/j.asoc.2026.114979")["TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting,"] _*Applied Soft Computing*_, p. 114979, Mar. 2026, doi: 10.1016/j.asoc.2026.114979.
+  ]
+  #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black2)[
     *Keywords*: Multivariate Time Series Forecasting
   ])
-])
-#block(spacing: 1.5em, text(fill: black90)[
-  3. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, #link("https://doi.org/10.9708/jksci.2025.30.08.029")["KRAFT³-QA: Korean financial text-table benchmark for evaluating tool-augmented agents on QA tasks,"] _Journal of The Korea Society of Computer and Information_, vol. 30, no. 8, pp. 29-39, Aug. 2025,  doi: 10.9708/jksci.2025.30.08.029.
-  #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black80)[
+]
+#block(spacing: 1.5em)[
+  #text(fill: black1)[
+    3. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, #link("https://doi.org/10.9708/jksci.2025.30.08.029")["KRAFT³-QA: Korean financial text-table benchmark for evaluating tool-augmented agents on QA tasks,"] _Journal of The Korea Society of Computer and Information_, vol. 30, no. 8, pp. 29-39, Aug. 2025,  doi: 10.9708/jksci.2025.30.08.029.
+  ]
+  #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em)[
     *Keywords*: Large Language Model · Tool-augmented Agent · Financial QA Benchmark
   ])
-])
-#block(spacing: 1.5em, text(fill: black90)[
-  2. *Seungjae Park*, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, #link("https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098")["Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information,"] in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.
-  #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black80)[
+]
+#block(spacing: 1.5em)[
+  #text(fill: black1)[
+    2. *Seungjae Park*, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, #link("https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098")["Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information,"] in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.
+  ]
+  #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em)[
     *Keywords:* Multivariate Time Series Forecasting
   ])
-])
-#block(spacing: 1.5em, text(fill: black90)[
-  1. *Seungjae Park* and Daeyoung Park, #link("https://eee.inha.ac.kr/bbs/eee/3919/122977/download.do")["A Novel Stock Screening Approach using Large Language Models and Correlation-Aware Retrieval,"] presented at the _Capstone Design in ICT#h(1pt)#note[Capstone Project]_, Inha Univ., Incheon, South Korea, Jun. 2024.
-  #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black80)[
+]
+#block(spacing: 1.5em, breakable: false)[
+  #text(fill: black1)[
+    1. *Seungjae Park* and Daeyoung Park, #link("https://eee.inha.ac.kr/bbs/eee/3919/122977/download.do")["A Novel Stock Screening Approach using Large Language Models and Correlation-Aware Retrieval,"] presented at the _Capstone Design in ICT#h(1pt)#note[Capstone Project]_, Inha Univ., Incheon, South Korea, Jun. 2024.
+  ]
+  #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em)[
     *Keywords*: Large Language Model · Retrieval-Augmented Generation · Portfolio Optimization
   ])
-])
+]
 
 === Working Papers
 
-#block(spacing: 1.5em, text(fill: black90)[
-  2. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, "An Empirical Analysis of Catastrophic Forgetting in a Time Series Foundation Model for Stock Price Forecasting." #h(1fr) #text(size: 0.8em, fill: black80)[Target: SCIE-indexed journal]
-  #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black90)[
+#block(spacing: 1.5em)[
+  #text(fill: black1)[
+    2. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, "An Empirical Analysis of Catastrophic Forgetting in a Time Series Foundation Model for Stock Price Forecasting." #h(1fr) #text(size: 0.8em, fill: black3)[Target: SCIE-indexed journal]
+  ]
+  #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em), text(size: 0.85em)[
     *Keywords*: Time Series Foundation Model · Stock Price Forecasting · Continual Learning · Catastrophic Forgetting
   ])
-  #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em), text(fill: black90)[
+  #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em))[
     - First empirical study on catastrophic forgetting in TSFMs for stock price forecasting
     - Designed two realistic continual learning scenarios: asset universe expansion and cross-country adaptation
     - Proposed MAPE-based forgetting and transfer evaluation metrics
     - Demonstrated that TSFMs exhibit significantly less forgetting than conventional forecasting models
-  ])
-])
-#block(spacing: 1.5em, text(fill: black90)[
-  1. Sungsoo Kim, *Seungjae Park*, Taeseong Bang and Ha Young Kim, "Evaluating the Reliability of LLM-Generated Technical Indicator Analysis." #h(1fr) #text(size: 0.8em, fill: black80)[Target: SSCI-indexed journal]
-  #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black90)[
+  ]
+]
+#block(spacing: 1.5em)[
+  #text(fill: black1)[
+    1. Sungsoo Kim, *Seungjae Park*, Taeseong Bang and Ha Young Kim, "Evaluating the Reliability of LLM-Generated Technical Indicator Analysis." #h(1fr) #text(size: 0.8em, fill: black3)[Target: SSCI-indexed journal]
+  ]
+  #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em), text(size: 0.85em)[
     *Keywords*: Large Language Model · Financial Analysis · Stock Price Forecasting
   ])
-  #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em), text(fill: black90)[
+  #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em))[
     - Proposed an LLM-generated technical indicator analysis reliability framework.
     - Introduced Arithmetic-Aware Input Structuring and Iterative Output Refinement to reduce hallucinations in LLM outputs.
     - Demonstrated portfolio-level economic improvements through the proposed framework.
-  ])
-])
+  ]
+]
 
 == Professional Experience
 
@@ -175,7 +183,7 @@
   "Sep 2023 - Dec 2023",
   [
     Big Data Training Hackathon hosted by K-ICT Big Data Center
-    #block(above: 0.8em, below: 0.8em, text(size: 0.85em, fill: black90)[
+    #block(above: 0.8em, below: 0.8em, text(size: 0.85em)[
       *Keywords*: Image Classification
     ])
     - Addressed Korean food image classification using ResNet with domain-aware augmentation
@@ -186,21 +194,23 @@
 == Certifications
 
 #block(spacing: 1em)[
-  #link(
-    "https://license.kofia.or.kr/examInfo/examInfo.do",
-  )[#accent[*Certified Investment Manager*], #link("https://www.kofia.or.kr/")[KOFIA#note[Korea Financial Investment Association]]] #h(
-    1fr,
-  ) #text(size: 0.8em, fill: black80)[Jun 2024]
+  #text(fill: black1)[
+    #link("https://license.kofia.or.kr/examInfo/examInfo.do")[#accent[*Certified Investment Manager*]]
+  ], #link("https://www.kofia.or.kr/")[KOFIA#note[Korea Financial Investment Association]] #h(1fr) #text(size: 0.8em, fill: black3)[Jun 2024]
 ]
 #block(spacing: 1em)[
-  #link("https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320")[*Engineer Information Processing*], #link("https://www.hrdkorea.or.kr/")[HRDK#note[Human Resources Development Service of Korea]] #h(1fr) #text(size: 0.8em, fill: black80)[Jun 2024]
+  #text(fill: black1)[
+    #link("https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320")[*Engineer Information Processing*]
+  ], #link("https://www.hrdkorea.or.kr/")[HRDK#note[Human Resources Development Service of Korea]] #h(1fr) #text(size: 0.8em, fill: black3)[Jun 2024]
 ]
 #block(spacing: 1em)[
-  #link("https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=433")[*Linux Master, Grade 2*], #link("https://www.ihd.or.kr/")[KAIT#note[Korea Association for ICT Promotion]] #h(1fr) #text(size: 0.8em, fill: black80)[Dec 2023]
+  #text(fill: black1)[
+    #link("https://www.pqi.or.kr/inf/qul/infQulBasDetail.do?qulId=433")[*Linux Master, Grade 2*]
+  ], #link("https://www.ihd.or.kr/")[KAIT#note[Korea Association for ICT Promotion]] #h(1fr) #text(size: 0.8em, fill: black3)[Dec 2023]
 ]
 
 #v(8pt)
 #align(right)[
-  #set text(size: 0.8em, fill: black70)
+  #set text(size: 0.8em, fill: black4)
   (Last updated: #datetime.today().display("[month repr:short] [year]"))
 ]
