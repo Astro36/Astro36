@@ -95,7 +95,7 @@
       h: 25pt,
       top: 75pt,
       badge: "학",
-      text: "인하대학교 정보통신공학과 학사",
+      text: "인하대학교 정보통신공학과 학사(수석 졸업)",
       color: rgb("#00AFEC"),
     ),
     (
@@ -215,7 +215,7 @@
       - *TiVaT* #pill[Publications\#4] : 시점과 변수 간 비동기적 상호작용을 단일 연산으로 직접 모델링하지 못하는 기존 Transformer 구조의 한계를 개선하기 위해, Joint-Axis Attention과 DTV Sampling을 제안, 본 연구에서 벤치마크 데이터셋에서의 성능 분석과 아이디어 검증을 수행함
       - *ElxaTST* #pill[Publications\#2] : 기존 다변량 시계열 모델이 계산복잡도로 인해 변수 간 동적인 상호작용을 효율적으로 반영하지 못하는 문제를 해결하기 위해, Top K 기반 상호작용 선택 구조를 구현하고 5개의 벤치마크 데이터셋으로 성능 평가를 수행함
       - *TSFM Catastrophic Forgetting* #pill[Projects\#12] : 자산 유니버스가 점진적으로 확장되는 금융 환경에서 시계열 모델의 망각 현상이 체계적으로 분석되지 않은 문제를 해결하기 위해, 시계열 파운데이션 모델의 순차 학습 프로토콜과 평가 프레임워크를 설계하고 실증 분석을 수행함
-    연세대학교 정보대학원 계약학과 AI핀테크 과정의 "재무와 딥러닝" 과목의 강의조교로 활동, 전체 수업의 약 1/3에 해당하는 실습 강의을 담당
+    연세대학교 정보대학원 계약학과 AI핀테크 과정의 "재무와 딥러닝 기초" 과목의 강의조교로 활동, 전체 수업의 약 1/3에 해당하는 실습 강의을 담당
   ],
 
   [*성과)*],
@@ -498,7 +498,7 @@
   ],
 
   [*기술)*],
-  [JavaScript, Node.js, WebSocket, Docker, Kubernetes, VictoriaMetrics],
+  [JavaScript, Node.js, WebSocket, Docker, VictoriaMetrics, Prometheus Alertmanager, Grafana],
 )
 #tile(
   [
