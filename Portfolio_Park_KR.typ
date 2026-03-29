@@ -78,20 +78,29 @@
 
 #let canvas-w = 600pt
 #let canvas-h = 170pt
+
 #scale(453.54pt / canvas-w * 100%, reflow: true)[
   #let axis-y = 145pt
   #let left-pad = 20pt
-  #let right-pad = 80pt
+  #let right-pad = 20pt
   #let plot-w = canvas-w - left-pad - right-pad
-  #let min-year = 19
-  #let max-year = 26
-  #let x(year) = left-pad + plot-w * ((year - min-year) / (max-year - min-year))
 
-  #let axis-color = rgb("#666666")
+
+  #let d(y, m, day) = datetime(year: y, month: m, day: day)
+
+  #let min-date = d(2019, 1, 1)
+  #let max-date = d(2026, 8, 31)
+
+  #let x(date) = {
+    let total = (max-date - min-date).days()
+    let passed = (date - min-date).days()
+    left-pad + plot-w * (passed / total)
+  }
+
   #let events = (
     (
-      start: 19.25,
-      end: 24.75,
+      start: d(2019, 3, 4),
+      end: d(2024, 8, 16),
       h: 25pt,
       top: 75pt,
       badge: "학",
@@ -99,8 +108,8 @@
       color: rgb("#00AFEC"),
     ),
     (
-      start: 24.75,
-      end: 26.75,
+      start: d(2024, 9, 2),
+      end: d(2026, 8, 28),
       h: 25pt,
       top: 75pt,
       badge: "석",
@@ -108,8 +117,8 @@
       color: rgb("#003377"),
     ),
     (
-      start: 21.04,
-      end: 22.54,
+      start: d(2021, 1, 12),
+      end: d(2022, 7, 11),
       h: 20pt,
       top: 50pt,
       badge: "군",
@@ -117,8 +126,8 @@
       color: rgb("#696635"),
     ),
     (
-      start: 19.27,
-      end: 20.16,
+      start: d(2019, 3, 2),
+      end: d(2020, 2, 8),
       h: 20pt,
       top: 50pt,
       badge: "활",
@@ -126,8 +135,8 @@
       color: rgb("#e91543"),
     ),
     (
-      start: 20.46,
-      end: 20.95,
+      start: d(2020, 5, 18),
+      end: d(2020, 12, 17),
       h: 20pt,
       top: 125pt,
       badge: "활",
@@ -135,8 +144,8 @@
       color: rgb("#32cfff"),
     ),
     (
-      start: 23.25,
-      end: 24.71,
+      start: d(2023, 3, 2),
+      end: d(2024, 8, 16),
       h: 20pt,
       top: 50pt,
       badge: "활",
@@ -144,8 +153,8 @@
       color: rgb("#0a63e0"),
     ),
     (
-      start: 19.78,
-      end: 20.08,
+      start: d(2019, 9, 8),
+      end: d(2020, 1, 31),
       h: 30pt,
       top: 100pt,
       badge: "직",
@@ -153,8 +162,8 @@
       color: rgb("#6D9E51"),
     ),
     (
-      start: 24.63,
-      end: 26.75,
+      start: d(2024, 7, 19),
+      end: d(2026, 8, 28),
       h: 20pt,
       top: 100pt,
       badge: "직",
@@ -164,27 +173,44 @@
   )
 
   #let p(dx, dy, body) = place(top + left, dx: dx, dy: dy, body)
+
   #let label(e) = p(x(e.start), axis-y - e.top, [
     #p(0pt, 0pt)[#rect(width: 16pt, height: 16pt, radius: 1.5pt, fill: e.color)]
     #p(4pt, 4pt)[#text(size: 9pt, fill: white, weight: "bold")[#e.badge]]
     #p(20pt, 3pt)[#text(size: 11pt, fill: rgb("#666666"), weight: "semibold")[#e.text]]
   ])
 
-  #box(width: canvas-w, height: canvas-h, fill: gray1)[
+  #box(width: canvas-w, height: canvas-h)[
     // Event
     #for e in events [
-      #p(x(e.start), axis-y - e.h)[#rect(width: x(e.end) - x(e.start), height: e.h, fill: e.color)]
-      #p(x(e.start), axis-y - e.top)[#rect(width: 1.5pt, height: e.top, fill: e.color)]
+      #p(x(e.start), axis-y - e.h)[
+        #rect(width: x(e.end) - x(e.start), height: e.h, fill: e.color)
+      ]
+      #p(x(e.start), axis-y - e.top)[
+        #rect(width: 1.5pt, height: e.top, fill: e.color)
+      ]
     ]
 
     // Axis
+    #let axis-color = rgb("#777777")
     #p(10pt, axis-y)[#rect(width: canvas-w - 20pt, height: 1.2pt, fill: axis-color)]
-    #for year in range(min-year, max-year + 1) [
-      #p(x(year), axis-y - 4pt)[#rect(width: 1pt, height: 4pt, fill: axis-color)]
-      #p(x(year + 0.25), axis-y - 1.5pt)[#rect(width: 1pt, height: 1.5pt, fill: axis-color)]
-      #p(x(year + 0.5), axis-y - 3pt)[#rect(width: 1pt, height: 3pt, fill: axis-color)]
-      #p(x(year + 0.75), axis-y - 1.5pt)[#rect(width: 1pt, height: 1.5pt, fill: axis-color)]
-      #p(x(year) - 6pt, axis-y + 8pt)[#text(size: 10pt, fill: axis-color, weight: "semibold")[#year]]
+
+    #for year in range(2019, 2027) [
+      #let y0 = d(year, 1, 1)
+      #let y1 = d(year, 4, 1)
+      #let y2 = d(year, 7, 1)
+      #let y3 = d(year, 10, 1)
+
+      #p(x(y0), axis-y - 4pt)[#rect(width: 1pt, height: 4pt, fill: axis-color)]
+      #p(x(y1), axis-y - 1.5pt)[#rect(width: 1pt, height: 1.5pt, fill: axis-color)]
+      #p(x(y2), axis-y - 3pt)[#rect(width: 1pt, height: 3pt, fill: axis-color)]
+      #p(x(y3), axis-y - 1.5pt)[#rect(width: 1pt, height: 1.5pt, fill: axis-color)]
+
+      #p(x(y0) - 10pt, axis-y + 8pt)[
+        #text(size: 10pt, fill: axis-color, weight: "semibold")[
+          #(str(year).slice(2, 4))
+        ]
+      ]
     ]
   ]
 
