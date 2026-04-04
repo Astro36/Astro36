@@ -30,8 +30,9 @@
   outset: (y: 2pt),
   text(size: 9pt, fill: black4, body),
 )
-#let tile(title, ..body) = block(spacing: 1.5em)[
+#let tile(title, fig, breakable: false, ..body) = block(spacing: 1.5em, breakable: breakable)[
   #block(below: 10pt, fill: gray1, inset: 6pt, radius: 3pt, text(fill: black1, title))
+  #fig
   #grid(
     columns: (auto, 1fr),
     column-gutter: 8pt,
@@ -98,6 +99,15 @@
   }
 
   #let events = (
+    // (
+    //   start: d(2016, 3, 1),
+    //   end: d(2019, 2, 13),
+    //   h: 25pt,
+    //   top: 75pt,
+    //   badge: "학",
+    //   text: "백석고등학교",
+    //   color: rgb("#00AFEC"),
+    // ),
     (
       start: d(2019, 3, 4),
       end: d(2024, 8, 16),
@@ -225,6 +235,8 @@
     *(석사과정) 대학원생 연구원*, 연세대학교 MLCF 연구실 - #text(size: 0.9em, fill: black3)[https://sites.google.com/view/mlcf] #h(1fr) \
     #align(right)[#block(above: 8pt)[#text(size: 0.9em, fill: black3)[2024.07 - 현재 (1년 9개월)]]]
   ],
+  [],
+  breakable: true,
 
   [*배경)*],
   [
@@ -255,6 +267,12 @@
     *(창업 프로젝트) AI/풀스택 엔지니어*, SW마에스트로 11기 #text(size: 0.9em, fill: black3)[(창의·도전형 SW인재육성 정부지원 사업)] #h(1fr) \
     #align(right)[#block(above: 8pt)[#text(size: 0.9em, fill: black3)[2020.05 - 2020.12 (8개월)]]]
   ],
+  stack(
+    dir: ltr,
+    image("assets/spree_2.png", width: 50%),
+    image("assets/spree_1.png", width: 50%),
+  ),
+
   [*배경)*],
   [
     온라인 커뮤니티와 SNS에서 성매매·도박 등 불법 홍보 게시글이 급증하였으나, 기존 필터링 시스템은 자모 분리, 초성체, 특수문자 삽입 등 변형된 한글 표현에 취약함 \
@@ -278,11 +296,17 @@
   [*기술)*],
   [C++, Python, Tensorflow, Django, Redis, Elasticsearch, MariaDB, Docker, AWS],
 )
-
 #tile(
   [
     *(프리랜서) 풀스택 엔지니어*, INSIGHT #text(size: 0.9em, fill: black3)[(스타트업)] #h(1fr) #text(size: 0.9em, fill: black3)[2019.09 - 2020.01 (4개월)]
   ],
+  stack(
+    dir: ltr,
+    spacing: 2pt,
+    image("assets/insight_0.png", width: 33%),
+    image("assets/insight_1.png", width: 33%),
+    image("assets/insight_2.png", width: 33%),
+  ),
 
   [*배경)*],
   [
@@ -311,6 +335,7 @@
   [
     *(창업 프로젝트) 풀스택 엔지니어*, 프로그라피 4-5기 #h(1fr) #text(size: 0.9em, fill: black3)[2019.03 - 2020.02 (1년)]
   ],
+  align(center, image("assets/shim.png", height: 16cm)),
   [*배경)*],
   [
     학부 1학년 때, 연합 IT 프로젝트 동아리(프로그라피)에서 실제 서비스 출시를 목표로 프로젝트를 수행 \
@@ -341,6 +366,10 @@
   [
     4. Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://doi.org/10.1016/j.asoc.2026.114979")["TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting,"] _*Applied Soft Computing*_, p. 114979, Mar. 2026, doi: 10.1016/j.asoc.2026.114979.
   ],
+  [
+    #image("assets/tivat_0.png")
+    #align(center, image("assets/tivat_1.png", width: 80%))
+  ],
 
   [*배경)*],
   [
@@ -360,6 +389,8 @@
   [
     8개의 장기 시계열 예측 벤치마크에서 실험한 결과, 우수한 시계열 예측 성능을 보임 \
     특히, 변수간 관계를 모델링하는 것이 중요한 고차원 데이터셋에서 경쟁 모델 대비 특출난 성능을 보임
+
+    #image("assets/tivat_2.png", width: 100%)
   ],
 
   [*기술)*],
@@ -368,6 +399,15 @@
 #tile(
   [
     3. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, #link("https://doi.org/10.9708/jksci.2025.30.08.029")["KRAFT³-QA: Korean financial text-table benchmark for evaluating tool-augmented agents on QA tasks,"] _Journal of The Korea Society of Computer and Information_, vol. 30, no. 8, pp. 29-39, Aug. 2025, doi: 10.9708/jksci.2025.30.08.029.
+  ],
+  [
+    #align(center, image("assets/kraft3qa_2.png", width: 90%))
+    #stack(
+      dir: ltr,
+      spacing: 4pt,
+      image("assets/kraft3qa_1.png", height: 6.3cm),
+      image("assets/kraft3qa_0.png", height: 6.3cm),
+    )
   ],
 
   [*배경)*],
@@ -385,15 +425,26 @@
   ],
 
   [*성과)*],
-  [금융 특화 QA 벤치마크 공개 및 코드 배포, 모델별 정확도 및 유효 응답률 등 #accent[금융 도메인에서의 에이전트 LLM 성능 평가 기준 정립]에 기여],
+  [
+    금융 특화 QA 벤치마크 공개 및 코드 배포, 모델별 정확도 및 유효 응답률 등 #accent[금융 도메인에서의 에이전트 LLM 성능 평가 기준 정립]에 기여
+
+    #stack(
+      dir: ltr,
+      spacing: 4pt,
+      image("assets/kraft3qa_3.png", width: 47%),
+      image("assets/kraft3qa_4.png", width: 47%),
+    )
+  ],
 
   [*기술)*],
   [Python, Large Language Model, #accent[Tool-augmented Agent], Financial QA Benchmark],
 )
+
 #tile(
   [
     2. *Seungjae Park*, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, #link("https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098")["Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information,"] in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.
   ],
+  align(center, image("assets/elxatst_0.png", width: 90%)),
 
   [*배경)*],
   [
@@ -408,7 +459,10 @@
   ],
 
   [*성과)*],
-  [5개의 장기 시계열 예측 벤치마크에서 MSE 및 MAE 기준으로 기존 모델(iTransformer, PatchTST)을 전반적으로 상회하는 성능을 보임],
+  [
+    5개의 장기 시계열 예측 벤치마크에서 MSE 및 MAE 기준으로 기존 모델(iTransformer, PatchTST)을 전반적으로 상회하는 성능을 보임
+    #align(center, image("assets/elxatst_1.png", width: 50%))
+  ],
 
   [*기술)*],
   [Python, PyTorch, Multivariate Time Series Forecasting],
@@ -417,6 +471,7 @@
   [
     1. *Seungjae Park* and Daeyoung Park, #link("https://eee.inha.ac.kr/bbs/eee/3919/122977/download.do")["A Novel Stock Screening Approach using Large Language Models and Correlation-Aware Retrieval,"] presented at the _Capstone Design in ICT#h(1pt) (Capstone Project)_, Inha Univ., Incheon, South Korea, Jun. 2024.
   ],
+  align(center, image("assets/stockara_poster.png", width: 80%)),
 
   [*배경)*],
   [
@@ -439,6 +494,7 @@
   [*기술)*],
   [Python, Large Language Model, #accent[Retrieval-Augmented Generation (RAG)], Portfolio Optimization, Black-Litterman Model, Docker, PostgreSQL, Redis],
 )
+#pagebreak()
 
 == Projects
 
@@ -446,6 +502,7 @@
   [
     12. *(To be submitted to an SCIE-indexed journal)* *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, "An Empirical Analysis of Catastrophic Forgetting in a Time Series Foundation Model for Stock Price Forecasting". #h(1fr) #text(size: 0.9em, fill: black3)[2025.10 - 진행 중]
   ],
+  [],
 
   [*배경)*],
   [
@@ -470,6 +527,7 @@
   [
     11. *(To be submitted to an SSCI-indexed journal)* Sungsoo Kim, *Seungjae Park*, Taeseong Bang and Ha Young Kim, "Evaluating the Reliability of LLM-Generated Technical Indicator Analysis". #h(1fr) #text(size: 0.9em, fill: black3)[2024.10 - 진행 중]
   ],
+  [],
 
   [*배경)*],
   [
@@ -500,6 +558,12 @@
   [
     10. *MLCF GPUstat* - #text(size: 0.9em, fill: black3)[https://github.com/Astro36/mlcf-gpustat] #h(1fr) #text(size: 0.9em, fill: black3)[2025.02]
   ],
+  align(center, grid(
+    columns: 2,
+    gutter: 2pt,
+    image("assets/mlcf_gpustat_web.png", width: 100%), image("assets/mlcf_gpustat_docker.png", width: 100%),
+    image("assets/mlcf_gpustat_grafana_0.png", width: 100%), image("assets/mlcf_gpustat_grafana_1.png", width: 100%),
+  )),
 
   [*배경)*],
   [
@@ -531,6 +595,13 @@
     9. *BCMF NAV* - #text(size: 0.9em, fill: black3)[https://fund.inhabluechip.com/] #h(1fr) #text(size: 0.9em, fill: black3)[2024.01 - 2024.07]
   ],
 
+  align(center, stack(
+    dir: ltr,
+    spacing: 1em,
+    box(clip: true, height: 12cm, image("assets/bcmf_nav.png", height: 12.5cm)),
+    box(clip: true, height: 12cm, image("assets/bcmf_nav_github_action.png", height: 12.5cm)),
+  )),
+
   [*배경)*],
   [
     블루칩뮤추얼펀드에서 운용 중인 #accent[펀드의 일별 NAV(Net Asset Value)와 AUM(Assets Under Management)을 수기로 계산·공유하던 과정을 자동화]하기 위해 웹 서비스를 개발 \
@@ -552,11 +623,18 @@
   [*기술)*],
   [JavaScript, Node.js, Tailwind CSS, Vite, GitHub Actions],
 )
-#pagebreak()
 #tile(
   [
     8. *Stock Earnings Calendar* - #text(size: 0.9em, fill: black3)[https://github.com/Astro36/mystock] #h(1fr) #text(size: 0.9em, fill: black3)[2023.06 - 2023.07]
   ],
+
+  align(center, stack(
+    dir: ltr,
+    spacing: 1em,
+    image("assets/mystock_0.png", width: 31%),
+    image("assets/mystock_1.png", width: 31%),
+    image("assets/mystock_2.png", width: 31%),
+  )),
 
   [*배경)*],
   [
@@ -584,6 +662,13 @@
     7. *Self-Balancing Robot* - #text(size: 0.9em, fill: black3)[https://github.com/Astro36/ICE3015-project] #h(1fr) #text(size: 0.9em, fill: black3)[2023.03 - 2023.06]
   ],
 
+  stack(
+    dir: ltr,
+    spacing: 1em,
+    pad(top: 1em)[#image("assets/ice3015.png", width: 33%)],
+    image("assets/ice3015_circuit.png", width: 66%),
+  ),
+
   [*배경)*],
   [
     임베디드 시스템 캡스톤 디자인(학부) 최종 프로젝트로써, 자가 균형을 유지하는 2륜 로봇을 설계·제작 \
@@ -608,6 +693,21 @@
 #tile(
   [
     6. *3D Product Catalog* - #text(size: 0.9em, fill: black3)[https://github.com/Astro36/ICE3016-miniproject] #h(1fr) #text(size: 0.9em, fill: black3)[2022.12]
+  ],
+
+  [
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/ice3016_0.png", width: 50%),
+      image("assets/ice3016_1.png", width: 50%),
+    )
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/ice3016_2.png", width: 50%),
+      image("assets/ice3016_3.png", width: 50%),
+    )
   ],
 
   [*배경)*],
@@ -636,6 +736,8 @@
     5. *(팀 프로젝트) ICE Market* - #text(size: 0.9em, fill: black3)[https://github.com/ICE-LIFE/ICE-LIFE-Backend] #h(1fr) #text(size: 0.9em, fill: black3)[2022.07 - 2022.08]
   ],
 
+  image("assets/icemarket.png", width: 100%),
+
   [*배경)*],
   [
     정보통신공학과 학생회 주도로 #accent[학과 구성원 간 중고 물품 거래]를 보다 체계적으로 지원하기 위해 온라인 플리마켓 플랫폼을 기획·개발 \
@@ -658,7 +760,18 @@
 )
 #tile(
   [
-    4. *Quick Pool* - #text(size: 0.9em, fill: black3)[https://crates.io/crates/qp] #h(1fr) #text(size: 0.9em, fill: black3)[2021.11 - 2021.12]
+    4. *(오픈소스) Quick Pool* - #text(size: 0.9em, fill: black3)[https://crates.io/crates/qp] #h(1fr) #text(size: 0.9em, fill: black3)[2021.11 - 2021.12]
+  ],
+
+
+  [
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/qp_0.png", width: 50%),
+      image("assets/qp_1.png", width: 50%),
+    )
+    #image("assets/qp_github.png")
   ],
 
   [*배경)*],
@@ -683,9 +796,25 @@
   [*기술)*],
   [#accent[Rust], Async Programming, Lock-free Data Structures],
 )
+
 #tile(
   [
     3. *(팀 프로젝트) CareU* - #text(size: 0.9em, fill: black3)[https://github.com/Astro36/careu] #h(1fr) #text(size: 0.9em, fill: black3)[2020.01]
+  ],
+
+  align(center)[
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/careu_0.png", height: 6.5cm),
+      image("assets/careu_2.png", height: 6.5cm),
+    )
+    #stack(
+      dir: ltr,
+      spacing: 1em,
+      image("assets/careu_1.png", height: 6.5cm),
+      image("assets/careu_3.png", height: 6.5cm),
+    )
   ],
 
   [*배경)*],
@@ -709,10 +838,19 @@
   [*기술)*],
   [Flutter, Android App, Javascript, Parcel, TensorFlow Lite, #accent[On-device Inference]],
 )
+
 #tile(
   [
     2. *(팀 프로젝트) BraInha* - #text(size: 0.9em, fill: black3)[https://github.com/int-i/brainha-demo-server] #h(1fr) #text(size: 0.9em, fill: black3)[2019.11]
   ],
+
+  stack(
+    dir: ltr,
+    spacing: 1em,
+    image("assets/brainha_0.png", width: 33%),
+    image("assets/brainha_1.png", width: 33%),
+    image("assets/brainha_2.png", width: 33%),
+  ),
 
   [*배경)*],
   [
@@ -735,32 +873,34 @@
   [*기술)*],
   [JavaScript, Node.js, Express.js, Java, Android App, Docker, MariaDB, Nginx],
 )
-#tile(
-  [
-    1. *(팀 프로젝트) WATHC_DOCS* - #text(size: 0.9em, fill: black3)[https://github.com/watchdocs/watchdocs-frontend] #h(1fr) #text(size: 0.9em, fill: black3)[2019.08]
-  ],
+// #tile(
+//   [
+//     1. *(팀 프로젝트) WATHC_DOCS* - #text(size: 0.9em, fill: black3)[https://github.com/watchdocs/watchdocs-frontend] #h(1fr) #text(size: 0.9em, fill: black3)[2019.08]
+//   ],
 
-  [*배경)*],
-  [
-    후오비 코리아 X 웨이키체인 해커톤 in D'APP Live에서 #accent[블록체인 기반 문서 위변조 방지 및 관리 서비스]를 팀 프로젝트로 기획 \
-    중앙 서버 의존 없이 문서 해시를 블록체인에 기록하여 무결성을 검증할 수 있는 웹 기반 DApp 프로토타입 구현을 목표로 함
-  ],
+//   image("assets/watchdocs.png", width: 100%),
 
-  [*기여)*],
-  [
-    Vue.js 웹 프론트엔드를 개발하고 서버에서 페이지 로딩을 처리하는 서버 사이드 렌더링(SSR) 적용 \
-    스마트컨트랙트와 연동되는 인터페이스를 통해 문서 업로드(해시 등록) 및 조회 요청이 블록체인 네트워크와 연결되도록 구성
-  ],
+//   [*배경)*],
+//   [
+//     후오비 코리아 X 웨이키체인 해커톤 in D'APP Live에서 #accent[블록체인 기반 문서 위변조 방지 및 관리 서비스]를 팀 프로젝트로 기획 \
+//     중앙 서버 의존 없이 문서 해시를 블록체인에 기록하여 무결성을 검증할 수 있는 웹 기반 DApp 프로토타입 구현을 목표로 함
+//   ],
 
-  [*성과)*],
-  [
-    문서 업로드 시 생성된 해시값을 블록체인에 기록하고, 이후 동일 문서의 해시를 비교하여 무결성을 검증할 수 있는 프로토타입 DApp을 완성 \
-    웹 클라이언트–백엔드–블록체인 네트워크 연동 구조를 구현하여 해커톤 시연이 가능한 서비스를 구축
-  ],
+//   [*기여)*],
+//   [
+//     Vue.js 웹 프론트엔드를 개발하고 서버에서 페이지 로딩을 처리하는 서버 사이드 렌더링(SSR) 적용 \
+//     스마트컨트랙트와 연동되는 인터페이스를 통해 문서 업로드(해시 등록) 및 조회 요청이 블록체인 네트워크와 연결되도록 구성
+//   ],
 
-  [*기술)*],
-  [JavaScript, Node.js, Vue.js, Nuxt.js, Express.js, MongoDB, Smart Contract],
-)
+//   [*성과)*],
+//   [
+//     문서 업로드 시 생성된 해시값을 블록체인에 기록하고, 이후 동일 문서의 해시를 비교하여 무결성을 검증할 수 있는 프로토타입 DApp을 완성 \
+//     웹 클라이언트–백엔드–블록체인 네트워크 연동 구조를 구현하여 해커톤 시연이 가능한 서비스를 구축
+//   ],
+
+//   [*기술)*],
+//   [JavaScript, Node.js, Vue.js, Nuxt.js, Express.js, MongoDB, Smart Contract],
+// )
 #pagebreak()
 
 == Awards
@@ -769,6 +909,7 @@
   [
     *2023 Data Creator Camp 우수상*, 한국지능정보사회진흥원 원장상 #h(1fr) #text(size: 0.9em, fill: black2)[2023.09 - 2023.12]
   ],
+  [],
 
   [*배경)*],
   [
