@@ -69,15 +69,23 @@ I aim to develop practical and robust models for real-world financial decision-m
 
 == Publications
 
-#block(spacing: 1.5em)[
+#block(spacing: 1.5em, breakable: false)[
   #text(fill: black1)[
-    4. Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://doi.org/10.1016/j.asoc.2026.114979")["TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting,"] _*Applied Soft Computing*_, p. 114979, Mar. 2026, doi: 10.1016/j.asoc.2026.114979.
+    5. *Seungjae Park*, "GuardTST: Gradient-uncoupled architecture for dual-path time series transformer," _*Master's thesis*_, Dept. of Artificial Intelligence, Yonsei Univ., Seoul, South Korea, Aug. 2026.
   ]
   #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black2)[
     *Keywords*: Multivariate Time Series Forecasting
   ])
 ]
-#block(spacing: 1.5em)[
+#block(spacing: 1.5em, breakable: false)[
+  #text(fill: black1)[
+    4. Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://doi.org/10.1016/j.asoc.2026.114979")["TiVaT: A transformer with a single unified mechanism for capturing asynchronous dependencies in multivariate time series forecasting,"] _*Applied Soft Computing*_, vol. 195, p. 114979, Jun. 2026, doi: 10.1016/j.asoc.2026.114979.
+  ]
+  #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em, fill: black2)[
+    *Keywords*: Multivariate Time Series Forecasting
+  ])
+]
+#block(spacing: 1.5em, breakable: false)[
   #text(fill: black1)[
     3. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, #link("https://doi.org/10.9708/jksci.2025.30.08.029")["KRAFT³-QA: Korean financial text-table benchmark for evaluating tool-augmented agents on QA tasks,"] _Journal of The Korea Society of Computer and Information_, vol. 30, no. 8, pp. 29-39, Aug. 2025,  doi: 10.9708/jksci.2025.30.08.029.
   ]
@@ -85,9 +93,9 @@ I aim to develop practical and robust models for real-world financial decision-m
     *Keywords*: Large Language Model · Tool-augmented Agent · Financial QA Benchmark
   ])
 ]
-#block(spacing: 1.5em)[
+#block(spacing: 1.5em, breakable: false)[
   #text(fill: black1)[
-    2. *Seungjae Park*, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, #link("https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098")["Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information,"] in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.
+    2. *Seungjae Park*, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, #link("https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098")["Multivariate time series forecasting reflecting dynamic variate similarity and temporal information,"] in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.
   ]
   #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em)[
     *Keywords:* Multivariate Time Series Forecasting
@@ -95,7 +103,7 @@ I aim to develop practical and robust models for real-world financial decision-m
 ]
 #block(spacing: 1.5em, breakable: false)[
   #text(fill: black1)[
-    1. *Seungjae Park* and Daeyoung Park, #link("https://eee.inha.ac.kr/bbs/eee/3919/122977/download.do")["A Novel Stock Screening Approach using Large Language Models and Correlation-Aware Retrieval,"] presented at the _Capstone Design in ICT#h(1pt)#note[Capstone Project]_, Inha Univ., Incheon, South Korea, Jun. 2024.
+    1. *Seungjae Park* and Daeyoung Park, #link("https://eee.inha.ac.kr/bbs/eee/3919/122977/download.do")["A novel stock screening approach using large language models and correlation-aware retrieval,"] presented at the _Capstone Design in ICT#h(1pt)#note[Capstone Project]_, Inha Univ., Incheon, South Korea, Jun. 2024.
   ]
   #block(above: 0.8em, inset: (left: 1.2em), text(size: 0.85em)[
     *Keywords*: Large Language Model · Retrieval-Augmented Generation · Portfolio Optimization
@@ -106,7 +114,7 @@ I aim to develop practical and robust models for real-world financial decision-m
 
 #block(spacing: 1.5em)[
   #text(fill: black1)[
-    2. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, "An Empirical Analysis of Catastrophic Forgetting in a Time Series Foundation Model for Stock Price Forecasting." #h(1fr) #text(size: 0.8em, fill: black3)[Target: SCIE-indexed journal]
+    2. *Seungjae Park*, Sung-Bae Cho and Ha Young Kim, "An empirical analysis of catastrophic forgetting in a time series foundation model for stock price forecasting." #h(1fr) #text(size: 0.8em, fill: black3)[Target: SCIE-indexed journal]
   ]
   #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em), text(size: 0.85em)[
     *Keywords*: Time Series Foundation Model · Stock Price Forecasting · Continual Learning · Catastrophic Forgetting
@@ -120,10 +128,10 @@ I aim to develop practical and robust models for real-world financial decision-m
 ]
 #block(spacing: 1.5em)[
   #text(fill: black1)[
-    1. Sungsoo Kim, *Seungjae Park*, Taeseong Bang and Ha Young Kim, "Evaluating the Reliability of LLM-Generated Technical Indicator Analysis." #h(1fr) #text(size: 0.8em, fill: black3)[Target: SSCI-indexed journal]
+    1. Sungsoo Kim, *Seungjae Park*, Taeseong Bang and Ha Young Kim, "Evaluating the reliability of LLM-generated technical indicator analysis: Evidence from portfolio performance" \ #h(1fr) #text(size: 0.8em, fill: black3)[Target: SSCI-indexed journal]
   ]
   #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em), text(size: 0.85em)[
-    *Keywords*: Large Language Model · Financial Analysis · Stock Price Forecasting
+    *Keywords*: Large Language Model · Financial Analysis · Stock Price Forecasting · Portfolio Management
   ])
   #block(above: 0.8em, below: 0.8em, inset: (left: 1.2em))[
     - Proposed an LLM-generated technical indicator analysis reliability framework.
@@ -148,6 +156,9 @@ I aim to develop practical and robust models for real-world financial decision-m
       - Published a domestic conference paper modeling dynamic cross-variate interactions in multivariate time series forecasting
       - Conducted research on time series forecasting models; paper accepted in an SCIE-indexed journal.
       - Preparing submission of a paper on catastrophic forgetting in time series foundation models
+      // pagebreak
+      \
+      \
       #block(above: 0.8em, below: 0.8em)[*Teaching Assistant*:]
       - Served as a practical teaching assistant for Finance and Deep Learning in the AI FinTech program at the Graduate School of Information, Yonsei University
     ]

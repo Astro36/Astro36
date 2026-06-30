@@ -364,11 +364,45 @@
 
 #tile(
   [
-    4. Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://doi.org/10.1016/j.asoc.2026.114979")["TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting,"] _*Applied Soft Computing*_, p. 114979, Mar. 2026, doi: 10.1016/j.asoc.2026.114979.
+    5. *Seungjae Park*, "GuardTST: Gradient-uncoupled architecture for dual-path time series transformer," _Master's thesis_, Dept. of Artificial Intelligence, Yonsei Univ., Seoul, South Korea, Aug. 2026.
+  ],
+  [
+    #align(center, image("assets/guardtst_0.svg", width: 60%))
+  ],
+
+  [*배경)*],
+  [
+    #accent[다변량 시계열 예측]은 변수 간 의존성 처리 방식에 따라 채널 독립과 채널 종속 전략으로 구분됨 \
+    기존 채널 종속 모델은 변수 간 의존성이 강한 데이터셋에서는 우수하나, 의존성이 약하거나 불분명한 데이터셋에서는 CI 모델보다 성능이 저하되는 한계가 있음 \
+    본 논문은 그 원인을 변수 관계 학습 모듈의 그래디언트가 시간 패턴 학습에 개입하는 #accent[그래디언트 결합(Gradient Coupling)]에서 찾음
+  ],
+
+  [*기여)*],
+  [
+    그래디언트 결합 문제를 정의하고, iTransformer, TimeXer 등 대표적 순차 체널 종속 모델에서 이 현상이 공통적으로 나타남을 수식 유도로 증명함 \
+    이를 해소하기 위해 채널 독립 경로와 채널 종속 경로를 병렬로 구성하고, 시간 패턴 모듈을 채널 독립 경로의 그래디언트로만 갱신하는 이중 경로(Dual-path) 모델 GuardTST를 제안 \
+    채널 종속 경로에서는 채널 독립 경로가 학습한 시간 표현을 그대로 가져와, LoRA로 약간 보정한 뒤 변수 관계 인코더로 변수 간 의존성을 모델링
+  ],
+
+  [*성과)*],
+  [
+    7개의 장기 시계열 예측 벤치마크에서 SOTA 수준 성능 달성 \
+    변수 간 의존성이 약한 ETT 데이터셋에서 그래디언트 분리의 강점을 확인하고, 고차원 데이터셋(ECL, Traffic)에서도 경쟁력 유지 \
+    시간 표현으로 전달되는 그래디언트를 정량적으로 측정해, 그래디언트 분리가 없으면 변수 관계 학습 그래디언트가 시간 표현 학습 그래디언트 크기를 상회하고 직교 방향으로 작용함을 실증
+
+    #align(center, image("assets/guardtst_1.png", width: 70%))
+  ],
+
+  [*기술)*],
+  [Python, PyTorch, Multivariate Time Series Forecasting],
+)
+#tile(
+  [
+    4. Junwoo Ha, Sungsoo Kim, Kisu Lee, *Seungjae Park*, Hyukjae Kwon and Ha Young Kim, #link("https://doi.org/10.1016/j.asoc.2026.114979")["TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting,"] _*Applied Soft Computing*_, vol. 195, p. 114979, Jun. 2026, doi: 10.1016/j.asoc.2026.114979.
   ],
   [
     #image("assets/tivat_0.png")
-    #align(center, image("assets/tivat_1.png", width: 80%))
+    #image("assets/tivat_1.png", width: 100%)
   ],
 
   [*배경)*],
@@ -442,7 +476,7 @@
 
 #tile(
   [
-    2. *Seungjae Park*, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, #link("https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098")["Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information,"] in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.
+    2. *Seungjae Park*, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, #link("https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098")["Multivariate time series forecasting reflecting dynamic variate similarity and temporal information,"] in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.
   ],
   align(center, image("assets/elxatst_0.png", width: 90%)),
 
@@ -469,7 +503,7 @@
 )
 #tile(
   [
-    1. *Seungjae Park* and Daeyoung Park, #link("https://eee.inha.ac.kr/bbs/eee/3919/122977/download.do")["A Novel Stock Screening Approach using Large Language Models and Correlation-Aware Retrieval,"] presented at the _Capstone Design in ICT#h(1pt) (Capstone Project)_, Inha Univ., Incheon, South Korea, Jun. 2024.
+    1. *Seungjae Park* and Daeyoung Park, #link("https://eee.inha.ac.kr/bbs/eee/3919/122977/download.do")["A novel stock screening approach using large language models and correlation-aware retrieval,"] presented at the _Capstone Design in ICT#h(1pt) (Capstone Project)_, Inha Univ., Incheon, South Korea, Jun. 2024.
   ],
   align(center, image("assets/stockara_poster.png", width: 80%)),
 
@@ -525,7 +559,7 @@
 )
 #tile(
   [
-    11. *(To be submitted to an SSCI-indexed journal)* Sungsoo Kim, *Seungjae Park*, Taeseong Bang and Ha Young Kim, "Evaluating the Reliability of LLM-Generated Technical Indicator Analysis". #h(1fr) #text(size: 0.9em, fill: black3)[2024.10 - 진행 중]
+    11. *(To be submitted to an SSCI-indexed journal)* Sungsoo Kim, *Seungjae Park*, Taeseong Bang and Ha Young Kim, "Evaluating the Reliability of LLM-Generated Technical Indicator Analysis: Evidence from Portfolio Performance". #h(1fr) #text(size: 0.9em, fill: black3)[2024.10 - 진행 중]
   ],
   [],
 
@@ -552,7 +586,7 @@
   ],
 
   [*기술)*],
-  [Python, Large Language Model, #accent[Financial Analysis], Stock Price Forecasting],
+  [Python, Large Language Model, #accent[Financial Analysis], Stock Price Forecasting, Portfolio Management],
 )
 #tile(
   [
@@ -588,7 +622,7 @@
   ],
 
   [*기술)*],
-  [JavaScript, Node.js, WebSocket, Docker, VictoriaMetrics, Prometheus Alertmanager, Grafana],
+  [JavaScript, Node.js, WebSocket, Docker, Kubernetes, VictoriaMetrics, Prometheus Alertmanager, Grafana],
 )
 #tile(
   [
