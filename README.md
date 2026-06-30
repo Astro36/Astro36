@@ -35,9 +35,10 @@ Sep 2024 - Present
 <summary><b>📚 Publications</b></summary>
 <br>
 
-1. Junwoo Ha, Sungsoo Kim, Kisu Lee, **Seungjae Park**, Hyukjae Kwon and Ha Young Kim, "[TiVaT: A Transformer with a Single Unified Mechanism for Capturing Asynchronous Dependencies in Multivariate Time Series Forecasting](https://doi.org/10.1016/j.asoc.2026.114979)," _**Applied Soft Computing**_, p. 114979, Mar. 2026, doi: 10.1016/j.asoc.2026.114979.<br>🏷️ <kbd>Multivariate Time Series Forecasting</kbd>
+1. **Seungjae Park**, "GuardTST: Gradient-uncoupled architecture for dual-path time series transformer," _**Master's thesis**_, Dept. of Artificial Intelligence, Yonsei Univ., Seoul, South Korea, Aug. 2026.<br>🏷️ <kbd>Multivariate Time Series Forecasting</kbd>
+1. Junwoo Ha, Sungsoo Kim, Kisu Lee, **Seungjae Park**, Hyukjae Kwon and Ha Young Kim, "[TiVaT: A transformer with a single unified mechanism for capturing asynchronous dependencies in multivariate time series forecasting](https://doi.org/10.1016/j.asoc.2026.114979)," _**Applied Soft Computing**_, vol. 195, p. 114979, Jun. 2026, doi: 10.1016/j.asoc.2026.114979.<br>🏷️ <kbd>Multivariate Time Series Forecasting</kbd>
 1. **Seungjae Park**, Sung-Bae Cho, and Ha Young Kim, "[KRAFT³-QA: Korean financial text-table benchmark for evaluating tool-augmented agents on QA tasks](https://doi.org/10.9708/jksci.2025.30.08.029)," _Journal of the Korea Society of Computer and Information_, vol. 30, no. 8, pp. 29-39, Aug. 2025, doi: 10.9708/jksci.2025.30.08.029. [[Code]](https://github.com/Astro36/kraft3qa)<br>🏷️ <kbd>Large Language Model</kbd> <kbd>Tool-augmented Agent</kbd> <kbd>Financial QA Benchmark</kbd>
-1. **Seungjae Park**, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, "[Multivariate Time Series Forecasting Reflecting Dynamic Variate Similarity and Temporal Information](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098)," in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.<br>🏷️ <kbd>Multivariate Time Series Forecasting</kbd>
+1. **Seungjae Park**, Hyukjae Kwon, Kisu Lee, Won-Yong Shin and Ha Young Kim, "[Multivariate time series forecasting reflecting dynamic variate similarity and temporal information](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132098)," in _Proceedings of the Symposium of the Korean Institute of Communications and Information Sciences_, vol. 86, Gangwon, South Korea, Feb. 2025, pp. 516-517.<br>🏷️ <kbd>Multivariate Time Series Forecasting</kbd>
   
 </details>
 
@@ -65,7 +66,7 @@ Mar 2019 - Aug 2024
   
 ##### AI/CS
 
-1. **Seungjae Park** and Daeyoung Park, "[A Novel Stock Screening Approach using Large Language Models and Correlation-Aware Retrieval](https://eee.inha.ac.kr/bbs/eee/3919/122977/download.do)," presented at the _Capstone Design in ICT (Capstone Project)_, Inha Univ., Incheon, South Korea, Jun. 2024.<br>🏷️ <kbd>Large Language Model</kbd> <kbd>Information Retrieval</kbd> <kbd>Portfolio Optimization</kbd>
+1. **Seungjae Park** and Daeyoung Park, "[A novel stock screening approach using large language models and correlation-aware retrieval](https://eee.inha.ac.kr/bbs/eee/3919/122977/download.do)," presented at the _Capstone Design in ICT (Capstone Project)_, Inha Univ., Incheon, South Korea, Jun. 2024.<br>🏷️ <kbd>Large Language Model</kbd> <kbd>Information Retrieval</kbd> <kbd>Portfolio Optimization</kbd>
 1. **Seungjae Park** et al., _[int i Study Blog](https://int-i.github.io/)_, Jan. 2020 - Mar. 2024.<br>🏷️ <kbd>Learning Blog</kbd> <kbd>Computer Science</kbd> <kbd>Quantitative Finance</kbd>
 
 ##### Business News
@@ -114,6 +115,8 @@ Mar 2019 - Aug 2024
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+
 
 </details>
 
