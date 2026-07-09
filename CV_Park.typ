@@ -6,7 +6,7 @@
 #set document(title: "Seungjae Park", author: "Seungjae Park")
 #set page(numbering: "1", number-align: center)
 #set text(font: "Times New Roman", size: 11pt, fill: black2)
-#set par(justify: true)
+#set par(justify: true, leading: 0.65em, spacing: 1.2em)
 
 #show heading.where(level: 2): it => block(
   above: 24pt,
