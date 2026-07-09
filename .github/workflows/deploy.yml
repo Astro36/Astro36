@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Install Times New Roman
         run: |
           sudo add-apt-repository multiverse
@@ -37,18 +37,20 @@ jobs:
           wget https://github.com/orioncactus/pretendard/raw/refs/heads/main/packages/pretendard/dist/public/static/Pretendard-SemiBold.otf
           wget https://github.com/orioncactus/pretendard/raw/refs/heads/main/packages/pretendard/dist/public/static/Pretendard-Regular.otf
       - name: Setup Typst
-        uses: typst-community/setup-typst@v4
+        uses: typst-community/setup-typst@v5
+        with:
+          typst-version: ^0.14.0
       - name: Render PDF
         run: |
           mkdir -p dist
           typst compile CV_Park.typ dist/CV_Park.pdf
           typst compile Portfolio_Park_KR.typ dist/Portfolio_Park_KR.pdf --font-path .
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: './dist'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
