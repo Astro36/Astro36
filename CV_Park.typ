@@ -5,7 +5,13 @@
 
 #set document(title: "Seungjae Park", author: "Seungjae Park")
 #set page(numbering: "1", number-align: center)
-#set text(font: "Times New Roman", size: 11pt, fill: black2)
+#set text(
+  font: "Times New Roman",
+  size: 11pt,
+  fill: black2,
+  top-edge: "cap-height",
+  bottom-edge: "baseline",
+)
 #set par(justify: true, leading: 0.65em, spacing: 1.2em)
 
 #show heading.where(level: 2): it => block(
@@ -25,8 +31,10 @@
   #text(fill: black1, title) #h(1fr) #text(size: 0.8em, fill: black3)[#date] \
   #body
 ]
+#let fixed(body) = block(breakable: false, width: 100%, body)
 
 
+#fixed[
 #align(center)[
   #block(
     below: 20pt,
@@ -99,6 +107,7 @@ I am an M.S. student at Yonsei University working on #accent[Financial AI] spann
     *Keywords*: Multivariate Time Series Forecasting
   ])
 ]
+]
 
 // === Working Papers
 
@@ -130,6 +139,7 @@ I am an M.S. student at Yonsei University working on #accent[Financial AI] spann
 //   ]
 // ]
 
+#fixed[
 == Professional Experience
 
 #tile(
@@ -207,4 +217,5 @@ I am an M.S. student at Yonsei University working on #accent[Financial AI] spann
 #align(right)[
   #set text(size: 0.8em, fill: black4)
   (Last updated: #datetime.today().display("[month repr:short] [year]"))
+]
 ]
